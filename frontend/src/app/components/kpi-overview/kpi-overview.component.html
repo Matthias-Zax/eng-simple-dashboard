@@ -1,0 +1,45 @@
+<div class="kpi-overview">
+  <div class="header">
+    <h1>Engineering KPIs Overview</h1>
+    <div class="nwb-selector">
+      <label for="nwb">Network Bank:</label>
+      <select id="nwb" [(ngModel)]="selectedNWB" (change)="onNWBChange(selectedNWB)">
+        <option value="RBRO">RBRO</option>
+        <option value="RBBH">RBBH</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="charts-container">
+    <div class="chart-wrapper">
+      <h2>Deployment Frequency</h2>
+      <canvas id="deploymentChart"></canvas>
+    </div>
+    <div class="chart-wrapper">
+      <h2>Change Failure Rate</h2>
+      <canvas id="failureRateChart"></canvas>
+    </div>
+  </div>
+
+  <div class="kpi-metrics">
+    <div class="metric-card" *ngFor="let kpi of kpis | slice:-1">
+      <h3>Latest Metrics</h3>
+      <div class="metric">
+        <span>CI/CD Pipeline Coverage:</span>
+        <span>{{kpi.cicdPipeline}}%</span>
+      </div>
+      <div class="metric">
+        <span>Test Automation Coverage:</span>
+        <span>{{kpi.testAutomation}}%</span>
+      </div>
+      <div class="metric">
+        <span>MTTR:</span>
+        <span>{{kpi.mttr}} hours</span>
+      </div>
+      <div class="metric">
+        <span>DevOps Score:</span>
+        <span>{{kpi.devOpsScore}}</span>
+      </div>
+    </div>
+  </div>
+</div>
