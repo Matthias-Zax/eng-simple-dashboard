@@ -48,6 +48,28 @@ web_modules/
 # TypeScript cache
 *.tsbuildinfo
 
+# Angular build output
+/dist/
+/tmp/
+/out-tsc/
+
+# Angular environment files (optional, if you generate local env files)
+/src/environments/environment*.ts
+
+# Angular cache
+/.angular/cache/
+/.angular/config.json
+
+# IDE files
+/.idea/
+/.vscode/
+
+# Compiled output
+/**/*.js
+/**/*.js.map
+
+# End of Angular-specific ignores
+
 # Optional npm cache directory
 .npm
 
