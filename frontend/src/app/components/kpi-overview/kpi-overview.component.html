@@ -1,5 +1,21 @@
 <div class="kpi-overview">
+  <div class="tab-nav" style="margin-bottom: 24px; display: flex; gap: 16px;">
+    <button (click)="onTabChange('overview')" [class.active]="selectedTab === 'overview'">Overview</button>
+    <button (click)="onTabChange('trends')" [class.active]="selectedTab === 'trends'">Trends by Team & Product</button>
+    <button (click)="onTabChange('allkpis')" [class.active]="selectedTab === 'allkpis'">All KPIs (Raw Data Table)</button>
+  </div>
   <div class="header">
+    <div class="summary-metrics" style="margin-bottom: 24px;">
+      <h2>Summary</h2>
+      <div>Total reporting teams for selected period: <strong>{{ totalTeams }}</strong></div>
+    </div>
+  
+    <button (click)="showRawData = !showRawData" style="margin-bottom: 10px;">
+      {{ showRawData ? 'Hide' : 'Show' }} Raw KPI Data
+    </button>
+    <div *ngIf="showRawData" style="max-height: 300px; overflow: auto; background: #f7f7f7; border: 1px solid #ccc; padding: 8px; margin-bottom: 20px;">
+      <pre>{{ rawKpiJson }}</pre>
+    </div>
     <h1>Engineering KPIs Overview</h1>
     <div class="nwb-selector">
       <label for="nwb">Network Bank:</label>
@@ -10,7 +26,7 @@
     </div>
   </div>
 
-  <div class="charts-container">
+  <div class="charts-container" *ngIf="selectedTab === 'overview'">
     <div class="chart-wrapper">
       <h2>Deployment Frequency</h2>
       <canvas id="deploymentChart"></canvas>
@@ -41,5 +57,142 @@
         <span>{{kpi.devOpsScore}}</span>
       </div>
     </div>
+  </div>
+</div>
+
+<!-- Trend Tables -->
+<div class="trend-tables" style="margin-top: 32px;" *ngIf="selectedTab === 'trends'">
+  <h2>Trends by Team & Product</h2>
+  <div class="trend-table-wrapper" style="display: flex; flex-wrap: wrap; gap: 32px;">
+    <div class="trend-table" style="flex:1 1 300px; min-width: 260px;">
+      <h3>Deployment Frequency</h3>
+      <input type="text" [(ngModel)]="deploymentFilter" (ngModelChange)="onDeploymentFilterChange()" placeholder="Filter by team or product" style="margin-bottom:6px;width:100%;" />
+      <table style="width:100%; border-collapse: collapse;">
+        <thead>
+          <tr>
+            <th (click)="setDeploymentSort('team')" style="cursor:pointer;">Team</th>
+            <th (click)="setDeploymentSort('product')" style="cursor:pointer;">Product</th>
+            <th (click)="setDeploymentSort('value')" style="cursor:pointer;">Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let row of deploymentFrequencyTrend">
+            <td>{{row.team}}</td>
+            <td>{{row.product}}</td>
+            <td>{{row.value}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="trend-table" style="flex:1 1 300px; min-width: 260px;">
+      <h3>Cycle Time</h3>
+      <input type="text" [(ngModel)]="cycleFilter" (ngModelChange)="onCycleFilterChange()" placeholder="Filter by team or product" style="margin-bottom:6px;width:100%;" />
+      <table style="width:100%; border-collapse: collapse;">
+        <thead>
+          <tr>
+            <th (click)="setCycleSort('team')" style="cursor:pointer;">Team</th>
+            <th (click)="setCycleSort('product')" style="cursor:pointer;">Product</th>
+            <th (click)="setCycleSort('value')" style="cursor:pointer;">Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let row of cycleTimeTrend">
+            <td>{{row.team}}</td>
+            <td>{{row.product}}</td>
+            <td>{{row.value}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="trend-table" style="flex:1 1 300px; min-width: 260px;">
+      <h3>MTTR</h3>
+      <input type="text" [(ngModel)]="mttrFilter" (ngModelChange)="onMttrFilterChange()" placeholder="Filter by team or product" style="margin-bottom:6px;width:100%;" />
+      <table style="width:100%; border-collapse: collapse;">
+        <thead>
+          <tr>
+            <th (click)="setMttrSort('team')" style="cursor:pointer;">Team</th>
+            <th (click)="setMttrSort('product')" style="cursor:pointer;">Product</th>
+            <th (click)="setMttrSort('value')" style="cursor:pointer;">Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let row of mttrTrend">
+            <td>{{row.team}}</td>
+            <td>{{row.product}}</td>
+            <td>{{row.value}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="trend-table" style="flex:1 1 300px; min-width: 260px;">
+      <h3>Test Automation</h3>
+      <input type="text" [(ngModel)]="testAutoFilter" (ngModelChange)="onTestAutoFilterChange()" placeholder="Filter by team or product" style="margin-bottom:6px;width:100%;" />
+      <table style="width:100%; border-collapse: collapse;">
+        <thead>
+          <tr>
+            <th (click)="setTestAutoSort('team')" style="cursor:pointer;">Team</th>
+            <th (click)="setTestAutoSort('product')" style="cursor:pointer;">Product</th>
+            <th (click)="setTestAutoSort('value')" style="cursor:pointer;">Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let row of testAutomationTrend">
+            <td>{{row.team}}</td>
+            <td>{{row.product}}</td>
+            <td>{{row.value}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- All KPIs Table -->
+<div class="all-kpis-table" style="margin-top: 40px;" *ngIf="selectedTab === 'allkpis'">
+  <h2>All KPIs (Raw Data Table)</h2>
+  <div style="margin-bottom: 16px;">
+    <label for="period">Filter by Period (Year + Quarter):</label>
+    <select id="period" [(ngModel)]="selectedPeriod" (change)="onPeriodChange()">
+      <option value="">All Periods</option>
+      <option *ngFor="let period of periods" [value]="period">{{period}}</option>
+    </select>
+  </div>
+  <div style="overflow-x: auto;">
+    <table style="width:100%; border-collapse: collapse;">
+      <thead>
+        <tr style="background:#f0f0f0;">
+          <th style="border:1px solid #ccc; padding:4px;">NWB</th>
+          <th style="border:1px solid #ccc; padding:4px;">Team</th>
+          <th style="border:1px solid #ccc; padding:4px;">Tribe</th>
+          <th style="border:1px solid #ccc; padding:4px;">Product</th>
+          <th style="border:1px solid #ccc; padding:4px;">Quarter</th>
+          <th style="border:1px solid #ccc; padding:4px;">Year</th>
+          <th style="border:1px solid #ccc; padding:4px;">Deployment Frequency</th>
+          <th style="border:1px solid #ccc; padding:4px;">Cycle Time</th>
+          <th style="border:1px solid #ccc; padding:4px;">Change Failure Rate</th>
+          <th style="border:1px solid #ccc; padding:4px;">MTTR</th>
+          <th style="border:1px solid #ccc; padding:4px;">CI/CD Pipeline</th>
+          <th style="border:1px solid #ccc; padding:4px;">Test Automation</th>
+          <th style="border:1px solid #ccc; padding:4px;">DevOps Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let kpi of filteredKpis">
+          <td style="border:1px solid #ccc; padding:4px;">{{kpi.nwb}}</td>
+          <td style="border:1px solid #ccc; padding:4px;">{{kpi.team}}</td>
+          <td style="border:1px solid #ccc; padding:4px;">{{kpi.tribe}}</td>
+          <td style="border:1px solid #ccc; padding:4px;">{{kpi.product}}</td>
+          <td style="border:1px solid #ccc; padding:4px;">{{kpi.quarter}}</td>
+          <td style="border:1px solid #ccc; padding:4px;">{{kpi.year}}</td>
+          <td style="border:1px solid #ccc; padding:4px;">{{kpi.deploymentFrequency}}</td>
+          <td style="border:1px solid #ccc; padding:4px;">{{kpi.cycleTime}}</td>
+          <td style="border:1px solid #ccc; padding:4px;">{{kpi.changeFailureRate}}</td>
+          <td style="border:1px solid #ccc; padding:4px;">{{kpi.mttr}}</td>
+          <td style="border:1px solid #ccc; padding:4px;">{{kpi.cicdPipeline}}</td>
+          <td style="border:1px solid #ccc; padding:4px;">{{kpi.testAutomation}}</td>
+          <td style="border:1px solid #ccc; padding:4px;">{{kpi.devOpsScore}}</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </div>
