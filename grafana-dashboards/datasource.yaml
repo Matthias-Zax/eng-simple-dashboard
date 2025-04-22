@@ -1,0 +1,16 @@
+apiVersion: 1
+datasources:
+  - name: ELK KPIs
+    type: elasticsearch
+    access: proxy
+    isDefault: true
+    editable: true
+    url: http://elasticsearch:9200
+    database: kpis
+    jsonData:
+      timeField: "Reference Period"
+      esVersion: 8
+      interval: "Daily"
+      maxConcurrentShardRequests: 5
+      logMessageField: "Comment"
+      logLevelField: "DevOps Score"

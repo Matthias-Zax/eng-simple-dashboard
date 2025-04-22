@@ -67,6 +67,8 @@ web_modules/
 # Compiled output
 /**/*.js
 /**/*.js.map
+!/*.js
+!src/combineAndUploadToElk.js
 
 # End of Angular-specific ignores
 

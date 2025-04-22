@@ -9,10 +9,7 @@
   "liveNow": false,
   "panels": [
     {
-      "datasource": {
-        "type": "grafana-simple-json-datasource",
-        "uid": "json"
-      },
+      "datasource": "ELK KPIs",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -84,10 +81,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": {
-        "type": "grafana-simple-json-datasource",
-        "uid": "json"
-      },
+      "datasource": "ELK KPIs",
       "fieldConfig": {
         "defaults": {
           "color": {
