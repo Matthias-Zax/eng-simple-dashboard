@@ -1,0 +1,999 @@
+Source File;Source Tab;NWB;GPTS tribe name (Initiative name);Team (if applicable);Product/Application (agile products only);Reference Period;Contact Person;Comment;Customer facing Y/N;Deployment Frequency [# per quarter];Cycle Time [days];Change Failure Rate [%];Failed Deployments [#];MTTR [days];CICD Pipeline [%];Test Automation [%];DevOps Score;Quarter;Year
+NWU1_Q4_2023.xlsx;Deployment Frequency;NWU1;Customer Experience;Team Mu;Transaction Monitor;Q4 2023;Lisa Thomas;;Yes;16;18.8;20;1;4.26;100;70;0;Q4;2023
+NWU3_Q3_2022.xlsx;CICD Pipeline;NWU3;Security;Team Delta;Customer Onboarding;Q3 2022;Sarah Wilson;;No;14;7;14.29;2;6.87;0;70;0;Q3;2022
+NWU4_Q3_2025.xlsx;Change Failure Rate;NWU4;Data & Analytics;Team Tau;Transaction Monitor;Q3 2025;Sarah Wilson;;No;27;29.4;17.5;7;1.27;0;43;100;Q3;2025
+NWU3_Q1_2023.xlsx;Deployment Frequency;NWU3;Enterprise Services;Team Epsilon;Identity Verification;Q1 2023;Richard Anderson;;No;18;39.5;25;3;4.05;100;84;0;Q1;2023
+NWU8_Q4_2025.xlsx;Change Failure Rate;NWU8;Enterprise Services;Team Nu;Personal Finance Manager;Q4 2025;Michael Brown;;Yes;7;38.2;21.43;3;6.8;100;42;0;Q4;2025
+NWU5_Q1_2022.xlsx;Cycle Time for Changes;NWU5;Enterprise Services;Team Epsilon;ATM Services;Q1 2022;Jennifer Taylor;;No;30;16;25;5;2.63;100;93;100;Q1;2022
+NWU1_Q1_2023.xlsx;Cycle Time for Changes;NWU1;Digital Banking;Team Pi;ATM Services;Q1 2023;Jennifer Taylor;;No;4;38.5;7.5;3;6.05;0;38;100;Q1;2023
+NWU6_Q3_2022.xlsx;Mean Time to Repair;NWU6;Customer Experience;Team Sigma;Card Services;Q3 2022;David Miller;;No;8;2.1;27.5;11;1.16;0;28;0;Q3;2022
+NWU9_Q4_2022.xlsx;Cycle Time for Changes;NWU9;Mobile;Team Epsilon;Investment Platform;Q4 2022;Jennifer Taylor;;No;27;11.6;10;1;5.57;0;15;0;Q4;2022
+NWU10_Q3_2024.xlsx;Deployment Frequency;NWU10;Security;Team Alpha;Online Banking Portal;Q3 2024;Richard Anderson;;Yes;14;7.3;33.33;6;6.26;100;42;0;Q3;2024
+NWU9_Q2_2022.xlsx;Deployment Frequency;NWU9;Digital Banking;Team Pi;Online Banking Portal;Q2 2022;Jane Smith;;No;29;42.7;30.61;15;3.53;0;50;100;Q2;2022
+NWU8_Q3_2022.xlsx;Test automation;NWU8;Lending;Team Tau;Card Services;Q3 2022;Sarah Wilson;;Yes;22;7.8;30.61;15;5.16;100;15;0;Q3;2022
+NWU1_Q2_2025.xlsx;Mean Time to Repair;NWU1;Mobile;Team Alpha;Customer Onboarding;Q2 2025;Lisa Thomas;;No;25;22.2;6.67;3;2.56;100;59;100;Q2;2025
+NWU1_Q2_2025.xlsx;Deployment Frequency;NWU1;Mobile;Team Xi;Investment Platform;Q2 2025;Lisa Thomas;;Yes;20;33.4;26.67;8;3.93;100;18;0;Q2;2025
+NWU3_Q3_2022.xlsx;Deployment Frequency;NWU3;Lending;Team Rho;Business Banking;Q3 2022;David Miller;;No;14;21.4;0;0;3.35;0;13;0;Q3;2022
+NWU1_Q2_2025.xlsx;Mean Time to Repair;NWU1;Security;Team Rho;Customer Onboarding;Q2 2025;John Doe;;Yes;11;39.3;37.5;3;2.08;100;12;0;Q2;2025
+NWU1_Q2_2025.xlsx;Cycle Time for Changes;NWU1;Infrastructure;Team Kappa;Payment Gateway;Q2 2025;Michael Brown;;No;16;19.8;15.79;6;1.15;100;24;0;Q2;2025
+NWU9_Q4_2023.xlsx;DevOps;NWU9;Lending;Team Tau;API Gateway;Q4 2023;John Doe;;No;3;40;29.17;7;1.53;100;52;0;Q4;2023
+NWU1_Q3_2024.xlsx;DevOps;NWU1;Infrastructure;Team Nu;Fraud Detection;Q3 2024;Robert Johnson;;No;8;26.3;20;4;4.63;0;28;0;Q3;2024
+NWU10_Q2_2024.xlsx;Deployment Frequency;NWU10;Enterprise Services;Team Zeta;Online Banking Portal;Q2 2024;Michael Brown;;Yes;29;36.4;20.83;5;2.68;0;100;0;Q2;2024
+NWU4_Q3_2025.xlsx;CICD Pipeline;NWU4;Customer Experience;Team Gamma;Regulatory Reporting;Q3 2025;Emily Davis;;No;23;38.1;19.23;5;3.85;100;64;100;Q3;2025
+NWU8_Q3_2023.xlsx;Deployment Frequency;NWU8;Customer Experience;Team Rho;Chatbot Assistant;Q3 2023;Robert Johnson;;Yes;8;16.1;38.46;10;1.59;100;36;100;Q3;2023
+NWU6_Q2_2023.xlsx;CICD Pipeline;NWU6;Enterprise Services;Team Delta;Wealth Management;Q2 2023;Sarah Wilson;;Yes;21;34.7;8.16;4;4.43;100;35;100;Q2;2023
+NWU4_Q4_2023.xlsx;Mean Time to Repair;NWU4;Security;Team Beta;Fraud Detection;Q4 2023;Sarah Wilson;;No;8;8.2;18.18;2;1.56;0;95;100;Q4;2023
+NWU5_Q3_2024.xlsx;Mean Time to Repair;NWU5;Infrastructure;Team Mu;Identity Verification;Q3 2024;Richard Anderson;;No;24;18;33.33;10;4.49;0;26;100;Q3;2024
+NWU1_Q1_2023.xlsx;CICD Pipeline;NWU1;Digital Banking;Team Kappa;Chatbot Assistant;Q1 2023;Jennifer Taylor;;No;17;39;40;6;5.3;0;30;0;Q1;2023
+NWU8_Q2_2022.xlsx;CICD Pipeline;NWU8;Mobile;Team Beta;Loan Processing System;Q2 2022;Michael Brown;;No;14;22.7;0;0;2.22;0;75;100;Q2;2022
+NWU7_Q4_2022.xlsx;Cycle Time for Changes;NWU7;Digital Banking;Team Rho;Customer Onboarding;Q4 2022;Jennifer Taylor;;No;28;1.1;11.63;5;2.19;0;68;0;Q4;2022
+NWU5_Q3_2023.xlsx;Mean Time to Repair;NWU5;Enterprise Services;Team Mu;Regulatory Reporting;Q3 2023;Robert Johnson;;Yes;26;34;7.14;1;0.26;100;85;0;Q3;2023
+NWU5_Q4_2023.xlsx;Cycle Time for Changes;NWU5;Core Banking;Team Iota;Investment Platform;Q4 2023;Robert Johnson;;Yes;22;32.4;31.25;5;3;100;11;0;Q4;2023
+NWU8_Q1_2025.xlsx;Cycle Time for Changes;NWU8;Security;Team Xi;Personal Finance Manager;Q1 2025;Michael Brown;;No;10;11.8;30;6;1.79;0;22;0;Q1;2025
+NWU10_Q4_2023.xlsx;Change Failure Rate;NWU10;Infrastructure;Team Iota;ATM Services;Q4 2023;David Miller;;Yes;26;27.2;14.29;3;3.88;0;16;100;Q4;2023
+NWU10_Q4_2022.xlsx;Deployment Frequency;NWU10;Payments;Team Gamma;Personal Finance Manager;Q4 2022;Robert Johnson;;Yes;7;30.1;7.89;3;0.68;100;78;0;Q4;2022
+NWU7_Q2_2024.xlsx;Mean Time to Repair;NWU7;Customer Experience;Team Alpha;Loan Processing System;Q2 2024;Richard Anderson;;Yes;7;36.5;25;2;1.05;0;26;100;Q2;2024
+NWU8_Q1_2023.xlsx;CICD Pipeline;NWU8;Digital Banking;Team Theta;Investment Platform;Q1 2023;John Doe;;No;3;7.8;23.08;9;6.57;100;88;0;Q1;2023
+NWU9_Q3_2025.xlsx;Test automation;NWU9;Infrastructure;Team Pi;Wealth Management;Q3 2025;Robert Johnson;;Yes;30;9;20;2;5.57;100;42;0;Q3;2025
+NWU9_Q2_2022.xlsx;Test automation;NWU9;Data & Analytics;Team Rho;Investment Platform;Q2 2022;Richard Anderson;;Yes;14;14.2;17.65;3;1.64;0;42;0;Q2;2022
+NWU2_Q1_2023.xlsx;Mean Time to Repair;NWU2;Infrastructure;Team Kappa;Regulatory Reporting;Q1 2023;Michael Brown;;Yes;6;9.8;16.67;4;6.5;0;82;0;Q1;2023
+NWU2_Q3_2022.xlsx;CICD Pipeline;NWU2;Mobile;Team Tau;Loan Processing System;Q3 2022;Emily Davis;;Yes;4;17.6;15.63;5;4.11;100;76;0;Q3;2022
+NWU10_Q1_2023.xlsx;Test automation;NWU10;Infrastructure;Team Lambda;Account Management;Q1 2023;Jane Smith;;No;19;32.2;0;0;5.35;100;22;0;Q1;2023
+NWU10_Q4_2023.xlsx;Deployment Frequency;NWU10;Core Banking;Team Theta;Mortgage System;Q4 2023;Richard Anderson;;Yes;28;33.5;28.57;2;3.97;0;88;0;Q4;2023
+NWU2_Q3_2022.xlsx;Test automation;NWU2;Lending;Team Delta;Payment Gateway;Q3 2022;Emily Davis;;Yes;9;37.4;8.33;1;3.73;0;26;100;Q3;2022
+NWU2_Q4_2022.xlsx;Mean Time to Repair;NWU2;Payments;Team Epsilon;Personal Finance Manager;Q4 2022;Sarah Wilson;;No;18;24.4;20;4;2.18;100;55;100;Q4;2022
+NWU3_Q4_2022.xlsx;Change Failure Rate;NWU3;Infrastructure;Team Xi;Fraud Detection;Q4 2022;Richard Anderson;;Yes;20;16.8;17.39;4;0.3;0;98;0;Q4;2022
+NWU4_Q4_2024.xlsx;Deployment Frequency;NWU4;Enterprise Services;Team Sigma;Payment Gateway;Q4 2024;Robert Johnson;;No;17;30.5;34.48;10;6.1;0;72;100;Q4;2024
+NWU9_Q1_2024.xlsx;Test automation;NWU9;Payments;Team Eta;Customer Onboarding;Q1 2024;Emily Davis;;No;10;38.1;6.06;2;3.9;0;87;100;Q1;2024
+NWU2_Q1_2025.xlsx;Test automation;NWU2;Infrastructure;Team Epsilon;Credit Scoring;Q1 2025;Michael Brown;;Yes;8;19.9;20;1;2.3;100;94;100;Q1;2025
+NWU6_Q2_2025.xlsx;Test automation;NWU6;Data & Analytics;Team Theta;Wealth Management;Q2 2025;Sarah Wilson;;Yes;22;11.4;35.71;15;5.97;0;21;0;Q2;2025
+NWU9_Q3_2022.xlsx;Cycle Time for Changes;NWU9;Data & Analytics;Team Omicron;Mobile Banking App;Q3 2022;Sarah Wilson;;No;20;15.9;6.45;2;2.15;100;91;100;Q3;2022
+NWU1_Q2_2023.xlsx;CICD Pipeline;NWU1;Enterprise Services;Team Pi;Mobile Banking App;Q2 2023;Richard Anderson;;No;24;33.4;11.11;1;2.6;0;69;100;Q2;2023
+NWU3_Q4_2025.xlsx;CICD Pipeline;NWU3;Digital Banking;Team Omicron;Chatbot Assistant;Q4 2025;Emily Davis;;Yes;27;40.5;18.42;7;6.09;100;100;100;Q4;2025
+NWU5_Q1_2025.xlsx;DevOps;NWU5;Infrastructure;Team Delta;Mortgage System;Q1 2025;Jane Smith;;Yes;28;3.4;34.48;10;2.84;0;44;100;Q1;2025
+NWU6_Q2_2025.xlsx;DevOps;NWU6;Lending;Team Upsilon;Fraud Detection;Q2 2025;Jane Smith;;No;22;16.8;39.13;9;2.59;100;46;0;Q2;2025
+NWU9_Q3_2022.xlsx;DevOps;NWU9;Customer Experience;Team Epsilon;Identity Verification;Q3 2022;Jennifer Taylor;;Yes;18;16.5;16;8;3.56;0;34;100;Q3;2022
+NWU10_Q1_2025.xlsx;Deployment Frequency;NWU10;Infrastructure;Team Lambda;Fraud Detection;Q1 2025;Michael Brown;;Yes;27;35.2;6.25;1;3.53;100;84;100;Q1;2025
+NWU5_Q3_2025.xlsx;CICD Pipeline;NWU5;Core Banking;Team Epsilon;Card Services;Q3 2025;Michael Brown;;Yes;22;12.5;31.03;9;2.52;0;68;100;Q3;2025
+NWU6_Q3_2022.xlsx;DevOps;NWU6;Mobile;Team Gamma;Payment Gateway;Q3 2022;Richard Anderson;;No;28;9.4;37.78;17;5.27;0;60;0;Q3;2022
+NWU2_Q1_2022.xlsx;Mean Time to Repair;NWU2;Digital Banking;Team Zeta;Wealth Management;Q1 2022;John Doe;;No;4;24.7;12.9;4;3.13;100;82;100;Q1;2022
+NWU2_Q2_2024.xlsx;Cycle Time for Changes;NWU2;Security;Team Omicron;Chatbot Assistant;Q2 2024;Michael Brown;;No;16;12.2;38.1;8;0.46;100;36;0;Q2;2024
+NWU4_Q4_2022.xlsx;DevOps;NWU4;Digital Banking;Team Rho;Account Management;Q4 2022;Michael Brown;;Yes;13;8.3;31.25;10;3.16;0;46;100;Q4;2022
+NWU4_Q4_2022.xlsx;Test automation;NWU4;Security;Team Eta;Wealth Management;Q4 2022;Sarah Wilson;;No;29;12.5;25;2;5.6;0;19;0;Q4;2022
+NWU8_Q1_2023.xlsx;CICD Pipeline;NWU8;Mobile;Team Mu;ATM Services;Q1 2023;John Doe;;Yes;28;27.2;18.37;9;1.11;0;60;100;Q1;2023
+NWU2_Q4_2022.xlsx;Change Failure Rate;NWU2;Core Banking;Team Alpha;Customer Onboarding;Q4 2022;John Doe;;Yes;22;3.3;25;2;1.96;0;45;100;Q4;2022
+NWU1_Q2_2025.xlsx;Change Failure Rate;NWU1;Core Banking;Team Rho;Wealth Management;Q2 2025;Jane Smith;;No;30;26.7;30;6;5.72;100;54;100;Q2;2025
+NWU5_Q2_2025.xlsx;Test automation;NWU5;Customer Experience;Team Omicron;Account Management;Q2 2025;Richard Anderson;;Yes;8;44.5;0;0;1.93;100;76;100;Q2;2025
+NWU2_Q2_2024.xlsx;Change Failure Rate;NWU2;Infrastructure;Team Eta;Online Banking Portal;Q2 2024;Jane Smith;;No;22;37.1;14.29;2;2.86;100;29;100;Q2;2024
+NWU1_Q3_2024.xlsx;Cycle Time for Changes;NWU1;Lending;Team Mu;Account Management;Q3 2024;Richard Anderson;;Yes;26;24.7;22.22;4;4.73;100;73;0;Q3;2024
+NWU7_Q1_2025.xlsx;Cycle Time for Changes;NWU7;Mobile;Team Pi;Mobile Banking App;Q1 2025;Jane Smith;;Yes;14;29.4;21.21;7;1.33;100;43;100;Q1;2025
+NWU1_Q3_2024.xlsx;Cycle Time for Changes;NWU1;Infrastructure;Team Iota;Mortgage System;Q3 2024;Emily Davis;;Yes;8;39.6;25;3;2.01;0;88;100;Q3;2024
+NWU7_Q3_2025.xlsx;Mean Time to Repair;NWU7;Security;Team Epsilon;Online Banking Portal;Q3 2025;Michael Brown;;Yes;29;40.7;27.27;3;0.65;0;60;0;Q3;2025
+NWU1_Q2_2023.xlsx;Change Failure Rate;NWU1;Digital Banking;Team Zeta;Card Services;Q2 2023;Sarah Wilson;;No;17;21.8;0;0;6.14;0;53;0;Q2;2023
+NWU9_Q1_2025.xlsx;Test automation;NWU9;Security;Team Upsilon;Business Banking;Q1 2025;Sarah Wilson;;No;26;16.6;9.09;1;1.63;0;93;0;Q1;2025
+NWU2_Q1_2023.xlsx;Cycle Time for Changes;NWU2;Lending;Team Omicron;ATM Services;Q1 2023;Jane Smith;;Yes;5;34.1;30.61;15;4.18;0;26;100;Q1;2023
+NWU6_Q2_2023.xlsx;CICD Pipeline;NWU6;Data & Analytics;Team Delta;Card Services;Q2 2023;Sarah Wilson;;No;24;10.4;33.33;6;6.56;0;79;100;Q2;2023
+NWU5_Q2_2024.xlsx;Mean Time to Repair;NWU5;Lending;Team Nu;Payment Gateway;Q2 2024;Jane Smith;;Yes;7;36.9;7.14;1;3.62;100;100;100;Q2;2024
+NWU10_Q2_2022.xlsx;Mean Time to Repair;NWU10;Lending;Team Theta;API Gateway;Q2 2022;Jennifer Taylor;;Yes;10;19;38.1;8;4.86;0;84;0;Q2;2022
+NWU5_Q3_2023.xlsx;Test automation;NWU5;Customer Experience;Team Gamma;Wealth Management;Q3 2023;Sarah Wilson;;No;11;26.5;9.09;1;4.7;100;49;100;Q3;2023
+NWU4_Q2_2022.xlsx;DevOps;NWU4;Data & Analytics;Team Zeta;Mobile Banking App;Q2 2022;Jennifer Taylor;;Yes;23;26;8.7;2;0.75;0;54;100;Q2;2022
+NWU8_Q2_2023.xlsx;DevOps;NWU8;Lending;Team Sigma;Credit Scoring;Q2 2023;Jennifer Taylor;;Yes;3;41.4;0;0;6.11;0;18;0;Q2;2023
+NWU7_Q1_2025.xlsx;Change Failure Rate;NWU7;Mobile;Team Rho;Credit Scoring;Q1 2025;Jane Smith;;Yes;19;1.6;20;2;0.77;0;81;0;Q1;2025
+NWU2_Q2_2024.xlsx;Test automation;NWU2;Security;Team Lambda;Account Management;Q2 2024;Jennifer Taylor;;Yes;14;22;25;3;6.89;0;73;100;Q2;2024
+NWU2_Q2_2022.xlsx;CICD Pipeline;NWU2;Security;Team Eta;Loan Processing System;Q2 2022;Lisa Thomas;;Yes;6;33.6;25;10;1.31;0;28;100;Q2;2022
+NWU9_Q3_2023.xlsx;CICD Pipeline;NWU9;Core Banking;Team Nu;API Gateway;Q3 2023;David Miller;;No;27;30;38.1;8;0.99;100;74;100;Q3;2023
+NWU2_Q1_2025.xlsx;Test automation;NWU2;Enterprise Services;Team Kappa;Mobile Banking App;Q1 2025;Jennifer Taylor;;No;10;39.7;10;1;3.31;100;89;0;Q1;2025
+NWU5_Q3_2024.xlsx;Change Failure Rate;NWU5;Digital Banking;Team Delta;Customer Onboarding;Q3 2024;Jennifer Taylor;;No;25;12.1;11.36;5;1.58;100;50;0;Q3;2024
+NWU5_Q1_2025.xlsx;Test automation;NWU5;Security;Team Eta;Loan Processing System;Q1 2025;Robert Johnson;;No;26;8.8;2.5;1;4.26;0;35;0;Q1;2025
+NWU5_Q3_2023.xlsx;CICD Pipeline;NWU5;Infrastructure;Team Alpha;Credit Scoring;Q3 2023;Jennifer Taylor;;Yes;12;23.6;38.1;8;0.22;0;35;100;Q3;2023
+NWU1_Q1_2024.xlsx;DevOps;NWU1;Infrastructure;Team Mu;ATM Services;Q1 2024;Richard Anderson;;No;21;27.6;12;3;6.12;100;86;0;Q1;2024
+NWU4_Q4_2024.xlsx;Cycle Time for Changes;NWU4;Enterprise Services;Team Sigma;Identity Verification;Q4 2024;Michael Brown;;Yes;19;25.7;20.59;7;3.17;100;16;100;Q4;2024
+NWU7_Q2_2022.xlsx;Mean Time to Repair;NWU7;Core Banking;Team Theta;Mobile Banking App;Q2 2022;Emily Davis;;Yes;18;13.9;19.05;4;1.71;100;35;100;Q2;2022
+NWU4_Q2_2022.xlsx;Deployment Frequency;NWU4;Customer Experience;Team Sigma;Business Banking;Q2 2022;David Miller;;No;29;29.3;33.33;15;0.62;0;44;100;Q2;2022
+NWU7_Q4_2025.xlsx;Change Failure Rate;NWU7;Mobile;Team Gamma;Loan Processing System;Q4 2025;Robert Johnson;;No;26;22.7;10.53;2;0.31;0;97;0;Q4;2025
+NWU7_Q1_2024.xlsx;CICD Pipeline;NWU7;Lending;Team Iota;Payment Gateway;Q1 2024;Sarah Wilson;;Yes;24;6.8;33.33;6;3.89;0;88;0;Q1;2024
+NWU4_Q4_2024.xlsx;Test automation;NWU4;Core Banking;Team Sigma;Investment Platform;Q4 2024;Lisa Thomas;;Yes;28;36.1;26.67;8;3.77;0;47;100;Q4;2024
+NWU4_Q3_2022.xlsx;Deployment Frequency;NWU4;Customer Experience;Team Eta;Identity Verification;Q3 2022;David Miller;;Yes;9;17.9;17.07;7;1.88;0;14;100;Q3;2022
+NWU8_Q2_2025.xlsx;Change Failure Rate;NWU8;Core Banking;Team Rho;Credit Scoring;Q2 2025;Emily Davis;;Yes;16;34.4;23.81;5;6.45;0;36;100;Q2;2025
+NWU8_Q2_2023.xlsx;Cycle Time for Changes;NWU8;Customer Experience;Team Mu;Wealth Management;Q2 2023;Michael Brown;;No;22;37.6;7.14;2;4.52;0;71;0;Q2;2023
+NWU10_Q3_2023.xlsx;Test automation;NWU10;Enterprise Services;Team Tau;Online Banking Portal;Q3 2023;David Miller;;Yes;4;3.3;39.39;13;3.12;100;36;100;Q3;2023
+NWU3_Q4_2025.xlsx;Mean Time to Repair;NWU3;Mobile;Team Alpha;Wealth Management;Q4 2025;Richard Anderson;;No;5;37.5;30;3;6.84;0;40;0;Q4;2025
+NWU9_Q3_2023.xlsx;Test automation;NWU9;Customer Experience;Team Epsilon;Identity Verification;Q3 2023;Michael Brown;;Yes;23;29.4;23.53;4;3.85;100;15;100;Q3;2023
+NWU3_Q2_2023.xlsx;CICD Pipeline;NWU3;Core Banking;Team Gamma;Account Management;Q2 2023;Sarah Wilson;;Yes;16;32.5;6.98;3;4.33;0;44;0;Q2;2023
+NWU9_Q1_2022.xlsx;Cycle Time for Changes;NWU9;Infrastructure;Team Alpha;Loan Processing System;Q1 2022;Robert Johnson;;Yes;5;19.2;28.57;6;5.54;0;25;100;Q1;2022
+NWU1_Q3_2024.xlsx;DevOps;NWU1;Infrastructure;Team Zeta;Wealth Management;Q3 2024;Robert Johnson;;Yes;21;43.3;27.91;12;6.82;100;87;100;Q3;2024
+NWU8_Q2_2024.xlsx;Mean Time to Repair;NWU8;Enterprise Services;Team Rho;Mobile Banking App;Q2 2024;Michael Brown;;Yes;13;37.5;2.17;1;6.99;100;11;0;Q2;2024
+NWU7_Q4_2022.xlsx;Mean Time to Repair;NWU7;Mobile;Team Kappa;Payment Gateway;Q4 2022;Lisa Thomas;;No;1;4.1;2.27;1;4.48;100;40;100;Q4;2022
+NWU1_Q3_2022.xlsx;DevOps;NWU1;Mobile;Team Lambda;ATM Services;Q3 2022;Jennifer Taylor;;Yes;30;31.1;37.5;12;3.96;0;19;100;Q3;2022
+NWU3_Q4_2025.xlsx;Mean Time to Repair;NWU3;Payments;Team Pi;Business Banking;Q4 2025;David Miller;;Yes;7;44.7;6.67;1;5.7;0;40;0;Q4;2025
+NWU2_Q4_2024.xlsx;Change Failure Rate;NWU2;Security;Team Alpha;Wealth Management;Q4 2024;David Miller;;Yes;17;16.6;7.41;2;6.01;0;58;0;Q4;2024
+NWU2_Q2_2024.xlsx;DevOps;NWU2;Mobile;Team Omicron;Customer Onboarding;Q2 2024;John Doe;;Yes;25;5;33.33;2;3.3;0;95;0;Q2;2024
+NWU2_Q4_2022.xlsx;Change Failure Rate;NWU2;Mobile;Team Mu;Fraud Detection;Q4 2022;Jennifer Taylor;;No;13;20.7;28.57;10;3.59;0;90;0;Q4;2022
+NWU3_Q1_2022.xlsx;DevOps;NWU3;Customer Experience;Team Theta;ATM Services;Q1 2022;Robert Johnson;;No;1;39.9;13.79;4;2.33;100;81;0;Q1;2022
+NWU1_Q2_2022.xlsx;Test automation;NWU1;Infrastructure;Team Eta;Fraud Detection;Q2 2022;David Miller;;Yes;17;15;12.5;4;1.95;100;71;0;Q2;2022
+NWU4_Q1_2022.xlsx;Mean Time to Repair;NWU4;Core Banking;Team Rho;Identity Verification;Q1 2022;David Miller;;Yes;26;22;4.44;2;1.64;0;16;0;Q1;2022
+NWU9_Q2_2025.xlsx;CICD Pipeline;NWU9;Core Banking;Team Theta;Fraud Detection;Q2 2025;Richard Anderson;;Yes;9;36.4;7.69;1;2.69;0;65;100;Q2;2025
+NWU3_Q3_2022.xlsx;DevOps;NWU3;Security;Team Xi;Mobile Banking App;Q3 2022;John Doe;;Yes;15;10.4;4.76;1;3.07;100;64;100;Q3;2022
+NWU4_Q3_2024.xlsx;Test automation;NWU4;Security;Team Rho;Wealth Management;Q3 2024;Jennifer Taylor;;Yes;8;24;13.33;4;2.05;0;27;100;Q3;2024
+NWU4_Q2_2023.xlsx;DevOps;NWU4;Infrastructure;Team Tau;Transaction Monitor;Q2 2023;Richard Anderson;;Yes;22;32.9;31.03;9;4.59;100;55;100;Q2;2023
+NWU4_Q4_2023.xlsx;DevOps;NWU4;Customer Experience;Team Omicron;Investment Platform;Q4 2023;Emily Davis;;Yes;22;38.7;31.91;15;4.79;0;19;100;Q4;2023
+NWU4_Q3_2023.xlsx;DevOps;NWU4;Lending;Team Iota;Investment Platform;Q3 2023;Robert Johnson;;No;23;26.3;8.33;1;6.96;0;93;100;Q3;2023
+NWU7_Q1_2022.xlsx;Deployment Frequency;NWU7;Core Banking;Team Kappa;Identity Verification;Q1 2022;Sarah Wilson;;No;22;21.9;29.41;10;3.87;0;39;0;Q1;2022
+NWU5_Q4_2022.xlsx;Cycle Time for Changes;NWU5;Infrastructure;Team Upsilon;Identity Verification;Q4 2022;Michael Brown;;No;16;11.1;33.33;6;1.53;0;62;0;Q4;2022
+NWU5_Q2_2023.xlsx;Test automation;NWU5;Digital Banking;Team Rho;Account Management;Q2 2023;Robert Johnson;;Yes;29;40.4;33.33;2;1.23;100;15;100;Q2;2023
+NWU1_Q2_2023.xlsx;Deployment Frequency;NWU1;Security;Team Sigma;Transaction Monitor;Q2 2023;Lisa Thomas;;No;1;23.7;26.19;11;2.05;0;97;100;Q2;2023
+NWU4_Q1_2023.xlsx;Mean Time to Repair;NWU4;Mobile;Team Lambda;Wealth Management;Q1 2023;Jennifer Taylor;;Yes;23;14.4;2.5;1;2.58;100;22;0;Q1;2023
+NWU1_Q4_2023.xlsx;Mean Time to Repair;NWU1;Data & Analytics;Team Rho;Credit Scoring;Q4 2023;Jennifer Taylor;;Yes;5;8.2;0;0;5.12;100;77;100;Q4;2023
+NWU3_Q1_2024.xlsx;Test automation;NWU3;Lending;Team Kappa;Regulatory Reporting;Q1 2024;Sarah Wilson;;Yes;2;36.2;39.58;19;2.42;100;54;0;Q1;2024
+NWU9_Q2_2023.xlsx;Deployment Frequency;NWU9;Enterprise Services;Team Sigma;Personal Finance Manager;Q2 2023;Richard Anderson;;No;12;7.6;20.59;7;6.09;100;27;100;Q2;2023
+NWU6_Q2_2025.xlsx;Change Failure Rate;NWU6;Mobile;Team Sigma;Transaction Monitor;Q2 2025;John Doe;;Yes;19;22.4;13.79;4;4.11;0;92;100;Q2;2025
+NWU6_Q1_2023.xlsx;DevOps;NWU6;Core Banking;Team Alpha;Mobile Banking App;Q1 2023;David Miller;;Yes;4;45;16.67;1;0.41;0;71;0;Q1;2023
+NWU3_Q3_2022.xlsx;Change Failure Rate;NWU3;Enterprise Services;Team Gamma;Investment Platform;Q3 2022;David Miller;;No;5;33.7;15.79;6;5.22;0;31;100;Q3;2022
+NWU8_Q3_2022.xlsx;Deployment Frequency;NWU8;Digital Banking;Team Rho;Card Services;Q3 2022;David Miller;;Yes;27;19.3;32.35;11;0.3;0;68;100;Q3;2022
+NWU4_Q4_2022.xlsx;DevOps;NWU4;Mobile;Team Delta;Customer Onboarding;Q4 2022;Jennifer Taylor;;Yes;19;22.4;22.73;5;1.55;0;33;100;Q4;2022
+NWU8_Q1_2023.xlsx;Cycle Time for Changes;NWU8;Core Banking;Team Pi;Business Banking;Q1 2023;Jane Smith;;Yes;3;27;34.78;8;3.54;0;81;0;Q1;2023
+NWU8_Q4_2024.xlsx;Change Failure Rate;NWU8;Mobile;Team Theta;Business Banking;Q4 2024;John Doe;;No;25;39.2;11.11;1;1.4;100;96;100;Q4;2024
+NWU6_Q4_2022.xlsx;Deployment Frequency;NWU6;Security;Team Pi;Customer Onboarding;Q4 2022;Richard Anderson;;No;25;18.6;27.5;11;4.57;0;32;0;Q4;2022
+NWU1_Q1_2023.xlsx;Test automation;NWU1;Payments;Team Tau;Fraud Detection;Q1 2023;Lisa Thomas;;No;9;7.6;21.43;3;4.38;100;29;0;Q1;2023
+NWU9_Q1_2024.xlsx;CICD Pipeline;NWU9;Core Banking;Team Beta;ATM Services;Q1 2024;Richard Anderson;;No;9;43.9;13.04;6;6.12;0;30;0;Q1;2024
+NWU6_Q4_2022.xlsx;CICD Pipeline;NWU6;Mobile;Team Rho;Card Services;Q4 2022;David Miller;;No;26;44;26.32;5;1.6;100;77;100;Q4;2022
+NWU4_Q3_2023.xlsx;Mean Time to Repair;NWU4;Payments;Team Kappa;Investment Platform;Q3 2023;John Doe;;Yes;22;7.8;27.03;10;1.33;100;81;100;Q3;2023
+NWU3_Q1_2025.xlsx;Mean Time to Repair;NWU3;Security;Team Tau;Customer Onboarding;Q1 2025;John Doe;;No;26;24.8;16.67;1;1.62;0;46;0;Q1;2025
+NWU8_Q3_2024.xlsx;CICD Pipeline;NWU8;Enterprise Services;Team Sigma;Payment Gateway;Q3 2024;Robert Johnson;;No;5;11.8;22.22;2;0.19;0;35;100;Q3;2024
+NWU8_Q1_2025.xlsx;Cycle Time for Changes;NWU8;Enterprise Services;Team Zeta;Transaction Monitor;Q1 2025;Michael Brown;;Yes;23;12;22.73;5;0.64;0;13;100;Q1;2025
+NWU9_Q3_2024.xlsx;Mean Time to Repair;NWU9;Core Banking;Team Lambda;Loan Processing System;Q3 2024;John Doe;;No;1;41.3;36.67;11;5.26;100;34;100;Q3;2024
+NWU8_Q2_2024.xlsx;DevOps;NWU8;Security;Team Rho;ATM Services;Q2 2024;Michael Brown;;Yes;8;4.1;40;4;3.65;0;21;100;Q2;2024
+NWU3_Q2_2023.xlsx;Mean Time to Repair;NWU3;Lending;Team Alpha;Transaction Monitor;Q2 2023;John Doe;;No;28;22.9;11.11;5;0.38;0;79;100;Q2;2023
+NWU2_Q2_2024.xlsx;Change Failure Rate;NWU2;Digital Banking;Team Alpha;ATM Services;Q2 2024;Richard Anderson;;Yes;24;14.2;40;4;1.83;0;40;0;Q2;2024
+NWU5_Q2_2023.xlsx;Test automation;NWU5;Data & Analytics;Team Beta;API Gateway;Q2 2023;John Doe;;Yes;8;15.9;30;12;5.11;100;97;100;Q2;2023
+NWU10_Q1_2022.xlsx;DevOps;NWU10;Mobile;Team Rho;Investment Platform;Q1 2022;Lisa Thomas;;No;10;1.8;0;0;0.33;100;93;0;Q1;2022
+NWU1_Q1_2025.xlsx;Mean Time to Repair;NWU1;Security;Team Beta;Payment Gateway;Q1 2025;Emily Davis;;No;15;41;3.45;1;5.11;0;36;0;Q1;2025
+NWU3_Q1_2025.xlsx;Change Failure Rate;NWU3;Digital Banking;Team Gamma;Transaction Monitor;Q1 2025;Emily Davis;;Yes;7;18.2;6.9;2;5.55;100;13;0;Q1;2025
+NWU7_Q4_2022.xlsx;CICD Pipeline;NWU7;Lending;Team Lambda;Credit Scoring;Q4 2022;John Doe;;No;13;37;37.5;3;5.57;100;89;0;Q4;2022
+NWU10_Q2_2023.xlsx;Mean Time to Repair;NWU10;Payments;Team Theta;Identity Verification;Q2 2023;John Doe;;No;20;13.2;18.6;8;5.34;100;34;100;Q2;2023
+NWU7_Q2_2023.xlsx;Change Failure Rate;NWU7;Payments;Team Pi;Mortgage System;Q2 2023;Richard Anderson;;No;25;33.7;10.26;4;4.62;100;91;100;Q2;2023
+NWU3_Q1_2022.xlsx;Mean Time to Repair;NWU3;Data & Analytics;Team Iota;API Gateway;Q1 2022;Lisa Thomas;;Yes;7;26.7;31.82;7;4.88;0;91;100;Q1;2022
+NWU5_Q1_2025.xlsx;Change Failure Rate;NWU5;Payments;Team Beta;Business Banking;Q1 2025;Lisa Thomas;;Yes;8;18.4;34.04;16;4.73;100;96;100;Q1;2025
+NWU10_Q1_2024.xlsx;DevOps;NWU10;Data & Analytics;Team Gamma;Customer Onboarding;Q1 2024;David Miller;;Yes;18;7.7;27.78;10;6.43;0;26;100;Q1;2024
+NWU7_Q1_2023.xlsx;Test automation;NWU7;Payments;Team Theta;Chatbot Assistant;Q1 2023;Michael Brown;;No;8;2.1;0;0;5.75;100;65;0;Q1;2023
+NWU1_Q3_2023.xlsx;Deployment Frequency;NWU1;Infrastructure;Team Pi;Customer Onboarding;Q3 2023;David Miller;;Yes;10;12.3;19.15;9;1.43;0;53;0;Q3;2023
+NWU2_Q2_2023.xlsx;DevOps;NWU2;Infrastructure;Team Omicron;Loan Processing System;Q2 2023;Robert Johnson;;No;28;25.5;34.29;12;3.62;0;48;100;Q2;2023
+NWU3_Q4_2024.xlsx;DevOps;NWU3;Mobile;Team Beta;Identity Verification;Q4 2024;John Doe;;Yes;25;26.6;27.78;5;5.78;100;91;100;Q4;2024
+NWU9_Q3_2025.xlsx;CICD Pipeline;NWU9;Core Banking;Team Gamma;Account Management;Q3 2025;David Miller;;No;16;41.6;25;3;0.86;0;49;100;Q3;2025
+NWU1_Q3_2024.xlsx;Change Failure Rate;NWU1;Lending;Team Kappa;Online Banking Portal;Q3 2024;Lisa Thomas;;No;20;33.4;16.67;2;3.73;100;59;0;Q3;2024
+NWU4_Q2_2023.xlsx;Cycle Time for Changes;NWU4;Security;Team Sigma;Wealth Management;Q2 2023;Jennifer Taylor;;No;3;31.6;28.57;10;1.73;100;37;100;Q2;2023
+NWU10_Q4_2025.xlsx;CICD Pipeline;NWU10;Mobile;Team Pi;Mobile Banking App;Q4 2025;Jennifer Taylor;;No;29;29;32.56;14;4.8;100;53;100;Q4;2025
+NWU1_Q1_2024.xlsx;Change Failure Rate;NWU1;Enterprise Services;Team Eta;Transaction Monitor;Q1 2024;Richard Anderson;;No;25;32.2;11.54;3;5.31;0;73;0;Q1;2024
+NWU2_Q2_2025.xlsx;Cycle Time for Changes;NWU2;Payments;Team Eta;Online Banking Portal;Q2 2025;Michael Brown;;No;24;41.8;33.33;16;2.77;100;45;0;Q2;2025
+NWU7_Q4_2025.xlsx;Deployment Frequency;NWU7;Payments;Team Iota;Investment Platform;Q4 2025;Robert Johnson;;No;24;41.5;17.65;3;0.83;0;79;100;Q4;2025
+NWU7_Q1_2022.xlsx;Test automation;NWU7;Core Banking;Team Eta;Wealth Management;Q1 2022;Emily Davis;;Yes;20;39;9.68;3;0.5;0;72;100;Q1;2022
+NWU1_Q1_2024.xlsx;Mean Time to Repair;NWU1;Security;Team Omicron;Payment Gateway;Q1 2024;Lisa Thomas;;No;25;12.9;33.33;6;5.33;0;47;100;Q1;2024
+NWU7_Q4_2024.xlsx;CICD Pipeline;NWU7;Infrastructure;Team Mu;Card Services;Q4 2024;Lisa Thomas;;Yes;25;44.9;34.78;16;4.4;0;13;0;Q4;2024
+NWU5_Q2_2023.xlsx;Mean Time to Repair;NWU5;Lending;Team Nu;Wealth Management;Q2 2023;David Miller;;No;8;30.3;28.26;13;6.4;0;47;100;Q2;2023
+NWU10_Q2_2024.xlsx;Mean Time to Repair;NWU10;Mobile;Team Iota;Customer Onboarding;Q2 2024;Robert Johnson;;No;28;4.7;20.45;9;5.44;0;16;100;Q2;2024
+NWU1_Q3_2023.xlsx;DevOps;NWU1;Digital Banking;Team Sigma;Regulatory Reporting;Q3 2023;Sarah Wilson;;Yes;24;23.2;14.29;7;1.77;100;86;100;Q3;2023
+NWU1_Q1_2024.xlsx;Change Failure Rate;NWU1;Mobile;Team Theta;API Gateway;Q1 2024;Richard Anderson;;No;16;43.9;25.64;10;1.23;100;69;0;Q1;2024
+NWU8_Q2_2023.xlsx;Test automation;NWU8;Payments;Team Tau;Credit Scoring;Q2 2023;Jennifer Taylor;;Yes;27;15.1;14.63;6;3.86;0;80;100;Q2;2023
+NWU6_Q4_2023.xlsx;Mean Time to Repair;NWU6;Data & Analytics;Team Mu;Credit Scoring;Q4 2023;Sarah Wilson;;No;12;21.6;36;9;2.08;100;98;100;Q4;2023
+NWU2_Q4_2024.xlsx;Change Failure Rate;NWU2;Infrastructure;Team Omicron;Fraud Detection;Q4 2024;Jane Smith;;No;27;11.9;33.33;6;2.06;0;25;0;Q4;2024
+NWU7_Q1_2025.xlsx;Cycle Time for Changes;NWU7;Core Banking;Team Nu;Fraud Detection;Q1 2025;David Miller;;Yes;14;21;20;7;1.27;0;68;100;Q1;2025
+NWU2_Q2_2025.xlsx;CICD Pipeline;NWU2;Enterprise Services;Team Beta;API Gateway;Q2 2025;Richard Anderson;;Yes;2;26.6;6.9;2;6.79;100;55;100;Q2;2025
+NWU6_Q1_2024.xlsx;DevOps;NWU6;Customer Experience;Team Zeta;Customer Onboarding;Q1 2024;John Doe;;Yes;20;33.1;16.13;5;1.34;100;84;0;Q1;2024
+NWU1_Q2_2024.xlsx;CICD Pipeline;NWU1;Security;Team Mu;Fraud Detection;Q2 2024;John Doe;;No;14;19.5;12.12;4;6.51;100;50;0;Q2;2024
+NWU9_Q3_2023.xlsx;DevOps;NWU9;Customer Experience;Team Gamma;Online Banking Portal;Q3 2023;Lisa Thomas;;No;23;35.1;14.29;1;1.21;100;26;100;Q3;2023
+NWU7_Q3_2023.xlsx;CICD Pipeline;NWU7;Lending;Team Upsilon;Investment Platform;Q3 2023;David Miller;;Yes;28;31;28.57;10;4.82;0;88;100;Q3;2023
+NWU5_Q4_2023.xlsx;Change Failure Rate;NWU5;Payments;Team Delta;Fraud Detection;Q4 2023;Emily Davis;;Yes;10;35.3;0;0;2.98;100;68;100;Q4;2023
+NWU8_Q2_2024.xlsx;Change Failure Rate;NWU8;Lending;Team Sigma;Customer Onboarding;Q2 2024;John Doe;;No;17;36.3;4.35;2;0.76;0;95;100;Q2;2024
+NWU6_Q1_2023.xlsx;Deployment Frequency;NWU6;Lending;Team Tau;Business Banking;Q1 2023;Jane Smith;;No;19;1.9;21.88;7;3.79;0;39;0;Q1;2023
+NWU10_Q1_2024.xlsx;DevOps;NWU10;Lending;Team Alpha;Mobile Banking App;Q1 2024;Emily Davis;;No;14;29.2;0;0;4.83;0;61;100;Q1;2024
+NWU2_Q2_2025.xlsx;CICD Pipeline;NWU2;Data & Analytics;Team Beta;Mortgage System;Q2 2025;John Doe;;No;28;7;22.22;2;5.13;0;19;100;Q2;2025
+NWU10_Q3_2024.xlsx;DevOps;NWU10;Digital Banking;Team Pi;Customer Onboarding;Q3 2024;Emily Davis;;No;15;5.7;28.95;11;4.17;0;36;0;Q3;2024
+NWU6_Q4_2025.xlsx;Cycle Time for Changes;NWU6;Mobile;Team Upsilon;Mortgage System;Q4 2025;Lisa Thomas;;Yes;16;13.2;15.79;3;0.69;100;68;100;Q4;2025
+NWU5_Q1_2025.xlsx;DevOps;NWU5;Mobile;Team Epsilon;Investment Platform;Q1 2025;Richard Anderson;;No;9;42.2;10.34;3;4.38;0;52;0;Q1;2025
+NWU5_Q4_2024.xlsx;Deployment Frequency;NWU5;Payments;Team Rho;Card Services;Q4 2024;John Doe;;Yes;25;44.5;20;1;2.66;100;41;0;Q4;2024
+NWU10_Q1_2023.xlsx;Deployment Frequency;NWU10;Lending;Team Eta;Account Management;Q1 2023;David Miller;;Yes;3;20.8;0;0;5.55;100;58;0;Q1;2023
+NWU9_Q1_2024.xlsx;Deployment Frequency;NWU9;Core Banking;Team Lambda;Wealth Management;Q1 2024;Lisa Thomas;;Yes;22;17.2;12.5;1;1.11;0;86;100;Q1;2024
+NWU10_Q4_2024.xlsx;Mean Time to Repair;NWU10;Security;Team Pi;Payment Gateway;Q4 2024;Jennifer Taylor;;Yes;15;44.6;35.56;16;5.71;0;52;100;Q4;2024
+NWU1_Q4_2025.xlsx;CICD Pipeline;NWU1;Customer Experience;Team Gamma;Customer Onboarding;Q4 2025;David Miller;;No;22;15.3;9.09;1;3.55;100;83;100;Q4;2025
+NWU6_Q1_2022.xlsx;DevOps;NWU6;Security;Team Pi;Card Services;Q1 2022;David Miller;;Yes;26;20.9;31.58;6;4.89;100;27;100;Q1;2022
+NWU8_Q2_2025.xlsx;Deployment Frequency;NWU8;Security;Team Lambda;Fraud Detection;Q2 2025;Jennifer Taylor;;No;19;35.9;16.67;2;0.29;100;43;100;Q2;2025
+NWU7_Q2_2022.xlsx;CICD Pipeline;NWU7;Lending;Team Nu;Card Services;Q2 2022;Sarah Wilson;;No;4;36.2;7.14;3;0.51;0;19;0;Q2;2022
+NWU4_Q4_2024.xlsx;Test automation;NWU4;Core Banking;Team Kappa;Mortgage System;Q4 2024;Emily Davis;;No;7;39.9;36.11;13;2.09;100;44;100;Q4;2024
+NWU10_Q4_2022.xlsx;Deployment Frequency;NWU10;Enterprise Services;Team Nu;Wealth Management;Q4 2022;David Miller;;Yes;20;32.4;9.09;3;1.74;100;30;100;Q4;2022
+NWU7_Q2_2022.xlsx;DevOps;NWU7;Digital Banking;Team Rho;Mobile Banking App;Q2 2022;Richard Anderson;;Yes;27;3.3;17.65;3;5.55;100;30;100;Q2;2022
+NWU3_Q3_2023.xlsx;Deployment Frequency;NWU3;Payments;Team Sigma;ATM Services;Q3 2023;Michael Brown;;Yes;19;23.8;16.67;1;3.67;0;72;0;Q3;2023
+NWU8_Q1_2022.xlsx;DevOps;NWU8;Digital Banking;Team Theta;Fraud Detection;Q1 2022;Jennifer Taylor;;Yes;10;1.7;0;0;3.54;100;51;100;Q1;2022
+NWU9_Q4_2022.xlsx;Deployment Frequency;NWU9;Lending;Team Mu;Fraud Detection;Q4 2022;Emily Davis;;No;28;17.8;31.91;15;4.74;0;100;0;Q4;2022
+NWU5_Q3_2024.xlsx;Test automation;NWU5;Security;Team Pi;Wealth Management;Q3 2024;Richard Anderson;;No;17;26.9;20.69;6;3.01;100;48;0;Q3;2024
+NWU2_Q4_2023.xlsx;Test automation;NWU2;Mobile;Team Nu;Credit Scoring;Q4 2023;Lisa Thomas;;Yes;25;20.5;12.5;2;5.02;0;16;0;Q4;2023
+NWU10_Q1_2025.xlsx;Test automation;NWU10;Enterprise Services;Team Eta;Chatbot Assistant;Q1 2025;Jennifer Taylor;;No;27;8.5;0;0;3.89;100;16;0;Q1;2025
+NWU1_Q2_2023.xlsx;Change Failure Rate;NWU1;Data & Analytics;Team Mu;Chatbot Assistant;Q2 2023;David Miller;;Yes;9;6.4;9.52;2;6.29;0;29;100;Q2;2023
+NWU6_Q3_2022.xlsx;Cycle Time for Changes;NWU6;Data & Analytics;Team Epsilon;Card Services;Q3 2022;Michael Brown;;No;4;22.8;25;12;3.16;0;30;100;Q3;2022
+NWU4_Q1_2024.xlsx;Cycle Time for Changes;NWU4;Digital Banking;Team Nu;Card Services;Q1 2024;Sarah Wilson;;No;8;4.2;22.22;4;2.41;100;45;100;Q1;2024
+NWU4_Q1_2022.xlsx;CICD Pipeline;NWU4;Mobile;Team Mu;Account Management;Q1 2022;Jennifer Taylor;;No;11;20.7;24.14;7;5.05;0;72;100;Q1;2022
+NWU9_Q2_2024.xlsx;CICD Pipeline;NWU9;Lending;Team Alpha;ATM Services;Q2 2024;John Doe;;No;26;26.5;18.18;4;3.46;0;32;100;Q2;2024
+NWU6_Q3_2022.xlsx;DevOps;NWU6;Enterprise Services;Team Pi;Account Management;Q3 2022;John Doe;;No;29;25.7;30.77;12;2.37;0;18;100;Q3;2022
+NWU8_Q1_2023.xlsx;Cycle Time for Changes;NWU8;Digital Banking;Team Sigma;Mortgage System;Q1 2023;Richard Anderson;;No;30;31.3;11.9;5;2.72;0;87;100;Q1;2023
+NWU9_Q2_2025.xlsx;DevOps;NWU9;Core Banking;Team Zeta;API Gateway;Q2 2025;Robert Johnson;;No;8;24;11.11;2;3.3;0;34;0;Q2;2025
+NWU10_Q3_2023.xlsx;Change Failure Rate;NWU10;Security;Team Lambda;Account Management;Q3 2023;Jane Smith;;Yes;23;38;6.25;1;1.24;100;82;100;Q3;2023
+NWU9_Q2_2024.xlsx;DevOps;NWU9;Core Banking;Team Kappa;Investment Platform;Q2 2024;Jane Smith;;No;30;35.8;33.33;8;4.99;0;91;0;Q2;2024
+NWU8_Q2_2022.xlsx;DevOps;NWU8;Digital Banking;Team Gamma;Account Management;Q2 2022;John Doe;;No;28;41.6;33.33;2;0.89;100;44;0;Q2;2022
+NWU5_Q4_2023.xlsx;CICD Pipeline;NWU5;Core Banking;Team Upsilon;Chatbot Assistant;Q4 2023;Jennifer Taylor;;Yes;6;43;15.79;3;1.75;100;23;0;Q4;2023
+NWU10_Q3_2023.xlsx;Deployment Frequency;NWU10;Customer Experience;Team Epsilon;Mortgage System;Q3 2023;Emily Davis;;No;10;44.2;8.57;3;5.27;0;96;0;Q3;2023
+NWU6_Q3_2025.xlsx;Change Failure Rate;NWU6;Customer Experience;Team Delta;Customer Onboarding;Q3 2025;Jennifer Taylor;;No;21;19.8;7.69;1;2.78;0;91;100;Q3;2025
+NWU8_Q3_2025.xlsx;CICD Pipeline;NWU8;Mobile;Team Rho;Credit Scoring;Q3 2025;Jennifer Taylor;;Yes;7;15.8;35;7;0.48;0;77;0;Q3;2025
+NWU10_Q3_2022.xlsx;DevOps;NWU10;Security;Team Gamma;Account Management;Q3 2022;Lisa Thomas;;No;19;6;33.33;16;0.73;0;41;0;Q3;2022
+NWU1_Q4_2025.xlsx;Change Failure Rate;NWU1;Lending;Team Nu;Account Management;Q4 2025;Jane Smith;;No;7;5.6;18.6;8;3.47;100;67;100;Q4;2025
+NWU5_Q3_2023.xlsx;Deployment Frequency;NWU5;Security;Team Nu;Transaction Monitor;Q3 2023;Robert Johnson;;No;18;24.5;16;4;5.67;0;63;0;Q3;2023
+NWU8_Q4_2025.xlsx;CICD Pipeline;NWU8;Customer Experience;Team Gamma;Chatbot Assistant;Q4 2025;Sarah Wilson;;Yes;21;20.1;14.29;5;3.88;0;90;100;Q4;2025
+NWU9_Q2_2025.xlsx;DevOps;NWU9;Enterprise Services;Team Kappa;Mobile Banking App;Q2 2025;Michael Brown;;No;17;34.8;7.69;2;3.1;0;91;0;Q2;2025
+NWU3_Q4_2024.xlsx;Test automation;NWU3;Digital Banking;Team Theta;Chatbot Assistant;Q4 2024;Jane Smith;;No;6;33.6;20;10;1.07;0;17;0;Q4;2024
+NWU2_Q1_2024.xlsx;DevOps;NWU2;Infrastructure;Team Xi;Mortgage System;Q1 2024;Lisa Thomas;;Yes;11;15.7;25;2;4.04;0;17;100;Q1;2024
+NWU2_Q4_2025.xlsx;Cycle Time for Changes;NWU2;Lending;Team Kappa;Identity Verification;Q4 2025;Lisa Thomas;;Yes;16;36.9;37.14;13;6.34;0;52;100;Q4;2025
+NWU3_Q1_2022.xlsx;CICD Pipeline;NWU3;Enterprise Services;Team Delta;Mortgage System;Q1 2022;Richard Anderson;;No;13;22.8;5.88;1;5.03;100;96;100;Q1;2022
+NWU5_Q1_2022.xlsx;Deployment Frequency;NWU5;Lending;Team Nu;Loan Processing System;Q1 2022;Sarah Wilson;;No;3;18.7;23.53;4;4.3;0;38;100;Q1;2022
+NWU10_Q1_2025.xlsx;Deployment Frequency;NWU10;Infrastructure;Team Lambda;Card Services;Q1 2025;John Doe;;Yes;12;11.5;14.29;3;1.02;100;46;100;Q1;2025
+NWU1_Q2_2024.xlsx;CICD Pipeline;NWU1;Data & Analytics;Team Beta;Payment Gateway;Q2 2024;David Miller;;Yes;27;8.9;6.9;2;5.32;0;75;100;Q2;2024
+NWU8_Q4_2022.xlsx;CICD Pipeline;NWU8;Data & Analytics;Team Tau;Online Banking Portal;Q4 2022;Michael Brown;;Yes;9;33.8;27.5;11;3.17;100;17;100;Q4;2022
+NWU9_Q3_2024.xlsx;Deployment Frequency;NWU9;Lending;Team Pi;API Gateway;Q3 2024;Richard Anderson;;Yes;14;19.4;26.09;6;6.82;0;68;0;Q3;2024
+NWU3_Q3_2025.xlsx;Cycle Time for Changes;NWU3;Mobile;Team Theta;Card Services;Q3 2025;David Miller;;Yes;15;30.6;2.27;1;2.28;0;14;0;Q3;2025
+NWU8_Q2_2024.xlsx;Test automation;NWU8;Security;Team Epsilon;API Gateway;Q2 2024;Emily Davis;;No;15;44.5;30.43;14;0.23;0;42;0;Q2;2024
+NWU4_Q3_2024.xlsx;Deployment Frequency;NWU4;Digital Banking;Team Tau;Card Services;Q3 2024;Sarah Wilson;;Yes;9;35.1;16.67;2;5.24;100;64;0;Q3;2024
+NWU8_Q4_2025.xlsx;Test automation;NWU8;Digital Banking;Team Zeta;Loan Processing System;Q4 2025;Jennifer Taylor;;Yes;20;37.6;0;0;0.48;100;47;0;Q4;2025
+NWU1_Q3_2022.xlsx;Test automation;NWU1;Core Banking;Team Mu;Wealth Management;Q3 2022;Emily Davis;;No;10;12.5;36.36;4;1.62;100;37;0;Q3;2022
+NWU5_Q2_2025.xlsx;CICD Pipeline;NWU5;Security;Team Theta;Payment Gateway;Q2 2025;David Miller;;No;7;42;20;1;0.41;100;48;100;Q2;2025
+NWU5_Q3_2025.xlsx;CICD Pipeline;NWU5;Digital Banking;Team Omicron;Online Banking Portal;Q3 2025;Michael Brown;;No;26;5.4;20;3;6.66;0;48;0;Q3;2025
+NWU4_Q4_2025.xlsx;Deployment Frequency;NWU4;Enterprise Services;Team Lambda;Wealth Management;Q4 2025;Jane Smith;;Yes;24;44.4;3.45;1;4.8;100;58;100;Q4;2025
+NWU1_Q4_2022.xlsx;Cycle Time for Changes;NWU1;Mobile;Team Omicron;Fraud Detection;Q4 2022;Michael Brown;;No;16;8.4;40;2;3.03;0;56;0;Q4;2022
+NWU2_Q1_2025.xlsx;Cycle Time for Changes;NWU2;Digital Banking;Team Nu;Fraud Detection;Q1 2025;Sarah Wilson;;No;29;5.3;34.88;15;6.33;100;76;0;Q1;2025
+NWU10_Q1_2024.xlsx;Mean Time to Repair;NWU10;Payments;Team Gamma;Fraud Detection;Q1 2024;Emily Davis;;No;10;36.6;30.77;12;6.55;100;98;100;Q1;2024
+NWU4_Q4_2022.xlsx;Change Failure Rate;NWU4;Lending;Team Omicron;ATM Services;Q4 2022;Robert Johnson;;Yes;27;42.1;9.38;3;5.75;0;33;100;Q4;2022
+NWU6_Q4_2025.xlsx;Test automation;NWU6;Customer Experience;Team Nu;Fraud Detection;Q4 2025;Emily Davis;;Yes;17;27;4.65;2;0.58;100;57;0;Q4;2025
+NWU2_Q1_2023.xlsx;CICD Pipeline;NWU2;Lending;Team Delta;Identity Verification;Q1 2023;Emily Davis;;No;22;22.2;12.9;4;3.89;0;75;0;Q1;2023
+NWU4_Q2_2023.xlsx;Mean Time to Repair;NWU4;Security;Team Epsilon;Payment Gateway;Q2 2023;Emily Davis;;No;22;7.5;26.32;10;3.16;100;45;100;Q2;2023
+NWU2_Q3_2024.xlsx;Deployment Frequency;NWU2;Data & Analytics;Team Gamma;Regulatory Reporting;Q3 2024;John Doe;;No;8;37.9;25.53;12;3.27;0;79;100;Q3;2024
+NWU7_Q1_2023.xlsx;Deployment Frequency;NWU7;Digital Banking;Team Mu;Account Management;Q1 2023;Richard Anderson;;Yes;16;35.6;36.96;17;4.26;0;93;0;Q1;2023
+NWU5_Q2_2022.xlsx;Cycle Time for Changes;NWU5;Security;Team Upsilon;Identity Verification;Q2 2022;Emily Davis;;No;5;25.2;0;0;6.22;100;17;0;Q2;2022
+NWU9_Q4_2022.xlsx;Change Failure Rate;NWU9;Mobile;Team Mu;Chatbot Assistant;Q4 2022;David Miller;;Yes;27;23.8;34.38;11;4.96;0;58;0;Q4;2022
+NWU7_Q3_2025.xlsx;Mean Time to Repair;NWU7;Core Banking;Team Omicron;Chatbot Assistant;Q3 2025;Jennifer Taylor;;No;30;28.6;5.56;1;0.18;100;11;0;Q3;2025
+NWU1_Q1_2022.xlsx;DevOps;NWU1;Security;Team Iota;Personal Finance Manager;Q1 2022;Lisa Thomas;;No;27;32.6;14.63;6;2.48;100;61;0;Q1;2022
+NWU9_Q3_2022.xlsx;DevOps;NWU9;Payments;Team Beta;Fraud Detection;Q3 2022;David Miller;;No;25;17.2;21.05;4;6.34;100;100;0;Q3;2022
+NWU10_Q4_2023.xlsx;Change Failure Rate;NWU10;Data & Analytics;Team Nu;Online Banking Portal;Q4 2023;Richard Anderson;;No;27;36.4;0;0;5.85;0;93;0;Q4;2023
+NWU5_Q2_2022.xlsx;Change Failure Rate;NWU5;Core Banking;Team Mu;Fraud Detection;Q2 2022;Robert Johnson;;No;24;6.5;21.62;8;3.95;0;39;0;Q2;2022
+NWU7_Q1_2023.xlsx;Cycle Time for Changes;NWU7;Data & Analytics;Team Rho;Loan Processing System;Q1 2023;Richard Anderson;;No;21;21.8;13.51;5;5.97;100;68;0;Q1;2023
+NWU3_Q2_2023.xlsx;Change Failure Rate;NWU3;Data & Analytics;Team Zeta;Card Services;Q2 2023;Robert Johnson;;Yes;30;19.1;28.57;2;2.04;0;53;0;Q2;2023
+NWU8_Q1_2024.xlsx;Mean Time to Repair;NWU8;Payments;Team Tau;Personal Finance Manager;Q1 2024;Robert Johnson;;Yes;23;39.2;17.78;8;5.27;100;18;100;Q1;2024
+NWU10_Q4_2024.xlsx;DevOps;NWU10;Digital Banking;Team Pi;Personal Finance Manager;Q4 2024;Emily Davis;;Yes;7;21.6;9.76;4;0.28;0;84;0;Q4;2024
+NWU3_Q4_2023.xlsx;Test automation;NWU3;Data & Analytics;Team Tau;Wealth Management;Q4 2023;Robert Johnson;;No;3;10.8;8.33;2;1.67;0;57;0;Q4;2023
+NWU9_Q1_2025.xlsx;Mean Time to Repair;NWU9;Mobile;Team Rho;Account Management;Q1 2025;John Doe;;Yes;3;19.5;18.42;7;0.9;0;28;0;Q1;2025
+NWU10_Q4_2024.xlsx;CICD Pipeline;NWU10;Digital Banking;Team Iota;Credit Scoring;Q4 2024;Lisa Thomas;;No;19;21.8;30;6;2.16;100;22;0;Q4;2024
+NWU8_Q3_2024.xlsx;Change Failure Rate;NWU8;Enterprise Services;Team Lambda;Business Banking;Q3 2024;Jennifer Taylor;;No;27;38.3;28.57;12;6.04;100;49;0;Q3;2024
+NWU6_Q2_2024.xlsx;Change Failure Rate;NWU6;Mobile;Team Xi;ATM Services;Q2 2024;Emily Davis;;No;7;32.4;22.22;2;4.99;100;62;0;Q2;2024
+NWU4_Q2_2025.xlsx;CICD Pipeline;NWU4;Mobile;Team Gamma;Payment Gateway;Q2 2025;Robert Johnson;;No;10;12.7;7.32;3;5.68;100;12;100;Q2;2025
+NWU4_Q3_2023.xlsx;DevOps;NWU4;Enterprise Services;Team Alpha;Credit Scoring;Q3 2023;Jane Smith;;Yes;23;3.5;16.67;5;2.44;0;22;100;Q3;2023
+NWU5_Q3_2023.xlsx;Test automation;NWU5;Infrastructure;Team Tau;Chatbot Assistant;Q3 2023;David Miller;;No;8;26.8;33.33;6;6.7;0;66;0;Q3;2023
+NWU8_Q3_2025.xlsx;Test automation;NWU8;Enterprise Services;Team Alpha;Chatbot Assistant;Q3 2025;Jane Smith;;Yes;17;31.1;12.5;1;2.13;100;36;100;Q3;2025
+NWU8_Q4_2025.xlsx;Cycle Time for Changes;NWU8;Payments;Team Eta;Fraud Detection;Q4 2025;Lisa Thomas;;Yes;7;18.3;16.28;7;3.84;0;16;100;Q4;2025
+NWU7_Q4_2024.xlsx;CICD Pipeline;NWU7;Mobile;Team Theta;Loan Processing System;Q4 2024;Jane Smith;;Yes;5;18.7;21.62;8;4.37;0;13;100;Q4;2024
+NWU1_Q2_2022.xlsx;DevOps;NWU1;Core Banking;Team Epsilon;Business Banking;Q2 2022;Lisa Thomas;;No;12;15.9;33.33;16;4.82;0;92;0;Q2;2022
+NWU5_Q3_2023.xlsx;DevOps;NWU5;Digital Banking;Team Theta;Regulatory Reporting;Q3 2023;John Doe;;No;27;37.3;19.23;5;0.85;100;87;100;Q3;2023
+NWU9_Q4_2024.xlsx;Change Failure Rate;NWU9;Data & Analytics;Team Gamma;Wealth Management;Q4 2024;Michael Brown;;Yes;21;11;4.17;1;1.85;0;70;0;Q4;2024
+NWU3_Q1_2023.xlsx;Cycle Time for Changes;NWU3;Infrastructure;Team Alpha;Wealth Management;Q1 2023;Jennifer Taylor;;No;24;6.2;11.11;5;0.35;100;38;100;Q1;2023
+NWU4_Q2_2023.xlsx;Deployment Frequency;NWU4;Core Banking;Team Rho;Investment Platform;Q2 2023;Lisa Thomas;;No;15;37.9;13.33;2;6.92;100;59;0;Q2;2023
+NWU10_Q2_2025.xlsx;Deployment Frequency;NWU10;Enterprise Services;Team Lambda;Customer Onboarding;Q2 2025;Jane Smith;;Yes;27;21.7;4.44;2;2.45;0;18;0;Q2;2025
+NWU10_Q2_2025.xlsx;CICD Pipeline;NWU10;Lending;Team Kappa;Wealth Management;Q2 2025;John Doe;;No;5;33;2.63;1;6.55;0;49;100;Q2;2025
+NWU1_Q4_2022.xlsx;Change Failure Rate;NWU1;Data & Analytics;Team Alpha;Business Banking;Q4 2022;Emily Davis;;No;2;24.1;0;0;0.46;100;68;0;Q4;2022
+NWU8_Q3_2022.xlsx;DevOps;NWU8;Infrastructure;Team Epsilon;Mobile Banking App;Q3 2022;Jennifer Taylor;;No;10;43.6;25;2;4.29;0;50;100;Q3;2022
+NWU7_Q1_2022.xlsx;Cycle Time for Changes;NWU7;Mobile;Team Kappa;Credit Scoring;Q1 2022;Lisa Thomas;;No;12;14;36.84;7;4.65;100;53;0;Q1;2022
+NWU7_Q4_2024.xlsx;DevOps;NWU7;Customer Experience;Team Nu;Mortgage System;Q4 2024;Michael Brown;;No;21;44.8;0;0;4.68;0;87;100;Q4;2024
+NWU10_Q4_2024.xlsx;Mean Time to Repair;NWU10;Core Banking;Team Alpha;Payment Gateway;Q4 2024;David Miller;;No;16;22.8;25;3;5.45;0;82;0;Q4;2024
+NWU8_Q1_2023.xlsx;Mean Time to Repair;NWU8;Security;Team Alpha;Account Management;Q1 2023;Michael Brown;;Yes;3;7;32;8;3.38;0;89;0;Q1;2023
+NWU10_Q1_2022.xlsx;DevOps;NWU10;Core Banking;Team Beta;Customer Onboarding;Q1 2022;Sarah Wilson;;Yes;3;3.1;30;3;0.88;0;38;100;Q1;2022
+NWU8_Q4_2022.xlsx;Cycle Time for Changes;NWU8;Infrastructure;Team Mu;Chatbot Assistant;Q4 2022;Jennifer Taylor;;Yes;20;39.8;32;16;4.92;0;48;0;Q4;2022
+NWU6_Q3_2025.xlsx;CICD Pipeline;NWU6;Security;Team Upsilon;Customer Onboarding;Q3 2025;Lisa Thomas;;Yes;4;39.6;32.14;9;2.74;0;23;100;Q3;2025
+NWU9_Q3_2022.xlsx;Deployment Frequency;NWU9;Customer Experience;Team Epsilon;Card Services;Q3 2022;Lisa Thomas;;No;16;43.4;11.11;1;3.09;100;56;100;Q3;2022
+NWU2_Q3_2025.xlsx;Cycle Time for Changes;NWU2;Security;Team Pi;Online Banking Portal;Q3 2025;Richard Anderson;;Yes;22;34.6;22.5;9;6.9;0;20;0;Q3;2025
+NWU9_Q1_2022.xlsx;DevOps;NWU9;Lending;Team Eta;Customer Onboarding;Q1 2022;Jane Smith;;No;20;30.3;10.34;3;1.76;0;54;0;Q1;2022
+NWU8_Q2_2024.xlsx;Test automation;NWU8;Core Banking;Team Lambda;Online Banking Portal;Q2 2024;Richard Anderson;;No;4;31.2;11.11;3;1.53;100;16;0;Q2;2024
+NWU4_Q4_2023.xlsx;Deployment Frequency;NWU4;Security;Team Delta;Business Banking;Q4 2023;Jennifer Taylor;;No;28;44.7;26.67;4;2.1;0;86;0;Q4;2023
+NWU2_Q2_2022.xlsx;DevOps;NWU2;Enterprise Services;Team Sigma;Personal Finance Manager;Q2 2022;Jane Smith;;No;27;39.7;9.09;3;5.82;0;35;0;Q2;2022
+NWU9_Q3_2025.xlsx;Mean Time to Repair;NWU9;Enterprise Services;Team Epsilon;Identity Verification;Q3 2025;Michael Brown;;No;15;16.8;26.32;5;2.47;0;69;0;Q3;2025
+NWU5_Q4_2025.xlsx;CICD Pipeline;NWU5;Data & Analytics;Team Eta;Customer Onboarding;Q4 2025;Emily Davis;;No;3;20.7;13.33;2;3.66;100;83;100;Q4;2025
+NWU5_Q3_2024.xlsx;Deployment Frequency;NWU5;Payments;Team Kappa;Customer Onboarding;Q3 2024;Michael Brown;;Yes;6;13;34.78;8;1.87;100;36;100;Q3;2024
+NWU9_Q1_2022.xlsx;Test automation;NWU9;Digital Banking;Team Lambda;Payment Gateway;Q1 2022;Emily Davis;;No;3;43;2.86;1;1.86;0;35;100;Q1;2022
+NWU5_Q3_2025.xlsx;Deployment Frequency;NWU5;Customer Experience;Team Xi;Fraud Detection;Q3 2025;Robert Johnson;;No;16;14.9;10.42;5;1.65;100;12;100;Q3;2025
+NWU4_Q4_2023.xlsx;Cycle Time for Changes;NWU4;Lending;Team Gamma;Wealth Management;Q4 2023;Robert Johnson;;No;21;26.5;38.46;15;5.98;100;51;100;Q4;2023
+NWU9_Q4_2023.xlsx;Change Failure Rate;NWU9;Infrastructure;Team Rho;Loan Processing System;Q4 2023;Richard Anderson;;Yes;28;28.6;38.46;5;0.5;0;80;0;Q4;2023
+NWU7_Q3_2025.xlsx;Mean Time to Repair;NWU7;Core Banking;Team Beta;Chatbot Assistant;Q3 2025;David Miller;;Yes;22;39.5;22.22;6;0.16;0;57;0;Q3;2025
+NWU3_Q1_2023.xlsx;DevOps;NWU3;Customer Experience;Team Eta;Credit Scoring;Q1 2023;Lisa Thomas;;No;9;9.5;29.55;13;0.51;100;83;100;Q1;2023
+NWU4_Q2_2024.xlsx;CICD Pipeline;NWU4;Customer Experience;Team Mu;Transaction Monitor;Q2 2024;John Doe;;Yes;14;6.3;35.71;5;4.24;100;54;0;Q2;2024
+NWU4_Q3_2023.xlsx;Test automation;NWU4;Lending;Team Delta;Chatbot Assistant;Q3 2023;Sarah Wilson;;No;4;29.1;15.38;6;0.2;0;13;0;Q3;2023
+NWU6_Q1_2025.xlsx;Change Failure Rate;NWU6;Data & Analytics;Team Mu;Customer Onboarding;Q1 2025;Emily Davis;;Yes;2;4.9;34.78;8;3.93;100;71;100;Q1;2025
+NWU2_Q3_2025.xlsx;Mean Time to Repair;NWU2;Data & Analytics;Team Rho;ATM Services;Q3 2025;Sarah Wilson;;Yes;6;9.7;12.5;4;0.74;100;92;0;Q3;2025
+NWU3_Q4_2024.xlsx;CICD Pipeline;NWU3;Digital Banking;Team Zeta;Regulatory Reporting;Q4 2024;Jennifer Taylor;;Yes;14;35.9;25;3;3.89;100;49;0;Q4;2024
+NWU4_Q3_2025.xlsx;Mean Time to Repair;NWU4;Core Banking;Team Pi;API Gateway;Q3 2025;John Doe;;Yes;28;19.8;26.67;4;6.57;0;93;0;Q3;2025
+NWU10_Q2_2025.xlsx;Mean Time to Repair;NWU10;Security;Team Lambda;Regulatory Reporting;Q2 2025;Richard Anderson;;Yes;23;14.2;31.43;11;1.41;100;11;100;Q2;2025
+NWU3_Q2_2023.xlsx;Mean Time to Repair;NWU3;Mobile;Team Upsilon;Fraud Detection;Q2 2023;David Miller;;No;9;4.7;35.9;14;3.24;100;51;0;Q2;2023
+NWU5_Q1_2022.xlsx;Deployment Frequency;NWU5;Security;Team Omicron;Account Management;Q1 2022;Lisa Thomas;;Yes;5;40.7;37.5;3;2.78;100;97;0;Q1;2022
+NWU10_Q1_2025.xlsx;Mean Time to Repair;NWU10;Data & Analytics;Team Theta;Mobile Banking App;Q1 2025;Lisa Thomas;;No;27;30.8;16.67;6;6.06;0;14;0;Q1;2025
+NWU1_Q1_2025.xlsx;CICD Pipeline;NWU1;Lending;Team Kappa;Chatbot Assistant;Q1 2025;Emily Davis;;Yes;18;12.4;2.27;1;5.74;0;96;100;Q1;2025
+NWU4_Q1_2022.xlsx;CICD Pipeline;NWU4;Payments;Team Upsilon;Customer Onboarding;Q1 2022;Jane Smith;;Yes;14;41.5;3.57;1;1.67;100;13;100;Q1;2022
+NWU5_Q3_2023.xlsx;DevOps;NWU5;Infrastructure;Team Gamma;Business Banking;Q3 2023;Richard Anderson;;Yes;26;10.8;33.33;3;5.18;100;31;0;Q3;2023
+NWU1_Q2_2025.xlsx;DevOps;NWU1;Core Banking;Team Rho;Fraud Detection;Q2 2025;David Miller;;No;11;10.6;18.18;2;0.23;100;15;100;Q2;2025
+NWU2_Q3_2023.xlsx;Cycle Time for Changes;NWU2;Infrastructure;Team Kappa;ATM Services;Q3 2023;Richard Anderson;;No;27;23.4;9.09;3;0.37;0;56;0;Q3;2023
+NWU4_Q3_2024.xlsx;Mean Time to Repair;NWU4;Payments;Team Upsilon;Mobile Banking App;Q3 2024;Emily Davis;;Yes;20;15.4;9.09;1;0.94;100;44;100;Q3;2024
+NWU5_Q3_2025.xlsx;CICD Pipeline;NWU5;Security;Team Xi;Transaction Monitor;Q3 2025;Jane Smith;;Yes;15;12.4;20;2;2.01;100;99;100;Q3;2025
+NWU1_Q3_2022.xlsx;Deployment Frequency;NWU1;Data & Analytics;Team Eta;Card Services;Q3 2022;Jennifer Taylor;;Yes;6;23.6;27.78;5;4.58;100;17;100;Q3;2022
+NWU2_Q4_2024.xlsx;Test automation;NWU2;Customer Experience;Team Upsilon;Card Services;Q4 2024;Lisa Thomas;;Yes;16;17.5;2.17;1;1.4;0;21;0;Q4;2024
+NWU9_Q2_2025.xlsx;Mean Time to Repair;NWU9;Enterprise Services;Team Kappa;ATM Services;Q2 2025;David Miller;;Yes;29;22;15;6;2.55;0;68;100;Q2;2025
+NWU9_Q4_2023.xlsx;Mean Time to Repair;NWU9;Mobile;Team Pi;Card Services;Q4 2023;Robert Johnson;;No;16;27.4;33.33;9;2.1;0;13;100;Q4;2023
+NWU3_Q4_2024.xlsx;Mean Time to Repair;NWU3;Digital Banking;Team Beta;ATM Services;Q4 2024;Lisa Thomas;;No;25;24.4;9.09;2;2.23;100;32;0;Q4;2024
+NWU3_Q2_2025.xlsx;Deployment Frequency;NWU3;Customer Experience;Team Theta;Mobile Banking App;Q2 2025;David Miller;;Yes;23;42;15.38;4;4.22;0;28;0;Q2;2025
+NWU7_Q4_2025.xlsx;Test automation;NWU7;Security;Team Theta;Identity Verification;Q4 2025;Emily Davis;;No;10;20.5;20;1;2.66;100;54;0;Q4;2025
+NWU1_Q3_2022.xlsx;Deployment Frequency;NWU1;Data & Analytics;Team Beta;Fraud Detection;Q3 2022;Emily Davis;;No;22;3.6;35;7;6.32;0;13;100;Q3;2022
+NWU6_Q4_2023.xlsx;CICD Pipeline;NWU6;Enterprise Services;Team Upsilon;Mortgage System;Q4 2023;David Miller;;Yes;20;19;9.3;4;2.12;0;31;0;Q4;2023
+NWU10_Q4_2024.xlsx;DevOps;NWU10;Mobile;Team Lambda;Online Banking Portal;Q4 2024;Jane Smith;;No;21;4.1;11.76;2;3.71;0;10;100;Q4;2024
+NWU4_Q3_2023.xlsx;Mean Time to Repair;NWU4;Digital Banking;Team Delta;Customer Onboarding;Q3 2023;Michael Brown;;Yes;7;26.6;30;9;6.42;100;36;0;Q3;2023
+NWU8_Q4_2024.xlsx;DevOps;NWU8;Digital Banking;Team Zeta;Chatbot Assistant;Q4 2024;Jennifer Taylor;;No;3;32.4;29.41;5;6.44;100;74;0;Q4;2024
+NWU9_Q4_2022.xlsx;DevOps;NWU9;Data & Analytics;Team Eta;Regulatory Reporting;Q4 2022;Emily Davis;;Yes;22;40.7;4.55;2;3.36;100;48;0;Q4;2022
+NWU9_Q2_2024.xlsx;CICD Pipeline;NWU9;Core Banking;Team Omicron;API Gateway;Q2 2024;Robert Johnson;;No;26;19.4;24.24;8;3.53;100;29;0;Q2;2024
+NWU5_Q4_2025.xlsx;Deployment Frequency;NWU5;Core Banking;Team Xi;Payment Gateway;Q4 2025;Michael Brown;;No;11;32.9;23.53;4;5.7;100;25;100;Q4;2025
+NWU1_Q3_2023.xlsx;Test automation;NWU1;Enterprise Services;Team Sigma;Business Banking;Q3 2023;David Miller;;No;26;39.7;14.81;4;4.01;100;30;0;Q3;2023
+NWU4_Q1_2024.xlsx;Cycle Time for Changes;NWU4;Data & Analytics;Team Xi;API Gateway;Q1 2024;Robert Johnson;;No;17;44.1;33.33;9;4.05;100;76;100;Q1;2024
+NWU3_Q4_2024.xlsx;Change Failure Rate;NWU3;Customer Experience;Team Beta;Regulatory Reporting;Q4 2024;Sarah Wilson;;No;9;15.2;23.4;11;4.09;100;40;0;Q4;2024
+NWU10_Q3_2025.xlsx;Cycle Time for Changes;NWU10;Mobile;Team Delta;Credit Scoring;Q3 2025;Jennifer Taylor;;No;27;8.9;34.48;10;3.31;100;87;100;Q3;2025
+NWU2_Q4_2025.xlsx;CICD Pipeline;NWU2;Infrastructure;Team Beta;ATM Services;Q4 2025;Sarah Wilson;;Yes;23;24.5;21.43;6;0.48;0;57;100;Q4;2025
+NWU8_Q2_2024.xlsx;Cycle Time for Changes;NWU8;Lending;Team Sigma;Regulatory Reporting;Q2 2024;Sarah Wilson;;No;4;33.2;34.62;9;4.03;100;27;0;Q2;2024
+NWU7_Q1_2022.xlsx;DevOps;NWU7;Lending;Team Iota;Mortgage System;Q1 2022;Michael Brown;;No;29;39.8;0;0;4.85;100;87;100;Q1;2022
+NWU4_Q3_2022.xlsx;DevOps;NWU4;Customer Experience;Team Beta;Mortgage System;Q3 2022;Richard Anderson;;No;16;3.7;34.15;14;4.53;100;35;100;Q3;2022
+NWU5_Q2_2022.xlsx;Change Failure Rate;NWU5;Enterprise Services;Team Omicron;Customer Onboarding;Q2 2022;Robert Johnson;;Yes;13;7.6;22.22;2;4.56;0;60;100;Q2;2022
+NWU6_Q4_2023.xlsx;Cycle Time for Changes;NWU6;Customer Experience;Team Gamma;Personal Finance Manager;Q4 2023;David Miller;;No;9;3.8;14.58;7;1.81;100;60;0;Q4;2023
+NWU6_Q1_2024.xlsx;Test automation;NWU6;Lending;Team Delta;Loan Processing System;Q1 2024;Michael Brown;;Yes;14;22.5;0;0;4.81;100;50;100;Q1;2024
+NWU6_Q3_2022.xlsx;Cycle Time for Changes;NWU6;Payments;Team Nu;Account Management;Q3 2022;Sarah Wilson;;No;14;30.6;12.5;5;3.6;0;29;0;Q3;2022
+NWU3_Q2_2024.xlsx;Test automation;NWU3;Payments;Team Xi;Personal Finance Manager;Q2 2024;David Miller;;No;13;25.6;9.09;4;0.2;0;80;100;Q2;2024
+NWU3_Q2_2024.xlsx;Cycle Time for Changes;NWU3;Data & Analytics;Team Upsilon;ATM Services;Q2 2024;Michael Brown;;Yes;23;23.4;25;2;2.89;100;69;0;Q2;2024
+NWU7_Q3_2025.xlsx;CICD Pipeline;NWU7;Infrastructure;Team Pi;Payment Gateway;Q3 2025;John Doe;;No;23;30.3;25;3;2.9;0;32;100;Q3;2025
+NWU4_Q3_2024.xlsx;Test automation;NWU4;Core Banking;Team Alpha;Identity Verification;Q3 2024;Emily Davis;;Yes;26;10.7;8.16;4;2.77;100;85;100;Q3;2024
+NWU7_Q3_2022.xlsx;CICD Pipeline;NWU7;Lending;Team Nu;Credit Scoring;Q3 2022;Jennifer Taylor;;Yes;20;23.7;11.11;5;4.76;100;80;0;Q3;2022
+NWU4_Q1_2022.xlsx;DevOps;NWU4;Data & Analytics;Team Xi;Personal Finance Manager;Q1 2022;Richard Anderson;;No;9;1.4;34.09;15;2.91;100;78;0;Q1;2022
+NWU6_Q4_2025.xlsx;Cycle Time for Changes;NWU6;Data & Analytics;Team Nu;Fraud Detection;Q4 2025;Sarah Wilson;;Yes;27;43.9;31.43;11;0.15;100;53;0;Q4;2025
+NWU1_Q3_2023.xlsx;DevOps;NWU1;Infrastructure;Team Lambda;Transaction Monitor;Q3 2023;Lisa Thomas;;Yes;19;31.7;3.57;1;4.63;0;61;0;Q3;2023
+NWU7_Q4_2022.xlsx;CICD Pipeline;NWU7;Enterprise Services;Team Tau;Account Management;Q4 2022;John Doe;;No;26;40.1;36.36;8;5.77;100;22;100;Q4;2022
+NWU2_Q3_2022.xlsx;Change Failure Rate;NWU2;Core Banking;Team Gamma;Regulatory Reporting;Q3 2022;Michael Brown;;No;29;23.9;8.7;2;6.51;100;71;0;Q3;2022
+NWU4_Q2_2025.xlsx;DevOps;NWU4;Core Banking;Team Lambda;Wealth Management;Q2 2025;Robert Johnson;;Yes;13;18.8;21.74;5;0.14;0;92;100;Q2;2025
+NWU9_Q2_2024.xlsx;Mean Time to Repair;NWU9;Enterprise Services;Team Pi;Fraud Detection;Q2 2024;Emily Davis;;No;8;20.3;5.13;2;2.39;0;91;100;Q2;2024
+NWU8_Q1_2024.xlsx;DevOps;NWU8;Customer Experience;Team Iota;Payment Gateway;Q1 2024;Emily Davis;;Yes;9;11.6;3.23;1;2.33;100;32;100;Q1;2024
+NWU5_Q2_2022.xlsx;DevOps;NWU5;Customer Experience;Team Omicron;Loan Processing System;Q2 2022;Sarah Wilson;;Yes;10;2.7;8.82;3;0.42;0;75;0;Q2;2022
+NWU7_Q2_2023.xlsx;Mean Time to Repair;NWU7;Payments;Team Tau;Payment Gateway;Q2 2023;Robert Johnson;;Yes;1;12.5;20.59;7;3.24;100;31;100;Q2;2023
+NWU10_Q4_2025.xlsx;Test automation;NWU10;Lending;Team Sigma;Identity Verification;Q4 2025;David Miller;;Yes;6;35.8;20.83;5;5.68;0;42;100;Q4;2025
+NWU1_Q2_2023.xlsx;Mean Time to Repair;NWU1;Core Banking;Team Nu;ATM Services;Q2 2023;John Doe;;No;20;30.4;20.83;10;2.46;0;38;100;Q2;2023
+NWU7_Q2_2025.xlsx;Deployment Frequency;NWU7;Security;Team Rho;Payment Gateway;Q2 2025;Emily Davis;;No;15;1.3;15.79;3;6.21;100;53;0;Q2;2025
+NWU8_Q2_2022.xlsx;Cycle Time for Changes;NWU8;Enterprise Services;Team Mu;Investment Platform;Q2 2022;Sarah Wilson;;No;19;8.9;25;2;0.93;100;89;100;Q2;2022
+NWU2_Q2_2023.xlsx;CICD Pipeline;NWU2;Infrastructure;Team Zeta;Personal Finance Manager;Q2 2023;John Doe;;No;27;37;30;6;3.38;0;69;100;Q2;2023
+NWU3_Q4_2023.xlsx;Mean Time to Repair;NWU3;Lending;Team Pi;Fraud Detection;Q4 2023;Sarah Wilson;;No;25;3;25.64;10;3.23;0;32;100;Q4;2023
+NWU8_Q2_2024.xlsx;Test automation;NWU8;Infrastructure;Team Beta;Wealth Management;Q2 2024;David Miller;;No;14;10.9;35;7;5.91;0;79;100;Q2;2024
+NWU4_Q1_2024.xlsx;DevOps;NWU4;Security;Team Eta;Regulatory Reporting;Q1 2024;Richard Anderson;;No;16;11;8;2;3.01;0;63;100;Q1;2024
+NWU10_Q4_2022.xlsx;CICD Pipeline;NWU10;Mobile;Team Eta;Payment Gateway;Q4 2022;Sarah Wilson;;Yes;26;44.9;23.33;7;1.16;100;58;0;Q4;2022
+NWU2_Q3_2022.xlsx;DevOps;NWU2;Digital Banking;Team Alpha;Personal Finance Manager;Q3 2022;John Doe;;Yes;25;18.8;33.33;6;4.12;100;39;100;Q3;2022
+NWU7_Q2_2025.xlsx;Mean Time to Repair;NWU7;Enterprise Services;Team Alpha;Card Services;Q2 2025;Sarah Wilson;;No;16;26.2;38.46;5;3.68;0;94;100;Q2;2025
+NWU9_Q4_2025.xlsx;Change Failure Rate;NWU9;Digital Banking;Team Delta;Wealth Management;Q4 2025;John Doe;;Yes;28;2.2;6.67;1;6.47;100;68;100;Q4;2025
+NWU2_Q1_2024.xlsx;Deployment Frequency;NWU2;Lending;Team Mu;Mobile Banking App;Q1 2024;Jane Smith;;Yes;2;30.8;0;0;3.36;100;98;100;Q1;2024
+NWU8_Q1_2023.xlsx;Cycle Time for Changes;NWU8;Core Banking;Team Epsilon;Identity Verification;Q1 2023;David Miller;;Yes;18;22.6;22.73;5;0.5;0;62;0;Q1;2023
+NWU9_Q2_2022.xlsx;Change Failure Rate;NWU9;Enterprise Services;Team Kappa;Payment Gateway;Q2 2022;Emily Davis;;Yes;6;12.2;10;3;6.64;0;16;100;Q2;2022
+NWU9_Q2_2022.xlsx;Test automation;NWU9;Core Banking;Team Nu;Loan Processing System;Q2 2022;Lisa Thomas;;Yes;10;11.6;32.35;11;4.35;100;67;100;Q2;2022
+NWU8_Q4_2025.xlsx;Mean Time to Repair;NWU8;Lending;Team Nu;Business Banking;Q4 2025;Jane Smith;;Yes;21;26.8;22.58;7;1.62;0;66;100;Q4;2025
+NWU10_Q1_2023.xlsx;CICD Pipeline;NWU10;Lending;Team Eta;Mortgage System;Q1 2023;Jennifer Taylor;;No;26;43.8;4.76;2;0.22;100;90;100;Q1;2023
+NWU8_Q1_2024.xlsx;Change Failure Rate;NWU8;Digital Banking;Team Sigma;Customer Onboarding;Q1 2024;Michael Brown;;Yes;26;43.7;40;4;4.83;100;18;0;Q1;2024
+NWU7_Q4_2022.xlsx;Mean Time to Repair;NWU7;Infrastructure;Team Iota;Wealth Management;Q4 2022;Richard Anderson;;No;27;22.9;20;2;2.95;100;77;100;Q4;2022
+NWU10_Q1_2022.xlsx;Test automation;NWU10;Enterprise Services;Team Delta;Payment Gateway;Q1 2022;Robert Johnson;;No;11;33;12.82;5;4.87;0;84;100;Q1;2022
+NWU3_Q4_2023.xlsx;Test automation;NWU3;Infrastructure;Team Kappa;Business Banking;Q4 2023;Michael Brown;;No;16;28;9.52;2;4.89;100;27;0;Q4;2023
+NWU10_Q2_2025.xlsx;Test automation;NWU10;Data & Analytics;Team Tau;Regulatory Reporting;Q2 2025;Michael Brown;;Yes;24;43.8;3.33;1;3.8;100;73;100;Q2;2025
+NWU5_Q3_2025.xlsx;CICD Pipeline;NWU5;Payments;Team Mu;Card Services;Q3 2025;Sarah Wilson;;Yes;5;22.9;23.26;10;1.14;100;21;0;Q3;2025
+NWU2_Q4_2023.xlsx;CICD Pipeline;NWU2;Enterprise Services;Team Delta;Business Banking;Q4 2023;John Doe;;No;2;43.4;26.32;5;6.32;0;80;0;Q4;2023
+NWU1_Q3_2023.xlsx;Change Failure Rate;NWU1;Core Banking;Team Rho;Card Services;Q3 2023;Michael Brown;;No;15;19.6;18.37;9;2.76;100;18;100;Q3;2023
+NWU9_Q3_2025.xlsx;DevOps;NWU9;Enterprise Services;Team Beta;Transaction Monitor;Q3 2025;Lisa Thomas;;No;26;11.6;37.5;6;3.3;100;29;0;Q3;2025
+NWU6_Q4_2024.xlsx;Change Failure Rate;NWU6;Lending;Team Rho;Loan Processing System;Q4 2024;Richard Anderson;;No;14;13.9;28.57;10;2.99;0;61;100;Q4;2024
+NWU8_Q3_2025.xlsx;Cycle Time for Changes;NWU8;Core Banking;Team Iota;Fraud Detection;Q3 2025;Sarah Wilson;;Yes;22;22.1;6.06;2;4.17;0;58;100;Q3;2025
+NWU3_Q1_2022.xlsx;Cycle Time for Changes;NWU3;Security;Team Xi;Credit Scoring;Q1 2022;Emily Davis;;No;19;26.7;35.14;13;6.13;0;18;100;Q1;2022
+NWU4_Q4_2025.xlsx;Mean Time to Repair;NWU4;Mobile;Team Nu;Investment Platform;Q4 2025;Lisa Thomas;;No;27;9.8;36.36;4;0.59;0;43;100;Q4;2025
+NWU10_Q3_2023.xlsx;CICD Pipeline;NWU10;Core Banking;Team Mu;Payment Gateway;Q3 2023;Richard Anderson;;Yes;2;13.4;20;1;2.83;0;37;0;Q3;2023
+NWU2_Q2_2025.xlsx;Deployment Frequency;NWU2;Mobile;Team Omicron;Wealth Management;Q2 2025;Jennifer Taylor;;No;5;2.9;18.18;6;6.49;100;81;100;Q2;2025
+NWU10_Q1_2022.xlsx;Mean Time to Repair;NWU10;Data & Analytics;Team Iota;API Gateway;Q1 2022;Jennifer Taylor;;No;14;8.8;4.17;2;3.89;100;25;100;Q1;2022
+NWU9_Q2_2022.xlsx;Cycle Time for Changes;NWU9;Enterprise Services;Team Zeta;Card Services;Q2 2022;Emily Davis;;Yes;28;35.8;16.67;1;4.63;0;90;100;Q2;2022
+NWU2_Q4_2023.xlsx;CICD Pipeline;NWU2;Enterprise Services;Team Tau;Regulatory Reporting;Q4 2023;Richard Anderson;;No;13;23.8;20.59;7;2.03;0;11;100;Q4;2023
+NWU8_Q3_2023.xlsx;Change Failure Rate;NWU8;Payments;Team Nu;Identity Verification;Q3 2023;Lisa Thomas;;Yes;12;21.9;25;5;6.85;100;16;0;Q3;2023
+NWU5_Q3_2025.xlsx;Mean Time to Repair;NWU5;Mobile;Team Sigma;Chatbot Assistant;Q3 2025;John Doe;;Yes;28;19.4;40;10;1.19;100;65;100;Q3;2025
+NWU3_Q2_2024.xlsx;CICD Pipeline;NWU3;Security;Team Iota;Online Banking Portal;Q2 2024;Jane Smith;;Yes;20;16.5;33.33;4;0.54;0;94;0;Q2;2024
+NWU8_Q4_2024.xlsx;Test automation;NWU8;Core Banking;Team Pi;Credit Scoring;Q4 2024;Michael Brown;;No;9;37.8;9.38;3;2.68;100;82;100;Q4;2024
+NWU7_Q4_2023.xlsx;Test automation;NWU7;Customer Experience;Team Iota;Business Banking;Q4 2023;David Miller;;No;12;31.9;0;0;3.14;0;20;100;Q4;2023
+NWU6_Q1_2024.xlsx;CICD Pipeline;NWU6;Customer Experience;Team Mu;Transaction Monitor;Q1 2024;Sarah Wilson;;No;10;21.4;32.65;16;0.78;0;38;100;Q1;2024
+NWU8_Q3_2024.xlsx;CICD Pipeline;NWU8;Core Banking;Team Epsilon;Transaction Monitor;Q3 2024;Richard Anderson;;No;7;40.9;20;4;0.45;100;84;0;Q3;2024
+NWU9_Q3_2025.xlsx;Test automation;NWU9;Lending;Team Theta;Account Management;Q3 2025;Robert Johnson;;Yes;30;40.5;0;0;0.46;0;17;0;Q3;2025
+NWU6_Q2_2023.xlsx;Mean Time to Repair;NWU6;Core Banking;Team Zeta;Fraud Detection;Q2 2023;Emily Davis;;No;28;12;22.22;6;5.74;0;86;0;Q2;2023
+NWU5_Q1_2022.xlsx;Mean Time to Repair;NWU5;Infrastructure;Team Rho;Online Banking Portal;Q1 2022;Sarah Wilson;;No;29;1.6;12.77;6;5.22;100;10;0;Q1;2022
+NWU6_Q3_2024.xlsx;Mean Time to Repair;NWU6;Core Banking;Team Eta;Credit Scoring;Q3 2024;John Doe;;Yes;12;14;17.24;5;2.2;0;79;100;Q3;2024
+NWU2_Q3_2025.xlsx;Test automation;NWU2;Customer Experience;Team Rho;Regulatory Reporting;Q3 2025;Robert Johnson;;Yes;15;32.7;33.33;10;1.72;100;22;0;Q3;2025
+NWU1_Q3_2025.xlsx;Cycle Time for Changes;NWU1;Enterprise Services;Team Omicron;Fraud Detection;Q3 2025;Lisa Thomas;;No;3;12.2;0;0;3.64;100;99;0;Q3;2025
+NWU10_Q1_2023.xlsx;Mean Time to Repair;NWU10;Customer Experience;Team Iota;Credit Scoring;Q1 2023;Jane Smith;;Yes;27;23;21.05;4;1.22;100;45;0;Q1;2023
+NWU6_Q3_2023.xlsx;CICD Pipeline;NWU6;Enterprise Services;Team Xi;Chatbot Assistant;Q3 2023;Michael Brown;;No;15;13.7;24.49;12;0.56;100;79;0;Q3;2023
+NWU1_Q3_2024.xlsx;DevOps;NWU1;Customer Experience;Team Theta;Customer Onboarding;Q3 2024;Jane Smith;;Yes;9;28.9;0;0;6.2;0;64;0;Q3;2024
+NWU6_Q3_2025.xlsx;Mean Time to Repair;NWU6;Enterprise Services;Team Xi;Investment Platform;Q3 2025;Jane Smith;;Yes;16;5.2;21.05;8;2.2;100;87;0;Q3;2025
+NWU3_Q3_2022.xlsx;Mean Time to Repair;NWU3;Customer Experience;Team Tau;Identity Verification;Q3 2022;Michael Brown;;No;13;1.8;6.06;2;0.92;100;100;0;Q3;2022
+NWU2_Q1_2024.xlsx;Cycle Time for Changes;NWU2;Payments;Team Gamma;Mobile Banking App;Q1 2024;Emily Davis;;Yes;27;32.1;20;5;4.81;100;73;100;Q1;2024
+NWU4_Q4_2023.xlsx;Deployment Frequency;NWU4;Digital Banking;Team Theta;API Gateway;Q4 2023;John Doe;;Yes;4;42.3;4.76;1;1.06;0;49;100;Q4;2023
+NWU9_Q4_2024.xlsx;Cycle Time for Changes;NWU9;Mobile;Team Alpha;Business Banking;Q4 2024;Sarah Wilson;;Yes;10;1.5;22;11;2.93;0;91;100;Q4;2024
+NWU2_Q4_2022.xlsx;CICD Pipeline;NWU2;Infrastructure;Team Tau;Online Banking Portal;Q4 2022;David Miller;;Yes;11;28.5;14.29;2;5.92;0;64;100;Q4;2022
+NWU10_Q1_2024.xlsx;Cycle Time for Changes;NWU10;Enterprise Services;Team Mu;Card Services;Q1 2024;Lisa Thomas;;Yes;17;5;6.67;3;6.81;0;55;100;Q1;2024
+NWU9_Q1_2025.xlsx;Mean Time to Repair;NWU9;Core Banking;Team Mu;Online Banking Portal;Q1 2025;Jane Smith;;Yes;15;35;21.28;10;5.01;100;56;0;Q1;2025
+NWU6_Q1_2022.xlsx;Test automation;NWU6;Mobile;Team Zeta;Wealth Management;Q1 2022;Lisa Thomas;;Yes;3;4.3;12.5;2;4.38;0;76;100;Q1;2022
+NWU8_Q4_2023.xlsx;Change Failure Rate;NWU8;Infrastructure;Team Omicron;Mobile Banking App;Q4 2023;Michael Brown;;No;2;44.8;2.94;1;6.95;0;21;100;Q4;2023
+NWU9_Q3_2024.xlsx;Change Failure Rate;NWU9;Security;Team Rho;Mortgage System;Q3 2024;John Doe;;No;5;44.4;3.45;1;1.84;100;67;0;Q3;2024
+NWU8_Q2_2024.xlsx;Change Failure Rate;NWU8;Lending;Team Lambda;ATM Services;Q2 2024;John Doe;;Yes;23;34.7;18.18;8;5.8;100;17;100;Q2;2024
+NWU1_Q3_2025.xlsx;DevOps;NWU1;Payments;Team Rho;Personal Finance Manager;Q3 2025;Richard Anderson;;Yes;12;10;3.45;1;3.92;100;78;0;Q3;2025
+NWU2_Q4_2022.xlsx;CICD Pipeline;NWU2;Lending;Team Tau;Payment Gateway;Q4 2022;Sarah Wilson;;Yes;10;29.2;25;4;5.98;100;32;0;Q4;2022
+NWU4_Q3_2022.xlsx;Mean Time to Repair;NWU4;Security;Team Iota;Card Services;Q3 2022;Michael Brown;;Yes;27;15.1;26.32;5;4.62;0;73;100;Q3;2022
+NWU6_Q3_2022.xlsx;Cycle Time for Changes;NWU6;Enterprise Services;Team Zeta;Customer Onboarding;Q3 2022;Richard Anderson;;No;23;15.8;11.43;4;1.34;0;78;100;Q3;2022
+NWU6_Q2_2024.xlsx;Cycle Time for Changes;NWU6;Core Banking;Team Mu;Fraud Detection;Q2 2024;Emily Davis;;No;29;30.5;9.76;4;6.34;100;46;0;Q2;2024
+NWU3_Q1_2025.xlsx;Test automation;NWU3;Security;Team Tau;Card Services;Q1 2025;Jane Smith;;No;11;21.3;15.63;5;1.31;0;19;100;Q1;2025
+NWU1_Q1_2023.xlsx;Deployment Frequency;NWU1;Core Banking;Team Eta;Wealth Management;Q1 2023;David Miller;;Yes;27;28.5;29.41;5;3.66;0;87;100;Q1;2023
+NWU6_Q2_2025.xlsx;Mean Time to Repair;NWU6;Customer Experience;Team Eta;Account Management;Q2 2025;Richard Anderson;;Yes;7;32;11.76;2;2.5;100;88;0;Q2;2025
+NWU5_Q1_2025.xlsx;Change Failure Rate;NWU5;Mobile;Team Pi;Personal Finance Manager;Q1 2025;David Miller;;No;7;9.3;30.23;13;3.86;100;94;100;Q1;2025
+NWU4_Q1_2025.xlsx;Deployment Frequency;NWU4;Infrastructure;Team Kappa;Transaction Monitor;Q1 2025;Richard Anderson;;Yes;5;30.2;18.18;2;5.48;100;61;100;Q1;2025
+NWU8_Q4_2022.xlsx;DevOps;NWU8;Enterprise Services;Team Eta;ATM Services;Q4 2022;Sarah Wilson;;No;12;29.9;36;9;2.54;100;74;0;Q4;2022
+NWU4_Q2_2024.xlsx;Test automation;NWU4;Enterprise Services;Team Sigma;Credit Scoring;Q2 2024;David Miller;;Yes;25;24.8;23.91;11;0.39;0;36;0;Q2;2024
+NWU6_Q3_2024.xlsx;Test automation;NWU6;Payments;Team Zeta;Payment Gateway;Q3 2024;Michael Brown;;Yes;27;39;12.5;3;1.05;0;16;100;Q3;2024
+NWU2_Q3_2024.xlsx;Deployment Frequency;NWU2;Digital Banking;Team Beta;Mortgage System;Q3 2024;Jennifer Taylor;;Yes;26;14.6;21.74;5;4.62;0;47;100;Q3;2024
+NWU9_Q1_2023.xlsx;DevOps;NWU9;Infrastructure;Team Rho;Customer Onboarding;Q1 2023;David Miller;;Yes;23;1;13.04;6;6.9;100;22;0;Q1;2023
+NWU10_Q2_2024.xlsx;Cycle Time for Changes;NWU10;Core Banking;Team Iota;Personal Finance Manager;Q2 2024;Michael Brown;;No;5;16;34.62;9;0.39;0;99;0;Q2;2024
+NWU5_Q4_2022.xlsx;CICD Pipeline;NWU5;Infrastructure;Team Delta;Online Banking Portal;Q4 2022;Emily Davis;;Yes;13;41;22.22;2;6.53;0;11;100;Q4;2022
+NWU8_Q1_2025.xlsx;DevOps;NWU8;Infrastructure;Team Theta;Transaction Monitor;Q1 2025;Lisa Thomas;;No;9;44.2;20;5;6.28;100;71;0;Q1;2025
+NWU7_Q1_2025.xlsx;Test automation;NWU7;Digital Banking;Team Rho;Investment Platform;Q1 2025;Jennifer Taylor;;Yes;9;34.3;6.25;2;3.46;0;57;0;Q1;2025
+NWU6_Q3_2024.xlsx;Mean Time to Repair;NWU6;Lending;Team Mu;Customer Onboarding;Q3 2024;Lisa Thomas;;No;1;28.9;8.33;1;2.31;0;52;0;Q3;2024
+NWU9_Q2_2023.xlsx;Mean Time to Repair;NWU9;Lending;Team Omicron;Card Services;Q2 2023;Lisa Thomas;;Yes;10;12.1;18.18;2;2.25;100;21;0;Q2;2023
+NWU10_Q2_2023.xlsx;Test automation;NWU10;Customer Experience;Team Tau;Loan Processing System;Q2 2023;Michael Brown;;Yes;3;20.5;0;0;3.7;100;78;100;Q2;2023
+NWU1_Q4_2023.xlsx;Cycle Time for Changes;NWU1;Customer Experience;Team Eta;API Gateway;Q4 2023;Jennifer Taylor;;Yes;16;26.4;6.25;2;1.71;100;63;100;Q4;2023
+NWU3_Q2_2024.xlsx;CICD Pipeline;NWU3;Payments;Team Xi;Payment Gateway;Q2 2024;Jane Smith;;No;14;21.1;30;12;5.45;0;79;100;Q2;2024
+NWU4_Q3_2024.xlsx;Cycle Time for Changes;NWU4;Core Banking;Team Beta;Payment Gateway;Q3 2024;John Doe;;Yes;18;39;39.39;13;2.28;0;10;0;Q3;2024
+NWU6_Q2_2023.xlsx;CICD Pipeline;NWU6;Security;Team Theta;Wealth Management;Q2 2023;Sarah Wilson;;No;9;8.4;28.57;14;6.55;100;15;100;Q2;2023
+NWU4_Q4_2024.xlsx;DevOps;NWU4;Lending;Team Nu;Credit Scoring;Q4 2024;John Doe;;Yes;7;32.3;18.42;7;2.45;0;32;0;Q4;2024
+NWU10_Q1_2024.xlsx;CICD Pipeline;NWU10;Lending;Team Xi;Fraud Detection;Q1 2024;Jane Smith;;Yes;24;3.9;3.33;1;6.88;0;67;0;Q1;2024
+NWU9_Q1_2025.xlsx;Change Failure Rate;NWU9;Data & Analytics;Team Kappa;ATM Services;Q1 2025;Jane Smith;;Yes;5;20.2;20.83;10;1.28;0;59;100;Q1;2025
+NWU10_Q2_2022.xlsx;Cycle Time for Changes;NWU10;Lending;Team Alpha;Account Management;Q2 2022;Richard Anderson;;Yes;13;32.3;38.46;5;5.46;100;52;0;Q2;2022
+NWU6_Q4_2024.xlsx;Change Failure Rate;NWU6;Lending;Team Sigma;Online Banking Portal;Q4 2024;Emily Davis;;Yes;30;11.8;31.58;6;6.29;0;95;100;Q4;2024
+NWU7_Q3_2022.xlsx;Change Failure Rate;NWU7;Data & Analytics;Team Upsilon;Transaction Monitor;Q3 2022;Michael Brown;;Yes;23;44.2;20.51;8;4.05;0;28;100;Q3;2022
+NWU1_Q4_2023.xlsx;Test automation;NWU1;Infrastructure;Team Alpha;Regulatory Reporting;Q4 2023;David Miller;;Yes;20;8.6;0;0;0.54;100;24;0;Q4;2023
+NWU2_Q1_2022.xlsx;DevOps;NWU2;Mobile;Team Delta;Chatbot Assistant;Q1 2022;Michael Brown;;Yes;27;38.3;25;5;4.62;0;82;0;Q1;2022
+NWU4_Q4_2024.xlsx;Deployment Frequency;NWU4;Data & Analytics;Team Rho;Customer Onboarding;Q4 2024;Jennifer Taylor;;Yes;28;42.8;25;4;1.14;100;60;100;Q4;2024
+NWU4_Q1_2022.xlsx;Change Failure Rate;NWU4;Infrastructure;Team Alpha;Wealth Management;Q1 2022;Jennifer Taylor;;No;8;33.3;7.89;3;0.43;0;70;0;Q1;2022
+NWU5_Q2_2023.xlsx;CICD Pipeline;NWU5;Digital Banking;Team Gamma;Payment Gateway;Q2 2023;Michael Brown;;No;2;8.4;30;3;6.78;100;81;0;Q2;2023
+NWU8_Q3_2022.xlsx;CICD Pipeline;NWU8;Enterprise Services;Team Delta;Business Banking;Q3 2022;Sarah Wilson;;Yes;28;28.5;7.69;2;2.98;0;78;0;Q3;2022
+NWU9_Q1_2022.xlsx;Mean Time to Repair;NWU9;Infrastructure;Team Kappa;Credit Scoring;Q1 2022;Lisa Thomas;;No;9;23.7;28.57;10;1.87;0;25;0;Q1;2022
+NWU7_Q1_2025.xlsx;Cycle Time for Changes;NWU7;Enterprise Services;Team Eta;Credit Scoring;Q1 2025;Michael Brown;;No;9;33.1;10.34;3;4.75;0;22;100;Q1;2025
+NWU6_Q2_2022.xlsx;Mean Time to Repair;NWU6;Digital Banking;Team Upsilon;Fraud Detection;Q2 2022;David Miller;;Yes;27;19.6;20;1;4.14;0;34;0;Q2;2022
+NWU2_Q1_2023.xlsx;Deployment Frequency;NWU2;Enterprise Services;Team Pi;Credit Scoring;Q1 2023;Jennifer Taylor;;No;12;13.5;16;4;3.95;100;78;0;Q1;2023
+NWU5_Q3_2025.xlsx;CICD Pipeline;NWU5;Payments;Team Beta;API Gateway;Q3 2025;Robert Johnson;;Yes;12;30;28.57;2;0.97;0;83;0;Q3;2025
+NWU4_Q2_2022.xlsx;Change Failure Rate;NWU4;Digital Banking;Team Upsilon;Transaction Monitor;Q2 2022;Robert Johnson;;No;28;37.4;39.13;9;1.88;0;35;100;Q2;2022
+NWU1_Q3_2025.xlsx;DevOps;NWU1;Mobile;Team Rho;Payment Gateway;Q3 2025;Sarah Wilson;;Yes;21;15.7;21.88;7;1.42;0;47;0;Q3;2025
+NWU8_Q3_2024.xlsx;CICD Pipeline;NWU8;Core Banking;Team Eta;Customer Onboarding;Q3 2024;Jennifer Taylor;;No;20;21.5;16.67;1;6.42;0;68;0;Q3;2024
+NWU8_Q4_2024.xlsx;CICD Pipeline;NWU8;Data & Analytics;Team Theta;Loan Processing System;Q4 2024;Sarah Wilson;;Yes;25;32;14.81;4;5.47;100;43;0;Q4;2024
+NWU9_Q2_2022.xlsx;Change Failure Rate;NWU9;Digital Banking;Team Gamma;Chatbot Assistant;Q2 2022;Sarah Wilson;;Yes;14;2;15.38;6;3.13;0;15;0;Q2;2022
+NWU8_Q2_2022.xlsx;Mean Time to Repair;NWU8;Customer Experience;Team Upsilon;Card Services;Q2 2022;Sarah Wilson;;Yes;15;38.2;6.98;3;6.87;100;76;100;Q2;2022
+NWU8_Q2_2024.xlsx;Change Failure Rate;NWU8;Lending;Team Upsilon;ATM Services;Q2 2024;Emily Davis;;No;7;1.1;4.55;2;1.44;100;45;100;Q2;2024
+NWU2_Q2_2024.xlsx;DevOps;NWU2;Payments;Team Eta;Identity Verification;Q2 2024;Michael Brown;;Yes;26;3.4;4.35;2;1.77;100;86;100;Q2;2024
+NWU7_Q2_2025.xlsx;Mean Time to Repair;NWU7;Security;Team Epsilon;Payment Gateway;Q2 2025;Sarah Wilson;;Yes;10;21;35.48;11;3.32;100;65;0;Q2;2025
+NWU10_Q2_2025.xlsx;Cycle Time for Changes;NWU10;Customer Experience;Team Epsilon;Chatbot Assistant;Q2 2025;Robert Johnson;;Yes;15;14.5;37.93;11;2.3;0;30;0;Q2;2025
+NWU4_Q1_2022.xlsx;Mean Time to Repair;NWU4;Payments;Team Beta;Transaction Monitor;Q1 2022;Emily Davis;;Yes;26;11;15.38;6;6.25;0;63;0;Q1;2022
+NWU3_Q4_2025.xlsx;CICD Pipeline;NWU3;Payments;Team Alpha;Wealth Management;Q4 2025;Michael Brown;;No;22;8.3;14.29;1;2.64;0;75;100;Q4;2025
+NWU4_Q2_2022.xlsx;Mean Time to Repair;NWU4;Data & Analytics;Team Epsilon;Mortgage System;Q2 2022;Lisa Thomas;;No;19;31.5;36.11;13;6.1;0;15;100;Q2;2022
+NWU10_Q3_2024.xlsx;Mean Time to Repair;NWU10;Data & Analytics;Team Alpha;Card Services;Q3 2024;Emily Davis;;No;24;32.8;20;1;2.3;0;73;100;Q3;2024
+NWU5_Q4_2022.xlsx;CICD Pipeline;NWU5;Lending;Team Rho;ATM Services;Q4 2022;Richard Anderson;;No;5;19.5;30.56;11;2.42;0;59;0;Q4;2022
+NWU3_Q2_2024.xlsx;Mean Time to Repair;NWU3;Enterprise Services;Team Lambda;Personal Finance Manager;Q2 2024;Richard Anderson;;No;14;18;18.75;3;1.53;0;44;0;Q2;2024
+NWU5_Q1_2022.xlsx;Cycle Time for Changes;NWU5;Lending;Team Xi;Transaction Monitor;Q1 2022;Michael Brown;;Yes;16;38.6;18.42;7;1.99;100;98;0;Q1;2022
+NWU4_Q2_2025.xlsx;Cycle Time for Changes;NWU4;Security;Team Gamma;Customer Onboarding;Q2 2025;Sarah Wilson;;Yes;19;34.8;25.58;11;1.5;100;24;100;Q2;2025
+NWU4_Q1_2024.xlsx;CICD Pipeline;NWU4;Lending;Team Theta;Card Services;Q1 2024;Emily Davis;;No;20;34.6;14.29;2;1.39;100;82;0;Q1;2024
+NWU4_Q3_2023.xlsx;Deployment Frequency;NWU4;Enterprise Services;Team Alpha;Credit Scoring;Q3 2023;Lisa Thomas;;Yes;4;27.4;27.27;3;6;100;99;0;Q3;2023
+NWU10_Q2_2022.xlsx;Mean Time to Repair;NWU10;Digital Banking;Team Eta;Credit Scoring;Q2 2022;David Miller;;No;29;39.1;8.33;2;6.97;100;83;0;Q2;2022
+NWU6_Q3_2023.xlsx;Change Failure Rate;NWU6;Payments;Team Delta;Card Services;Q3 2023;Emily Davis;;No;11;11.2;0;0;5.35;100;56;0;Q3;2023
+NWU5_Q4_2022.xlsx;Deployment Frequency;NWU5;Customer Experience;Team Lambda;Chatbot Assistant;Q4 2022;Emily Davis;;No;2;4.3;10;2;3.41;0;92;0;Q4;2022
+NWU1_Q4_2022.xlsx;Cycle Time for Changes;NWU1;Digital Banking;Team Beta;ATM Services;Q4 2022;Michael Brown;;No;12;10.7;5.26;1;5.38;0;26;0;Q4;2022
+NWU1_Q2_2022.xlsx;CICD Pipeline;NWU1;Security;Team Delta;Business Banking;Q2 2022;Sarah Wilson;;Yes;2;24.4;10.71;3;6.31;100;23;100;Q2;2022
+NWU6_Q2_2023.xlsx;Test automation;NWU6;Security;Team Nu;Mobile Banking App;Q2 2023;Richard Anderson;;Yes;8;33.6;16.67;1;0.64;0;75;100;Q2;2023
+NWU4_Q1_2023.xlsx;CICD Pipeline;NWU4;Digital Banking;Team Gamma;Fraud Detection;Q1 2023;Jane Smith;;Yes;9;11.6;36.96;17;5.11;0;67;100;Q1;2023
+NWU8_Q3_2025.xlsx;Mean Time to Repair;NWU8;Lending;Team Kappa;Investment Platform;Q3 2025;Lisa Thomas;;Yes;20;3.7;30.77;12;4.56;0;35;0;Q3;2025
+NWU9_Q4_2022.xlsx;Test automation;NWU9;Security;Team Tau;Fraud Detection;Q4 2022;Jennifer Taylor;;Yes;24;19.3;25.81;8;6.28;100;99;100;Q4;2022
+NWU8_Q2_2025.xlsx;Change Failure Rate;NWU8;Core Banking;Team Zeta;Chatbot Assistant;Q2 2025;John Doe;;No;6;36;7.32;3;1.31;0;50;0;Q2;2025
+NWU1_Q1_2022.xlsx;DevOps;NWU1;Digital Banking;Team Pi;Payment Gateway;Q1 2022;Emily Davis;;No;9;23.6;20;1;5.28;0;62;0;Q1;2022
+NWU9_Q3_2022.xlsx;CICD Pipeline;NWU9;Payments;Team Iota;Online Banking Portal;Q3 2022;Jane Smith;;Yes;11;35.9;23.4;11;5.52;0;70;100;Q3;2022
+NWU3_Q1_2025.xlsx;Deployment Frequency;NWU3;Security;Team Iota;Transaction Monitor;Q1 2025;Richard Anderson;;No;2;5.4;24.44;11;5.83;100;82;0;Q1;2025
+NWU6_Q1_2023.xlsx;CICD Pipeline;NWU6;Payments;Team Upsilon;Loan Processing System;Q1 2023;Richard Anderson;;Yes;11;19.7;9.09;4;6.75;0;57;100;Q1;2023
+NWU7_Q3_2022.xlsx;Test automation;NWU7;Payments;Team Theta;Credit Scoring;Q3 2022;Emily Davis;;Yes;13;31.8;38.1;8;1.22;0;59;100;Q3;2022
+NWU9_Q1_2023.xlsx;DevOps;NWU9;Infrastructure;Team Pi;Mobile Banking App;Q1 2023;Jennifer Taylor;;Yes;6;15.5;10;2;5.38;0;49;100;Q1;2023
+NWU2_Q3_2022.xlsx;Change Failure Rate;NWU2;Data & Analytics;Team Beta;Transaction Monitor;Q3 2022;Robert Johnson;;No;22;9.8;27.5;11;0.43;100;12;100;Q3;2022
+NWU8_Q1_2023.xlsx;Change Failure Rate;NWU8;Customer Experience;Team Lambda;Regulatory Reporting;Q1 2023;David Miller;;No;5;16.7;3.57;1;2.49;0;96;100;Q1;2023
+NWU3_Q1_2025.xlsx;CICD Pipeline;NWU3;Lending;Team Mu;Identity Verification;Q1 2025;Sarah Wilson;;Yes;25;34.2;20.93;9;6.7;100;30;100;Q1;2025
+NWU3_Q2_2023.xlsx;Mean Time to Repair;NWU3;Security;Team Iota;Wealth Management;Q2 2023;Michael Brown;;No;11;7.5;9.09;1;2.15;100;45;100;Q2;2023
+NWU2_Q1_2025.xlsx;Change Failure Rate;NWU2;Mobile;Team Mu;Mortgage System;Q1 2025;John Doe;;Yes;23;36.1;22.22;2;0.57;100;66;0;Q1;2025
+NWU9_Q2_2024.xlsx;Cycle Time for Changes;NWU9;Infrastructure;Team Rho;Mortgage System;Q2 2024;Emily Davis;;No;3;22.9;7.69;3;2.32;100;92;0;Q2;2024
+NWU7_Q2_2023.xlsx;Mean Time to Repair;NWU7;Payments;Team Alpha;Mobile Banking App;Q2 2023;Michael Brown;;No;11;20.7;25;11;4.39;0;40;100;Q2;2023
+NWU3_Q4_2024.xlsx;Mean Time to Repair;NWU3;Security;Team Beta;ATM Services;Q4 2024;Lisa Thomas;;Yes;17;28.1;23.08;3;3.56;0;20;0;Q4;2024
+NWU2_Q1_2025.xlsx;Test automation;NWU2;Security;Team Xi;Chatbot Assistant;Q1 2025;John Doe;;No;9;8.7;37.5;18;3.1;100;76;0;Q1;2025
+NWU2_Q3_2025.xlsx;Cycle Time for Changes;NWU2;Mobile;Team Mu;Loan Processing System;Q3 2025;Lisa Thomas;;No;14;6.7;12.5;3;4.68;100;37;0;Q3;2025
+NWU5_Q2_2023.xlsx;Deployment Frequency;NWU5;Infrastructure;Team Zeta;API Gateway;Q2 2023;Jennifer Taylor;;No;10;15;0;0;5.08;100;79;0;Q2;2023
+NWU4_Q1_2023.xlsx;Test automation;NWU4;Enterprise Services;Team Tau;Credit Scoring;Q1 2023;David Miller;;Yes;11;9.8;19.05;8;4.28;100;74;0;Q1;2023
+NWU2_Q2_2024.xlsx;Test automation;NWU2;Core Banking;Team Epsilon;Payment Gateway;Q2 2024;John Doe;;Yes;8;25.3;32.14;9;5.03;0;29;100;Q2;2024
+NWU1_Q1_2023.xlsx;DevOps;NWU1;Digital Banking;Team Omicron;Investment Platform;Q1 2023;Robert Johnson;;Yes;1;1.9;26.47;9;2.03;0;77;100;Q1;2023
+NWU5_Q1_2023.xlsx;Change Failure Rate;NWU5;Payments;Team Pi;Regulatory Reporting;Q1 2023;Jane Smith;;Yes;30;12.2;20;2;0.38;0;10;0;Q1;2023
+NWU7_Q1_2022.xlsx;DevOps;NWU7;Enterprise Services;Team Omicron;Regulatory Reporting;Q1 2022;Richard Anderson;;No;10;16.1;0;0;2.68;0;78;0;Q1;2022
+NWU9_Q2_2025.xlsx;DevOps;NWU9;Lending;Team Pi;Wealth Management;Q2 2025;Lisa Thomas;;No;7;7.7;14.29;5;4.88;0;32;0;Q2;2025
+NWU2_Q4_2025.xlsx;Cycle Time for Changes;NWU2;Enterprise Services;Team Tau;Wealth Management;Q4 2025;David Miller;;Yes;11;30.2;0;0;3.32;100;96;0;Q4;2025
+NWU6_Q3_2022.xlsx;DevOps;NWU6;Digital Banking;Team Mu;Mortgage System;Q3 2022;Emily Davis;;Yes;7;20.8;0;0;4.18;100;20;0;Q3;2022
+NWU8_Q1_2025.xlsx;DevOps;NWU8;Payments;Team Theta;Fraud Detection;Q1 2025;John Doe;;Yes;20;3.6;15.91;7;4.93;0;57;100;Q1;2025
+NWU8_Q3_2024.xlsx;Change Failure Rate;NWU8;Payments;Team Lambda;Transaction Monitor;Q3 2024;Michael Brown;;No;13;31.6;28.57;2;0.54;0;55;100;Q3;2024
+NWU2_Q4_2025.xlsx;Cycle Time for Changes;NWU2;Data & Analytics;Team Lambda;Credit Scoring;Q4 2025;David Miller;;No;3;9.2;6.25;1;5.43;100;23;0;Q4;2025
+NWU1_Q4_2025.xlsx;Cycle Time for Changes;NWU1;Digital Banking;Team Rho;Personal Finance Manager;Q4 2025;Robert Johnson;;Yes;15;25;16.67;3;3.69;100;11;100;Q4;2025
+NWU6_Q4_2024.xlsx;Test automation;NWU6;Core Banking;Team Gamma;ATM Services;Q4 2024;Emily Davis;;Yes;17;12.2;28.57;4;4.65;100;81;0;Q4;2024
+NWU5_Q4_2022.xlsx;DevOps;NWU5;Core Banking;Team Nu;Investment Platform;Q4 2022;Jane Smith;;No;17;32.4;3.45;1;3.94;0;30;0;Q4;2022
+NWU1_Q3_2022.xlsx;Deployment Frequency;NWU1;Digital Banking;Team Alpha;Online Banking Portal;Q3 2022;Jane Smith;;Yes;3;15.6;0;0;4.35;0;39;100;Q3;2022
+NWU6_Q2_2025.xlsx;Change Failure Rate;NWU6;Payments;Team Alpha;Customer Onboarding;Q2 2025;Emily Davis;;No;16;15.4;4.35;1;3.13;0;94;100;Q2;2025
+NWU5_Q4_2023.xlsx;CICD Pipeline;NWU5;Infrastructure;Team Delta;Fraud Detection;Q4 2023;Sarah Wilson;;No;17;21;3.33;1;4.05;0;66;0;Q4;2023
+NWU5_Q1_2025.xlsx;Deployment Frequency;NWU5;Mobile;Team Pi;Chatbot Assistant;Q1 2025;Jane Smith;;No;2;19.2;8.7;4;4.1;0;48;100;Q1;2025
+NWU6_Q2_2023.xlsx;Mean Time to Repair;NWU6;Data & Analytics;Team Gamma;Mobile Banking App;Q2 2023;David Miller;;No;20;35.6;21.05;8;4.77;100;98;100;Q2;2023
+NWU9_Q4_2023.xlsx;Change Failure Rate;NWU9;Mobile;Team Gamma;Regulatory Reporting;Q4 2023;Sarah Wilson;;No;15;7.4;30;9;1.08;0;37;100;Q4;2023
+NWU5_Q2_2024.xlsx;DevOps;NWU5;Payments;Team Beta;Loan Processing System;Q2 2024;John Doe;;No;27;10.6;27.78;5;2.62;0;86;100;Q2;2024
+NWU4_Q1_2024.xlsx;DevOps;NWU4;Mobile;Team Theta;Investment Platform;Q1 2024;Lisa Thomas;;Yes;8;38.7;16.67;1;1.55;0;28;100;Q1;2024
+NWU2_Q2_2024.xlsx;Change Failure Rate;NWU2;Security;Team Alpha;Mortgage System;Q2 2024;Richard Anderson;;Yes;12;20.8;20.41;10;5.43;100;96;0;Q2;2024
+NWU7_Q3_2025.xlsx;DevOps;NWU7;Security;Team Zeta;Wealth Management;Q3 2025;Lisa Thomas;;No;29;14.2;16.67;8;3.68;100;86;100;Q3;2025
+NWU3_Q1_2024.xlsx;Change Failure Rate;NWU3;Enterprise Services;Team Rho;Fraud Detection;Q1 2024;Lisa Thomas;;No;5;7.3;15.79;3;5.9;0;61;100;Q1;2024
+NWU7_Q4_2022.xlsx;Change Failure Rate;NWU7;Customer Experience;Team Theta;Payment Gateway;Q4 2022;Robert Johnson;;Yes;21;41.1;28.57;4;0.75;100;84;0;Q4;2022
+NWU10_Q4_2025.xlsx;CICD Pipeline;NWU10;Digital Banking;Team Rho;Regulatory Reporting;Q4 2025;David Miller;;Yes;13;1.5;18.75;6;6.21;100;20;100;Q4;2025
+NWU4_Q3_2022.xlsx;Cycle Time for Changes;NWU4;Infrastructure;Team Mu;Fraud Detection;Q3 2022;John Doe;;No;5;23.1;38.46;5;3.58;100;48;0;Q3;2022
+NWU1_Q3_2022.xlsx;Test automation;NWU1;Core Banking;Team Rho;Payment Gateway;Q3 2022;Richard Anderson;;No;11;39.3;21.74;10;0.52;0;69;0;Q3;2022
+NWU7_Q4_2022.xlsx;Deployment Frequency;NWU7;Payments;Team Kappa;API Gateway;Q4 2022;Michael Brown;;No;14;14.7;26.92;7;0.2;100;89;0;Q4;2022
+NWU9_Q2_2022.xlsx;Deployment Frequency;NWU9;Lending;Team Kappa;Transaction Monitor;Q2 2022;John Doe;;Yes;8;16.7;0;0;3.08;0;29;0;Q2;2022
+NWU1_Q4_2025.xlsx;DevOps;NWU1;Lending;Team Pi;Regulatory Reporting;Q4 2025;Jane Smith;;Yes;22;38.6;9.68;3;5.94;0;26;100;Q4;2025
+NWU4_Q1_2022.xlsx;Deployment Frequency;NWU4;Lending;Team Upsilon;Mobile Banking App;Q1 2022;Jennifer Taylor;;No;8;23.2;27.27;3;4.15;0;65;100;Q1;2022
+NWU7_Q2_2022.xlsx;Mean Time to Repair;NWU7;Payments;Team Epsilon;Transaction Monitor;Q2 2022;David Miller;;No;10;27.7;16.67;1;5.37;100;16;0;Q2;2022
+NWU2_Q3_2022.xlsx;Cycle Time for Changes;NWU2;Lending;Team Lambda;Chatbot Assistant;Q3 2022;Lisa Thomas;;Yes;13;21.5;31.25;5;6.08;0;90;100;Q3;2022
+NWU5_Q1_2024.xlsx;Deployment Frequency;NWU5;Data & Analytics;Team Theta;ATM Services;Q1 2024;Emily Davis;;No;28;21.7;21.43;9;5.59;0;39;100;Q1;2024
+NWU10_Q4_2023.xlsx;Deployment Frequency;NWU10;Payments;Team Alpha;Business Banking;Q4 2023;Robert Johnson;;No;12;9.8;24;6;3;0;29;0;Q4;2023
+NWU2_Q2_2022.xlsx;DevOps;NWU2;Payments;Team Pi;ATM Services;Q2 2022;Jennifer Taylor;;No;12;29.2;16.67;1;5.07;100;35;0;Q2;2022
+NWU4_Q1_2025.xlsx;Test automation;NWU4;Core Banking;Team Eta;Loan Processing System;Q1 2025;Jane Smith;;No;23;40.7;8.57;3;3.67;100;14;100;Q1;2025
+NWU10_Q3_2025.xlsx;Change Failure Rate;NWU10;Payments;Team Upsilon;Chatbot Assistant;Q3 2025;Sarah Wilson;;No;9;31.9;20;4;6.88;100;25;100;Q3;2025
+NWU10_Q2_2022.xlsx;CICD Pipeline;NWU10;Lending;Team Eta;Loan Processing System;Q2 2022;John Doe;;No;23;23.3;35.71;5;5.24;0;51;100;Q2;2022
+NWU8_Q4_2024.xlsx;Deployment Frequency;NWU8;Payments;Team Zeta;ATM Services;Q4 2024;Michael Brown;;No;16;43.1;36.11;13;0.27;0;41;0;Q4;2024
+NWU4_Q1_2024.xlsx;Change Failure Rate;NWU4;Infrastructure;Team Tau;Mortgage System;Q1 2024;David Miller;;No;21;25.3;13.16;5;3.48;100;14;100;Q1;2024
+NWU8_Q1_2022.xlsx;DevOps;NWU8;Enterprise Services;Team Epsilon;Business Banking;Q1 2022;David Miller;;Yes;26;9.9;34.62;9;1.28;0;93;100;Q1;2022
+NWU4_Q4_2023.xlsx;Test automation;NWU4;Digital Banking;Team Omicron;Fraud Detection;Q4 2023;David Miller;;No;18;44.1;28.57;2;1.8;100;38;0;Q4;2023
+NWU7_Q4_2023.xlsx;DevOps;NWU7;Enterprise Services;Team Delta;Customer Onboarding;Q4 2023;John Doe;;No;22;11.7;7.69;3;2.77;0;17;0;Q4;2023
+NWU1_Q1_2025.xlsx;Cycle Time for Changes;NWU1;Lending;Team Lambda;Credit Scoring;Q1 2025;Michael Brown;;Yes;2;14.8;37.14;13;0.29;0;97;100;Q1;2025
+NWU6_Q3_2023.xlsx;Deployment Frequency;NWU6;Security;Team Rho;Business Banking;Q3 2023;Michael Brown;;No;17;37.5;16.67;1;1.8;100;73;100;Q3;2023
+NWU9_Q4_2025.xlsx;Change Failure Rate;NWU9;Infrastructure;Team Theta;Account Management;Q4 2025;Michael Brown;;No;6;3.4;8.33;3;4.01;0;40;100;Q4;2025
+NWU7_Q1_2024.xlsx;CICD Pipeline;NWU7;Lending;Team Mu;Card Services;Q1 2024;Michael Brown;;No;20;18.5;3.03;1;4.24;100;20;100;Q1;2024
+NWU6_Q3_2023.xlsx;Change Failure Rate;NWU6;Data & Analytics;Team Kappa;Business Banking;Q3 2023;Lisa Thomas;;No;17;22.9;17.14;6;1.64;100;38;100;Q3;2023
+NWU5_Q4_2023.xlsx;Test automation;NWU5;Lending;Team Pi;Payment Gateway;Q4 2023;Michael Brown;;Yes;10;32.7;15.79;6;3.25;0;34;0;Q4;2023
+NWU1_Q4_2022.xlsx;Mean Time to Repair;NWU1;Payments;Team Upsilon;Regulatory Reporting;Q4 2022;Lisa Thomas;;Yes;11;12.7;27.27;6;4.49;100;44;0;Q4;2022
+NWU2_Q1_2025.xlsx;Mean Time to Repair;NWU2;Data & Analytics;Team Gamma;Transaction Monitor;Q1 2025;Jennifer Taylor;;No;26;23.8;13.64;3;3.84;100;80;100;Q1;2025
+NWU2_Q2_2024.xlsx;CICD Pipeline;NWU2;Mobile;Team Nu;Regulatory Reporting;Q2 2024;John Doe;;No;20;2.6;13.33;2;2.56;100;15;0;Q2;2024
+NWU7_Q3_2022.xlsx;Mean Time to Repair;NWU7;Lending;Team Delta;Chatbot Assistant;Q3 2022;Robert Johnson;;No;24;29.7;0;0;4.16;0;31;0;Q3;2022
+NWU3_Q1_2024.xlsx;Test automation;NWU3;Digital Banking;Team Sigma;Investment Platform;Q1 2024;David Miller;;Yes;3;32.2;23.08;6;0.41;100;33;100;Q1;2024
+NWU9_Q2_2024.xlsx;Test automation;NWU9;Infrastructure;Team Kappa;Personal Finance Manager;Q2 2024;David Miller;;Yes;25;15;20;2;5.64;0;42;0;Q2;2024
+NWU9_Q4_2023.xlsx;CICD Pipeline;NWU9;Mobile;Team Kappa;Fraud Detection;Q4 2023;Lisa Thomas;;Yes;1;24.5;36.17;17;3.61;100;98;0;Q4;2023
+NWU6_Q3_2025.xlsx;Mean Time to Repair;NWU6;Infrastructure;Team Zeta;Personal Finance Manager;Q3 2025;Richard Anderson;;No;14;44.8;11.11;2;3.11;0;91;100;Q3;2025
+NWU5_Q1_2023.xlsx;Deployment Frequency;NWU5;Infrastructure;Team Gamma;Payment Gateway;Q1 2023;Emily Davis;;Yes;15;5.5;17.39;8;1.88;100;75;0;Q1;2023
+NWU3_Q1_2023.xlsx;CICD Pipeline;NWU3;Data & Analytics;Team Eta;Personal Finance Manager;Q1 2023;David Miller;;No;6;31.1;0;0;1.55;0;63;0;Q1;2023
+NWU7_Q2_2024.xlsx;CICD Pipeline;NWU7;Lending;Team Rho;Customer Onboarding;Q2 2024;Lisa Thomas;;Yes;19;25.6;36.84;7;5.15;0;73;100;Q2;2024
+NWU3_Q2_2022.xlsx;Test automation;NWU3;Lending;Team Rho;Wealth Management;Q2 2022;Michael Brown;;No;20;28.8;32.56;14;2.07;0;96;0;Q2;2022
+NWU5_Q3_2025.xlsx;Mean Time to Repair;NWU5;Data & Analytics;Team Omicron;Mobile Banking App;Q3 2025;Lisa Thomas;;No;21;37.5;14.29;1;3.94;0;54;100;Q3;2025
+NWU4_Q1_2024.xlsx;Change Failure Rate;NWU4;Digital Banking;Team Upsilon;Business Banking;Q1 2024;Robert Johnson;;No;16;24.2;36.36;4;1.77;0;68;100;Q1;2024
+NWU4_Q2_2024.xlsx;DevOps;NWU4;Data & Analytics;Team Rho;Transaction Monitor;Q2 2024;Sarah Wilson;;Yes;12;34.6;10;2;3.93;100;98;0;Q2;2024
+NWU5_Q4_2023.xlsx;Cycle Time for Changes;NWU5;Customer Experience;Team Beta;Account Management;Q4 2023;Lisa Thomas;;Yes;6;2.2;22.92;11;2.39;0;52;100;Q4;2023
+NWU2_Q3_2023.xlsx;Cycle Time for Changes;NWU2;Digital Banking;Team Epsilon;Chatbot Assistant;Q3 2023;Richard Anderson;;No;9;27.9;23.08;3;2.01;0;44;0;Q3;2023
+NWU6_Q2_2023.xlsx;Cycle Time for Changes;NWU6;Security;Team Beta;Card Services;Q2 2023;Michael Brown;;Yes;27;20.9;6.25;1;2.66;100;78;0;Q2;2023
+NWU9_Q4_2023.xlsx;Change Failure Rate;NWU9;Data & Analytics;Team Alpha;Wealth Management;Q4 2023;Jane Smith;;No;14;42.6;18.18;2;2.29;100;87;0;Q4;2023
+NWU9_Q2_2023.xlsx;Change Failure Rate;NWU9;Mobile;Team Nu;Business Banking;Q2 2023;Michael Brown;;No;8;5.5;20;7;0.21;100;67;0;Q2;2023
+NWU4_Q4_2024.xlsx;Mean Time to Repair;NWU4;Payments;Team Eta;ATM Services;Q4 2024;Robert Johnson;;Yes;27;2.7;9.52;4;1.4;100;99;0;Q4;2024
+NWU4_Q1_2024.xlsx;Test automation;NWU4;Core Banking;Team Alpha;Wealth Management;Q1 2024;Lisa Thomas;;No;9;44.2;15.38;6;4.04;100;72;100;Q1;2024
+NWU8_Q2_2023.xlsx;Mean Time to Repair;NWU8;Digital Banking;Team Xi;Personal Finance Manager;Q2 2023;Sarah Wilson;;Yes;6;6.4;13.33;2;6.05;100;79;0;Q2;2023
+NWU6_Q4_2022.xlsx;Change Failure Rate;NWU6;Infrastructure;Team Xi;Personal Finance Manager;Q4 2022;Jennifer Taylor;;Yes;22;13.9;15.38;6;5.21;0;54;100;Q4;2022
+NWU4_Q2_2023.xlsx;Test automation;NWU4;Data & Analytics;Team Pi;Account Management;Q2 2023;Richard Anderson;;Yes;12;4.4;16.67;3;6.04;0;38;100;Q2;2023
+NWU7_Q2_2023.xlsx;Cycle Time for Changes;NWU7;Customer Experience;Team Alpha;Online Banking Portal;Q2 2023;Robert Johnson;;No;1;5;30.56;11;1.9;0;75;0;Q2;2023
+NWU2_Q2_2023.xlsx;Mean Time to Repair;NWU2;Security;Team Iota;Payment Gateway;Q2 2023;Michael Brown;;Yes;2;3;11.54;3;1.25;100;95;100;Q2;2023
+NWU6_Q4_2022.xlsx;Change Failure Rate;NWU6;Enterprise Services;Team Mu;API Gateway;Q4 2022;Michael Brown;;Yes;26;19.7;27.91;12;1.77;100;16;100;Q4;2022
+NWU7_Q1_2022.xlsx;DevOps;NWU7;Customer Experience;Team Rho;Business Banking;Q1 2022;Jane Smith;;No;7;2.5;0;0;5.89;100;34;100;Q1;2022
+NWU6_Q1_2024.xlsx;Change Failure Rate;NWU6;Data & Analytics;Team Zeta;Identity Verification;Q1 2024;Jane Smith;;Yes;21;5.3;28.13;9;1.63;0;52;100;Q1;2024
+NWU6_Q2_2025.xlsx;Test automation;NWU6;Enterprise Services;Team Iota;ATM Services;Q2 2025;John Doe;;Yes;10;7.9;15.15;5;6.66;100;87;100;Q2;2025
+NWU3_Q4_2022.xlsx;DevOps;NWU3;Mobile;Team Theta;Customer Onboarding;Q4 2022;John Doe;;Yes;27;11.7;36.96;17;6.63;0;68;100;Q4;2022
+NWU7_Q3_2025.xlsx;CICD Pipeline;NWU7;Enterprise Services;Team Rho;Loan Processing System;Q3 2025;Richard Anderson;;No;14;39.4;0;0;1.13;100;31;100;Q3;2025
+NWU3_Q4_2024.xlsx;Change Failure Rate;NWU3;Security;Team Beta;Transaction Monitor;Q4 2024;Jennifer Taylor;;Yes;28;25.6;25;2;1.85;0;91;0;Q4;2024
+NWU3_Q1_2024.xlsx;Change Failure Rate;NWU3;Enterprise Services;Team Zeta;Online Banking Portal;Q1 2024;Robert Johnson;;No;29;31.1;34.62;9;3.01;100;75;0;Q1;2024
+NWU4_Q3_2022.xlsx;Cycle Time for Changes;NWU4;Lending;Team Xi;Identity Verification;Q3 2022;Michael Brown;;Yes;28;34.9;21.74;10;2.67;100;37;0;Q3;2022
+NWU5_Q2_2022.xlsx;Mean Time to Repair;NWU5;Mobile;Team Gamma;Personal Finance Manager;Q2 2022;Richard Anderson;;No;28;24.2;22.22;6;5.56;100;23;0;Q2;2022
+NWU7_Q3_2025.xlsx;Test automation;NWU7;Infrastructure;Team Sigma;ATM Services;Q3 2025;Sarah Wilson;;Yes;16;23.1;7.14;3;4.55;0;30;100;Q3;2025
+NWU9_Q3_2025.xlsx;CICD Pipeline;NWU9;Enterprise Services;Team Omicron;Fraud Detection;Q3 2025;Michael Brown;;Yes;2;21.7;25;4;4.91;0;16;0;Q3;2025
+NWU5_Q2_2024.xlsx;Change Failure Rate;NWU5;Security;Team Gamma;Customer Onboarding;Q2 2024;Robert Johnson;;Yes;2;15.9;0;0;2.12;0;13;100;Q2;2024
+NWU8_Q3_2022.xlsx;Mean Time to Repair;NWU8;Enterprise Services;Team Upsilon;Chatbot Assistant;Q3 2022;John Doe;;No;14;10.4;36.11;13;0.87;100;33;100;Q3;2022
+NWU2_Q3_2025.xlsx;Test automation;NWU2;Digital Banking;Team Omicron;Card Services;Q3 2025;Jane Smith;;Yes;5;17.5;15.38;6;3.99;100;49;0;Q3;2025
+NWU9_Q4_2025.xlsx;CICD Pipeline;NWU9;Infrastructure;Team Iota;Online Banking Portal;Q4 2025;Sarah Wilson;;No;27;26.9;2.38;1;4.67;100;73;100;Q4;2025
+NWU10_Q3_2022.xlsx;Deployment Frequency;NWU10;Payments;Team Delta;ATM Services;Q3 2022;Robert Johnson;;No;22;41.9;19.23;5;0.84;0;65;100;Q3;2022
+NWU6_Q4_2025.xlsx;CICD Pipeline;NWU6;Customer Experience;Team Alpha;API Gateway;Q4 2025;David Miller;;No;26;14.5;0;0;0.64;0;21;100;Q4;2025
+NWU8_Q4_2025.xlsx;CICD Pipeline;NWU8;Payments;Team Pi;Mobile Banking App;Q4 2025;Richard Anderson;;Yes;11;28.2;9.09;3;1.55;100;50;0;Q4;2025
+NWU3_Q1_2022.xlsx;DevOps;NWU3;Customer Experience;Team Epsilon;ATM Services;Q1 2022;John Doe;;No;14;31.8;32.14;9;3.86;100;85;0;Q1;2022
+NWU1_Q2_2023.xlsx;Deployment Frequency;NWU1;Lending;Team Theta;Fraud Detection;Q2 2023;Robert Johnson;;Yes;13;45;23.26;10;5.9;0;41;0;Q2;2023
+NWU8_Q3_2023.xlsx;Mean Time to Repair;NWU8;Mobile;Team Xi;Investment Platform;Q3 2023;Jane Smith;;Yes;17;9.2;28.57;2;3.35;0;68;100;Q3;2023
+NWU5_Q1_2023.xlsx;Change Failure Rate;NWU5;Lending;Team Lambda;API Gateway;Q1 2023;Robert Johnson;;Yes;25;43.4;8.33;1;5.2;100;88;0;Q1;2023
+NWU2_Q1_2023.xlsx;DevOps;NWU2;Digital Banking;Team Mu;Transaction Monitor;Q1 2023;Richard Anderson;;Yes;29;31.2;19.15;9;1.71;0;83;0;Q1;2023
+NWU6_Q4_2024.xlsx;Cycle Time for Changes;NWU6;Core Banking;Team Theta;Regulatory Reporting;Q4 2024;Michael Brown;;Yes;26;29.5;14.29;2;4.04;0;12;0;Q4;2024
+NWU6_Q2_2024.xlsx;Deployment Frequency;NWU6;Payments;Team Delta;Mortgage System;Q2 2024;Robert Johnson;;Yes;14;29.9;6.9;2;1.78;100;12;100;Q2;2024
+NWU3_Q3_2022.xlsx;Mean Time to Repair;NWU3;Customer Experience;Team Upsilon;Mortgage System;Q3 2022;Jane Smith;;Yes;23;2.3;13.04;6;4.46;0;54;100;Q3;2022
+NWU5_Q1_2024.xlsx;Cycle Time for Changes;NWU5;Customer Experience;Team Gamma;API Gateway;Q1 2024;Emily Davis;;No;5;20.3;31.82;7;6.09;100;46;0;Q1;2024
+NWU6_Q2_2023.xlsx;CICD Pipeline;NWU6;Infrastructure;Team Alpha;Business Banking;Q2 2023;Richard Anderson;;Yes;14;7.1;25;6;2.83;0;42;0;Q2;2023
+NWU1_Q3_2022.xlsx;Change Failure Rate;NWU1;Security;Team Delta;Payment Gateway;Q3 2022;John Doe;;No;4;41.5;27.66;13;0.41;0;53;100;Q3;2022
+NWU4_Q3_2022.xlsx;Mean Time to Repair;NWU4;Data & Analytics;Team Pi;Online Banking Portal;Q3 2022;John Doe;;No;28;37.5;13.33;2;2.63;100;30;0;Q3;2022
+NWU4_Q2_2025.xlsx;Deployment Frequency;NWU4;Security;Team Gamma;Customer Onboarding;Q2 2025;Richard Anderson;;No;19;9.5;7.69;1;0.44;0;18;100;Q2;2025
+NWU4_Q1_2023.xlsx;Cycle Time for Changes;NWU4;Enterprise Services;Team Lambda;Wealth Management;Q1 2023;Jennifer Taylor;;Yes;9;10.5;33.33;3;1.09;100;96;0;Q1;2023
+NWU1_Q1_2024.xlsx;Change Failure Rate;NWU1;Enterprise Services;Team Delta;Customer Onboarding;Q1 2024;John Doe;;Yes;5;33.7;4.17;1;2.7;0;84;100;Q1;2024
+NWU10_Q1_2025.xlsx;Deployment Frequency;NWU10;Payments;Team Theta;Personal Finance Manager;Q1 2025;Lisa Thomas;;Yes;24;2;16;4;1.64;100;19;0;Q1;2025
+NWU2_Q3_2025.xlsx;Change Failure Rate;NWU2;Digital Banking;Team Zeta;Credit Scoring;Q3 2025;Lisa Thomas;;No;11;22.2;0;0;5.01;0;57;100;Q3;2025
+NWU8_Q4_2023.xlsx;Mean Time to Repair;NWU8;Infrastructure;Team Beta;Account Management;Q4 2023;Lisa Thomas;;No;2;19.3;19.35;6;2.75;100;52;0;Q4;2023
+NWU1_Q1_2022.xlsx;Cycle Time for Changes;NWU1;Security;Team Lambda;Credit Scoring;Q1 2022;Richard Anderson;;Yes;1;29.7;38.46;10;1.21;100;25;100;Q1;2022
+NWU6_Q3_2022.xlsx;DevOps;NWU6;Security;Team Rho;Credit Scoring;Q3 2022;Emily Davis;;No;23;9.2;0;0;4.21;100;39;100;Q3;2022
+NWU4_Q3_2022.xlsx;Test automation;NWU4;Core Banking;Team Upsilon;Identity Verification;Q3 2022;Jennifer Taylor;;Yes;17;14;33.33;5;3.53;0;33;100;Q3;2022
+NWU7_Q2_2024.xlsx;Mean Time to Repair;NWU7;Data & Analytics;Team Sigma;API Gateway;Q2 2024;John Doe;;No;11;2.2;14.29;1;0.71;100;16;100;Q2;2024
+NWU9_Q2_2023.xlsx;Change Failure Rate;NWU9;Core Banking;Team Delta;Mobile Banking App;Q2 2023;Sarah Wilson;;Yes;30;21.9;15;3;0.26;0;58;100;Q2;2023
+NWU7_Q2_2025.xlsx;CICD Pipeline;NWU7;Payments;Team Tau;Online Banking Portal;Q2 2025;Richard Anderson;;Yes;8;3.8;0;0;2;100;96;0;Q2;2025
+NWU10_Q4_2022.xlsx;Test automation;NWU10;Payments;Team Gamma;Loan Processing System;Q4 2022;Sarah Wilson;;Yes;24;22.3;34.62;9;2.99;0;17;0;Q4;2022
+NWU5_Q2_2024.xlsx;Mean Time to Repair;NWU5;Enterprise Services;Team Sigma;Chatbot Assistant;Q2 2024;Richard Anderson;;Yes;5;37.1;0;0;1.26;100;22;0;Q2;2024
+NWU6_Q4_2022.xlsx;Cycle Time for Changes;NWU6;Mobile;Team Upsilon;Wealth Management;Q4 2022;Michael Brown;;Yes;26;22.2;19.05;4;2.66;100;73;0;Q4;2022
+NWU6_Q2_2023.xlsx;DevOps;NWU6;Infrastructure;Team Zeta;Loan Processing System;Q2 2023;John Doe;;No;11;13.7;17.39;4;0.41;100;91;0;Q2;2023
+NWU5_Q2_2025.xlsx;Mean Time to Repair;NWU5;Digital Banking;Team Iota;Chatbot Assistant;Q2 2025;Sarah Wilson;;No;9;32.5;22.73;5;3.89;0;75;0;Q2;2025
+NWU9_Q3_2023.xlsx;DevOps;NWU9;Mobile;Team Xi;Mobile Banking App;Q3 2023;Sarah Wilson;;Yes;9;38.1;0;0;0.78;0;38;0;Q3;2023
+NWU1_Q2_2024.xlsx;Cycle Time for Changes;NWU1;Mobile;Team Iota;Mobile Banking App;Q2 2024;John Doe;;No;28;42.5;4.55;1;0.99;100;88;100;Q2;2024
+NWU4_Q2_2023.xlsx;Mean Time to Repair;NWU4;Security;Team Lambda;Investment Platform;Q2 2023;Michael Brown;;No;12;26.5;13.16;5;6.95;0;72;0;Q2;2023
+NWU3_Q4_2022.xlsx;Test automation;NWU3;Infrastructure;Team Mu;Chatbot Assistant;Q4 2022;John Doe;;No;26;33;16.67;1;3.49;100;95;0;Q4;2022
+NWU7_Q1_2022.xlsx;Cycle Time for Changes;NWU7;Lending;Team Iota;Chatbot Assistant;Q1 2022;John Doe;;Yes;9;14.4;36.84;7;3.94;0;36;0;Q1;2022
+NWU3_Q3_2025.xlsx;Deployment Frequency;NWU3;Core Banking;Team Sigma;Mortgage System;Q3 2025;Emily Davis;;No;12;37.4;20;2;0.73;100;49;0;Q3;2025
+NWU1_Q2_2023.xlsx;DevOps;NWU1;Infrastructure;Team Lambda;Chatbot Assistant;Q2 2023;Michael Brown;;Yes;17;37.3;12.5;2;6.03;100;86;0;Q2;2023
+NWU4_Q2_2024.xlsx;Mean Time to Repair;NWU4;Data & Analytics;Team Alpha;Transaction Monitor;Q2 2024;Jane Smith;;Yes;8;21.6;40;8;2.8;100;50;100;Q2;2024
+NWU2_Q2_2023.xlsx;CICD Pipeline;NWU2;Digital Banking;Team Nu;Mobile Banking App;Q2 2023;Richard Anderson;;Yes;7;28.7;6.12;3;0.91;0;28;0;Q2;2023
+NWU7_Q2_2023.xlsx;Deployment Frequency;NWU7;Customer Experience;Team Omicron;Credit Scoring;Q2 2023;Jane Smith;;Yes;29;29.4;10.53;4;0.77;100;24;100;Q2;2023
+NWU9_Q4_2024.xlsx;Test automation;NWU9;Digital Banking;Team Sigma;Chatbot Assistant;Q4 2024;David Miller;;No;8;16.9;2.13;1;2.69;0;12;0;Q4;2024
+NWU8_Q3_2023.xlsx;Change Failure Rate;NWU8;Payments;Team Eta;Fraud Detection;Q3 2023;Richard Anderson;;Yes;11;11.8;20.69;6;5.81;0;23;0;Q3;2023
+NWU4_Q1_2024.xlsx;CICD Pipeline;NWU4;Data & Analytics;Team Lambda;Personal Finance Manager;Q1 2024;Michael Brown;;Yes;22;20.4;37.5;6;6.97;100;22;100;Q1;2024
+NWU5_Q1_2023.xlsx;Cycle Time for Changes;NWU5;Enterprise Services;Team Theta;Credit Scoring;Q1 2023;Robert Johnson;;No;19;23.9;28.57;4;1.42;100;75;0;Q1;2023
+NWU8_Q2_2024.xlsx;Cycle Time for Changes;NWU8;Mobile;Team Iota;Loan Processing System;Q2 2024;Jennifer Taylor;;No;20;34.6;4.35;1;6.72;0;41;100;Q2;2024
+NWU5_Q3_2023.xlsx;Deployment Frequency;NWU5;Digital Banking;Team Xi;Online Banking Portal;Q3 2023;Sarah Wilson;;No;22;38.3;15.91;7;1.74;100;75;0;Q3;2023
+NWU3_Q3_2024.xlsx;Test automation;NWU3;Data & Analytics;Team Gamma;Credit Scoring;Q3 2024;Jennifer Taylor;;No;3;17;39.13;18;2.27;100;36;0;Q3;2024
+NWU9_Q1_2024.xlsx;Cycle Time for Changes;NWU9;Enterprise Services;Team Epsilon;Payment Gateway;Q1 2024;Jennifer Taylor;;Yes;21;18.5;26.67;4;6.81;0;50;0;Q1;2024
+NWU7_Q4_2023.xlsx;DevOps;NWU7;Mobile;Team Delta;Online Banking Portal;Q4 2023;John Doe;;No;29;21.6;3.03;1;0.24;0;95;0;Q4;2023
+NWU8_Q4_2025.xlsx;Change Failure Rate;NWU8;Mobile;Team Sigma;Fraud Detection;Q4 2025;Jane Smith;;No;24;4.9;0;0;1.59;0;49;100;Q4;2025
+NWU7_Q2_2024.xlsx;Mean Time to Repair;NWU7;Digital Banking;Team Gamma;Fraud Detection;Q2 2024;Robert Johnson;;No;14;9.9;7.5;3;0.46;0;40;100;Q2;2024
+NWU3_Q2_2025.xlsx;Cycle Time for Changes;NWU3;Mobile;Team Beta;Customer Onboarding;Q2 2025;Robert Johnson;;Yes;2;9.9;28.57;2;4.15;100;86;100;Q2;2025
+NWU4_Q4_2025.xlsx;Change Failure Rate;NWU4;Data & Analytics;Team Epsilon;Mortgage System;Q4 2025;John Doe;;No;20;34;35.9;14;4.05;0;68;0;Q4;2025
+NWU6_Q4_2025.xlsx;Mean Time to Repair;NWU6;Payments;Team Iota;Wealth Management;Q4 2025;John Doe;;No;8;16;33.33;11;3.48;100;36;100;Q4;2025
+NWU3_Q3_2024.xlsx;Cycle Time for Changes;NWU3;Digital Banking;Team Iota;Business Banking;Q3 2024;John Doe;;No;25;22.8;36.36;16;6.67;100;64;100;Q3;2024
+NWU1_Q4_2024.xlsx;Mean Time to Repair;NWU1;Data & Analytics;Team Upsilon;Mortgage System;Q4 2024;Lisa Thomas;;Yes;18;3.8;20.83;5;5.84;0;61;0;Q4;2024
+NWU3_Q2_2025.xlsx;Cycle Time for Changes;NWU3;Core Banking;Team Alpha;Card Services;Q2 2025;Emily Davis;;Yes;2;43.8;14.29;2;0.79;100;20;0;Q2;2025
+NWU1_Q4_2022.xlsx;Mean Time to Repair;NWU1;Payments;Team Epsilon;Business Banking;Q4 2022;Michael Brown;;No;3;18.9;18.18;4;1.93;0;68;100;Q4;2022
+NWU8_Q2_2022.xlsx;Change Failure Rate;NWU8;Security;Team Beta;Fraud Detection;Q2 2022;Jane Smith;;No;23;20.8;37.5;9;2.13;0;40;0;Q2;2022
+NWU6_Q4_2022.xlsx;Test automation;NWU6;Lending;Team Xi;Online Banking Portal;Q4 2022;Emily Davis;;No;9;7.7;12.9;4;5.76;0;60;0;Q4;2022
+NWU8_Q4_2025.xlsx;Change Failure Rate;NWU8;Digital Banking;Team Alpha;Payment Gateway;Q4 2025;Jane Smith;;No;29;17;10.87;5;2.99;0;61;0;Q4;2025
+NWU2_Q2_2024.xlsx;Change Failure Rate;NWU2;Infrastructure;Team Epsilon;Card Services;Q2 2024;John Doe;;No;7;24.1;16.67;1;3.15;100;40;100;Q2;2024
+NWU1_Q4_2023.xlsx;Deployment Frequency;NWU1;Customer Experience;Team Upsilon;Loan Processing System;Q4 2023;Jennifer Taylor;;Yes;6;24.6;10;1;3.55;100;88;100;Q4;2023
+NWU4_Q1_2022.xlsx;CICD Pipeline;NWU4;Customer Experience;Team Rho;Account Management;Q1 2022;John Doe;;No;6;6.7;25;9;1.8;100;58;0;Q1;2022
+NWU5_Q2_2025.xlsx;DevOps;NWU5;Mobile;Team Kappa;Mortgage System;Q2 2025;Jennifer Taylor;;No;24;16.8;10.71;3;5.07;0;28;100;Q2;2025
+NWU1_Q2_2023.xlsx;Mean Time to Repair;NWU1;Customer Experience;Team Rho;Card Services;Q2 2023;Robert Johnson;;No;18;28.9;21.74;5;1.6;100;89;0;Q2;2023
+NWU4_Q3_2025.xlsx;Change Failure Rate;NWU4;Payments;Team Tau;Customer Onboarding;Q3 2025;Jane Smith;;No;21;3.9;0;0;6.35;100;47;0;Q3;2025
+NWU8_Q3_2023.xlsx;Mean Time to Repair;NWU8;Lending;Team Mu;Regulatory Reporting;Q3 2023;John Doe;;No;11;27.8;5.88;1;6.48;0;55;0;Q3;2023
+NWU10_Q3_2022.xlsx;Change Failure Rate;NWU10;Enterprise Services;Team Iota;Mobile Banking App;Q3 2022;Michael Brown;;No;7;16.6;16.67;2;2.63;0;12;0;Q3;2022
+NWU7_Q3_2023.xlsx;Change Failure Rate;NWU7;Lending;Team Sigma;Transaction Monitor;Q3 2023;Jennifer Taylor;;Yes;13;13.1;24.49;12;1.55;0;31;100;Q3;2023
+NWU1_Q3_2022.xlsx;Test automation;NWU1;Data & Analytics;Team Rho;Payment Gateway;Q3 2022;Emily Davis;;Yes;12;33.4;31.58;6;4.78;100;86;0;Q3;2022
+NWU10_Q4_2025.xlsx;Change Failure Rate;NWU10;Payments;Team Omicron;Transaction Monitor;Q4 2025;Jane Smith;;No;14;35.8;28;7;0.95;0;81;100;Q4;2025
+NWU3_Q4_2025.xlsx;CICD Pipeline;NWU3;Mobile;Team Pi;Chatbot Assistant;Q4 2025;Sarah Wilson;;Yes;15;26.2;10.53;2;2.31;0;11;100;Q4;2025
+NWU1_Q3_2024.xlsx;Cycle Time for Changes;NWU1;Core Banking;Team Zeta;Mobile Banking App;Q3 2024;David Miller;;Yes;15;22.6;10.64;5;4.55;100;84;0;Q3;2024
+NWU9_Q4_2024.xlsx;DevOps;NWU9;Infrastructure;Team Theta;Account Management;Q4 2024;Michael Brown;;No;13;39.4;12.5;1;3.05;100;74;100;Q4;2024
+NWU9_Q3_2025.xlsx;Mean Time to Repair;NWU9;Security;Team Mu;Online Banking Portal;Q3 2025;David Miller;;Yes;4;11.2;28.13;9;5.87;100;81;0;Q3;2025
+NWU5_Q4_2024.xlsx;Test automation;NWU5;Payments;Team Tau;ATM Services;Q4 2024;Emily Davis;;No;12;18.7;6.67;1;3.54;0;55;100;Q4;2024
+NWU7_Q4_2025.xlsx;Change Failure Rate;NWU7;Customer Experience;Team Lambda;Fraud Detection;Q4 2025;Richard Anderson;;Yes;12;13.1;4.17;2;4.62;100;68;0;Q4;2025
+NWU2_Q2_2022.xlsx;Change Failure Rate;NWU2;Infrastructure;Team Upsilon;Fraud Detection;Q2 2022;Jennifer Taylor;;No;8;13.1;30;3;1.23;0;11;0;Q2;2022
+NWU5_Q1_2024.xlsx;Mean Time to Repair;NWU5;Data & Analytics;Team Rho;Card Services;Q1 2024;Michael Brown;;No;3;16.8;35.29;12;6.56;100;38;0;Q1;2024
+NWU2_Q3_2022.xlsx;Cycle Time for Changes;NWU2;Customer Experience;Team Gamma;Investment Platform;Q3 2022;Jennifer Taylor;;No;14;29.6;18.75;9;2.57;0;55;0;Q3;2022
+NWU1_Q3_2023.xlsx;Cycle Time for Changes;NWU1;Mobile;Team Eta;Regulatory Reporting;Q3 2023;Richard Anderson;;Yes;12;16.3;0;0;3.01;100;38;100;Q3;2023
+NWU9_Q4_2022.xlsx;DevOps;NWU9;Payments;Team Theta;Transaction Monitor;Q4 2022;Richard Anderson;;No;24;14.7;31.43;11;5.04;100;23;0;Q4;2022
+NWU4_Q2_2023.xlsx;CICD Pipeline;NWU4;Payments;Team Sigma;Business Banking;Q2 2023;Richard Anderson;;Yes;11;3.8;6.45;2;2.91;100;21;0;Q2;2023
+NWU3_Q1_2022.xlsx;Cycle Time for Changes;NWU3;Core Banking;Team Rho;Business Banking;Q1 2022;Jane Smith;;No;27;33;28.57;2;3.88;0;53;100;Q1;2022
+NWU4_Q2_2024.xlsx;CICD Pipeline;NWU4;Infrastructure;Team Delta;Transaction Monitor;Q2 2024;Emily Davis;;No;26;28.2;27.27;6;6.75;100;11;0;Q2;2024
+NWU3_Q3_2024.xlsx;CICD Pipeline;NWU3;Core Banking;Team Xi;Account Management;Q3 2024;Lisa Thomas;;Yes;19;29.5;5.88;1;3.34;100;88;100;Q3;2024
+NWU1_Q3_2023.xlsx;DevOps;NWU1;Enterprise Services;Team Pi;Chatbot Assistant;Q3 2023;John Doe;;Yes;8;39.8;10.42;5;1.88;0;18;100;Q3;2023
+NWU2_Q2_2023.xlsx;CICD Pipeline;NWU2;Infrastructure;Team Epsilon;Regulatory Reporting;Q2 2023;Lisa Thomas;;No;5;31.3;12;3;1.57;100;32;0;Q2;2023
+NWU7_Q4_2025.xlsx;CICD Pipeline;NWU7;Customer Experience;Team Xi;Card Services;Q4 2025;Emily Davis;;Yes;23;15.5;12.5;3;1.21;100;48;100;Q4;2025
+NWU2_Q3_2025.xlsx;DevOps;NWU2;Infrastructure;Team Mu;Online Banking Portal;Q3 2025;Emily Davis;;No;3;27.1;6.9;2;1.15;0;76;0;Q3;2025
+NWU5_Q4_2022.xlsx;CICD Pipeline;NWU5;Payments;Team Nu;Credit Scoring;Q4 2022;Richard Anderson;;No;13;19.8;14.29;1;4.46;100;56;0;Q4;2022
+NWU3_Q3_2023.xlsx;DevOps;NWU3;Mobile;Team Pi;Investment Platform;Q3 2023;Robert Johnson;;Yes;13;24.9;13.33;6;1.19;0;60;0;Q3;2023
+NWU7_Q2_2024.xlsx;DevOps;NWU7;Enterprise Services;Team Alpha;Card Services;Q2 2024;Michael Brown;;Yes;3;44.2;30;3;3.62;0;33;0;Q2;2024
+NWU3_Q4_2024.xlsx;Test automation;NWU3;Security;Team Eta;Card Services;Q4 2024;Emily Davis;;Yes;4;31.2;6.25;1;5.4;100;19;0;Q4;2024
+NWU10_Q1_2023.xlsx;Deployment Frequency;NWU10;Payments;Team Omicron;Mortgage System;Q1 2023;Jane Smith;;Yes;9;39.7;37.5;18;4.88;100;31;100;Q1;2023
+NWU5_Q2_2022.xlsx;Deployment Frequency;NWU5;Lending;Team Gamma;Identity Verification;Q2 2022;Emily Davis;;Yes;30;5.8;20;5;1.94;0;68;0;Q2;2022
+NWU4_Q2_2023.xlsx;CICD Pipeline;NWU4;Payments;Team Tau;Payment Gateway;Q2 2023;Richard Anderson;;No;5;2.3;13.33;6;1.71;0;41;0;Q2;2023
+NWU5_Q3_2024.xlsx;CICD Pipeline;NWU5;Core Banking;Team Tau;Mobile Banking App;Q3 2024;Richard Anderson;;No;2;9.7;28;7;5.52;0;61;100;Q3;2024
+NWU9_Q4_2023.xlsx;Deployment Frequency;NWU9;Digital Banking;Team Epsilon;Payment Gateway;Q4 2023;Jennifer Taylor;;No;7;6.8;37.5;18;5.18;100;79;100;Q4;2023
+NWU7_Q1_2025.xlsx;CICD Pipeline;NWU7;Enterprise Services;Team Epsilon;Mortgage System;Q1 2025;Sarah Wilson;;Yes;4;42.6;29.73;11;4.25;100;57;100;Q1;2025
+NWU8_Q1_2022.xlsx;DevOps;NWU8;Infrastructure;Team Eta;Account Management;Q1 2022;Michael Brown;;No;23;25.8;10.71;3;5.09;0;21;0;Q1;2022
+NWU10_Q2_2022.xlsx;Test automation;NWU10;Mobile;Team Alpha;Wealth Management;Q2 2022;David Miller;;No;30;23.1;3.33;1;1.69;100;41;0;Q2;2022
+NWU9_Q4_2022.xlsx;DevOps;NWU9;Payments;Team Xi;Payment Gateway;Q4 2022;Jane Smith;;Yes;18;8.3;19.57;9;0.27;100;76;0;Q4;2022
+NWU9_Q4_2023.xlsx;Change Failure Rate;NWU9;Customer Experience;Team Mu;Business Banking;Q4 2023;Sarah Wilson;;Yes;3;17.1;8.33;1;1.69;100;97;100;Q4;2023
+NWU1_Q2_2023.xlsx;Mean Time to Repair;NWU1;Customer Experience;Team Iota;Fraud Detection;Q2 2023;Jennifer Taylor;;No;27;40.9;12.5;1;0.33;0;90;100;Q2;2023
+NWU10_Q1_2022.xlsx;Cycle Time for Changes;NWU10;Payments;Team Alpha;Online Banking Portal;Q1 2022;Lisa Thomas;;Yes;29;20.9;14.29;1;4.91;100;95;100;Q1;2022
+NWU7_Q2_2024.xlsx;Test automation;NWU7;Security;Team Upsilon;Credit Scoring;Q2 2024;Jane Smith;;Yes;4;4.9;2.38;1;3.16;100;87;100;Q2;2024
+NWU5_Q3_2023.xlsx;Test automation;NWU5;Payments;Team Upsilon;ATM Services;Q3 2023;David Miller;;No;12;19;0;0;6.72;100;17;0;Q3;2023
+NWU3_Q4_2025.xlsx;Deployment Frequency;NWU3;Customer Experience;Team Tau;Wealth Management;Q4 2025;Emily Davis;;No;16;6.9;12.12;4;3.4;100;65;100;Q4;2025
+NWU10_Q3_2022.xlsx;Cycle Time for Changes;NWU10;Customer Experience;Team Gamma;Mobile Banking App;Q3 2022;Michael Brown;;No;9;15.5;28.57;2;4.49;0;91;0;Q3;2022
+NWU7_Q1_2024.xlsx;Deployment Frequency;NWU7;Security;Team Eta;Wealth Management;Q1 2024;Jane Smith;;No;20;22;7.32;3;5.76;100;41;0;Q1;2024
+NWU1_Q3_2023.xlsx;Test automation;NWU1;Mobile;Team Iota;Mobile Banking App;Q3 2023;Sarah Wilson;;No;20;43.3;8.7;2;4.3;0;62;0;Q3;2023
+NWU9_Q2_2022.xlsx;DevOps;NWU9;Enterprise Services;Team Eta;Wealth Management;Q2 2022;Lisa Thomas;;Yes;15;12.8;35.71;10;6.56;100;13;0;Q2;2022
+NWU4_Q3_2023.xlsx;Test automation;NWU4;Security;Team Iota;Payment Gateway;Q3 2023;Jane Smith;;No;28;9.3;28;14;1.36;100;13;100;Q3;2023
+NWU1_Q4_2022.xlsx;CICD Pipeline;NWU1;Data & Analytics;Team Zeta;Mortgage System;Q4 2022;Jane Smith;;No;29;40.5;5.88;1;4.05;0;14;100;Q4;2022
+NWU10_Q2_2022.xlsx;Test automation;NWU10;Data & Analytics;Team Delta;Customer Onboarding;Q2 2022;Michael Brown;;Yes;29;13.4;14.29;1;2.03;0;95;0;Q2;2022
+NWU1_Q2_2023.xlsx;Deployment Frequency;NWU1;Customer Experience;Team Pi;Loan Processing System;Q2 2023;Jennifer Taylor;;Yes;2;23.2;38.89;14;1.24;0;20;100;Q2;2023
+NWU3_Q3_2023.xlsx;Test automation;NWU3;Core Banking;Team Nu;Online Banking Portal;Q3 2023;Michael Brown;;No;24;19.7;22.73;10;6.55;0;68;0;Q3;2023
+NWU1_Q1_2024.xlsx;Test automation;NWU1;Payments;Team Omicron;Transaction Monitor;Q1 2024;David Miller;;Yes;29;39.2;29.41;5;6.56;100;62;0;Q1;2024
+NWU9_Q4_2022.xlsx;CICD Pipeline;NWU9;Lending;Team Mu;Credit Scoring;Q4 2022;Richard Anderson;;No;24;34.9;24.39;10;2.2;100;42;100;Q4;2022
+NWU4_Q1_2025.xlsx;DevOps;NWU4;Digital Banking;Team Beta;Account Management;Q1 2025;Jane Smith;;No;25;41.8;16;8;5.68;0;52;0;Q1;2025
+NWU6_Q2_2024.xlsx;Change Failure Rate;NWU6;Payments;Team Kappa;Transaction Monitor;Q2 2024;Jennifer Taylor;;No;12;1.9;14.29;6;1.9;100;95;0;Q2;2024
+NWU6_Q4_2022.xlsx;Cycle Time for Changes;NWU6;Security;Team Epsilon;Personal Finance Manager;Q4 2022;Michael Brown;;Yes;18;32.9;34.15;14;6.13;100;17;100;Q4;2022
+NWU6_Q1_2024.xlsx;Cycle Time for Changes;NWU6;Mobile;Team Kappa;Mortgage System;Q1 2024;Sarah Wilson;;No;5;39.2;6.25;3;1.48;100;69;100;Q1;2024
+NWU8_Q3_2025.xlsx;Deployment Frequency;NWU8;Mobile;Team Kappa;Chatbot Assistant;Q3 2025;David Miller;;Yes;21;40;10.81;4;3.19;100;74;100;Q3;2025
+NWU10_Q2_2023.xlsx;Mean Time to Repair;NWU10;Mobile;Team Delta;Chatbot Assistant;Q2 2023;Richard Anderson;;No;21;22.5;30.77;8;2.55;100;59;100;Q2;2023
+NWU7_Q1_2025.xlsx;DevOps;NWU7;Customer Experience;Team Sigma;Online Banking Portal;Q1 2025;Jennifer Taylor;;No;28;22;0;0;6.97;0;44;0;Q1;2025
+NWU8_Q2_2025.xlsx;Deployment Frequency;NWU8;Digital Banking;Team Eta;Chatbot Assistant;Q2 2025;Lisa Thomas;;Yes;3;25.5;20.41;10;6.81;100;74;0;Q2;2025
+NWU8_Q2_2024.xlsx;DevOps;NWU8;Lending;Team Nu;Mortgage System;Q2 2024;David Miller;;Yes;14;19.5;13.89;5;5.02;0;52;100;Q2;2024
+NWU2_Q4_2023.xlsx;CICD Pipeline;NWU2;Data & Analytics;Team Iota;Regulatory Reporting;Q4 2023;Lisa Thomas;;No;19;35.3;33.33;14;4.34;0;47;0;Q4;2023
+NWU8_Q2_2025.xlsx;Test automation;NWU8;Mobile;Team Pi;Mortgage System;Q2 2025;Michael Brown;;Yes;5;2.1;25;2;0.31;100;89;100;Q2;2025
+NWU3_Q1_2022.xlsx;Mean Time to Repair;NWU3;Customer Experience;Team Upsilon;Transaction Monitor;Q1 2022;Richard Anderson;;Yes;21;38.1;23.33;7;2.19;100;83;100;Q1;2022
+NWU7_Q3_2024.xlsx;CICD Pipeline;NWU7;Enterprise Services;Team Mu;Fraud Detection;Q3 2024;Michael Brown;;Yes;16;5.1;25;3;2.39;0;73;0;Q3;2024
+NWU2_Q4_2025.xlsx;DevOps;NWU2;Core Banking;Team Upsilon;Regulatory Reporting;Q4 2025;John Doe;;No;11;43.3;18.18;2;2.03;100;84;100;Q4;2025
+NWU4_Q2_2022.xlsx;Change Failure Rate;NWU4;Payments;Team Epsilon;Transaction Monitor;Q2 2022;Emily Davis;;No;11;29.6;26.67;4;4.42;100;38;0;Q2;2022
+NWU4_Q2_2025.xlsx;Deployment Frequency;NWU4;Enterprise Services;Team Xi;Card Services;Q2 2025;Michael Brown;;Yes;24;23.5;31.25;10;3.21;100;36;0;Q2;2025
+NWU1_Q2_2022.xlsx;CICD Pipeline;NWU1;Core Banking;Team Theta;Customer Onboarding;Q2 2022;Jane Smith;;No;29;16.6;6.25;2;2.38;0;50;100;Q2;2022
+NWU2_Q2_2023.xlsx;Cycle Time for Changes;NWU2;Core Banking;Team Lambda;Transaction Monitor;Q2 2023;David Miller;;Yes;14;19.2;18.75;3;6.72;100;56;0;Q2;2023
+NWU6_Q2_2023.xlsx;DevOps;NWU6;Payments;Team Tau;Loan Processing System;Q2 2023;Michael Brown;;No;13;29.8;14.29;4;3.27;100;72;100;Q2;2023
+NWU5_Q1_2022.xlsx;Mean Time to Repair;NWU5;Customer Experience;Team Mu;Credit Scoring;Q1 2022;Emily Davis;;No;20;9.6;18.18;2;1.31;0;74;0;Q1;2022
+NWU4_Q4_2025.xlsx;Change Failure Rate;NWU4;Payments;Team Tau;Mobile Banking App;Q4 2025;Richard Anderson;;No;26;34.1;33.33;9;6.27;100;99;0;Q4;2025
+NWU10_Q3_2025.xlsx;CICD Pipeline;NWU10;Infrastructure;Team Zeta;Credit Scoring;Q3 2025;Jane Smith;;Yes;4;14.2;33.33;8;5.43;0;77;0;Q3;2025
+NWU2_Q1_2023.xlsx;Cycle Time for Changes;NWU2;Security;Team Zeta;Transaction Monitor;Q1 2023;Jane Smith;;Yes;6;28.8;35;7;2.68;100;88;100;Q1;2023
+NWU9_Q2_2025.xlsx;DevOps;NWU9;Lending;Team Zeta;Payment Gateway;Q2 2025;Richard Anderson;;Yes;8;23;5.88;2;4.97;100;46;0;Q2;2025
+NWU2_Q1_2025.xlsx;Mean Time to Repair;NWU2;Mobile;Team Theta;Account Management;Q1 2025;Michael Brown;;No;5;24.8;0;0;7;100;34;0;Q1;2025
+NWU10_Q3_2025.xlsx;Change Failure Rate;NWU10;Core Banking;Team Zeta;Wealth Management;Q3 2025;John Doe;;No;15;18.5;3.33;1;4.25;100;11;100;Q3;2025
+NWU7_Q1_2023.xlsx;Test automation;NWU7;Data & Analytics;Team Kappa;Chatbot Assistant;Q1 2023;Michael Brown;;Yes;5;4.7;2.38;1;2.37;100;83;100;Q1;2023
+NWU1_Q2_2025.xlsx;DevOps;NWU1;Digital Banking;Team Tau;Mobile Banking App;Q2 2025;Sarah Wilson;;No;9;24.2;18.75;3;3.87;0;19;0;Q2;2025
+NWU9_Q2_2025.xlsx;Change Failure Rate;NWU9;Core Banking;Team Epsilon;Card Services;Q2 2025;Michael Brown;;No;3;9.9;0;0;5.47;100;27;100;Q2;2025
+NWU8_Q2_2023.xlsx;Cycle Time for Changes;NWU8;Lending;Team Delta;Mortgage System;Q2 2023;Jane Smith;;No;13;25.2;0;0;2.34;0;17;100;Q2;2023
+NWU10_Q3_2024.xlsx;CICD Pipeline;NWU10;Digital Banking;Team Upsilon;Mortgage System;Q3 2024;Jennifer Taylor;;No;14;44.4;0;0;2.61;100;95;100;Q3;2024
+NWU6_Q3_2024.xlsx;Deployment Frequency;NWU6;Core Banking;Team Sigma;Credit Scoring;Q3 2024;Lisa Thomas;;No;15;16.6;8.33;1;5.86;100;32;0;Q3;2024
+NWU7_Q4_2022.xlsx;Test automation;NWU7;Payments;Team Iota;Personal Finance Manager;Q4 2022;Emily Davis;;No;4;19.3;24.39;10;1.35;100;13;0;Q4;2022
+NWU2_Q3_2023.xlsx;Deployment Frequency;NWU2;Security;Team Tau;Credit Scoring;Q3 2023;Robert Johnson;;No;21;43.7;10.87;5;2.99;100;16;0;Q3;2023
+NWU3_Q1_2024.xlsx;DevOps;NWU3;Mobile;Team Beta;Loan Processing System;Q1 2024;John Doe;;No;15;16.3;14.63;6;6.39;100;84;100;Q1;2024
+NWU6_Q1_2023.xlsx;Change Failure Rate;NWU6;Core Banking;Team Epsilon;Mobile Banking App;Q1 2023;Sarah Wilson;;No;13;34.8;3.85;1;4.16;0;31;0;Q1;2023
+NWU4_Q4_2023.xlsx;Mean Time to Repair;NWU4;Data & Analytics;Team Kappa;ATM Services;Q4 2023;Richard Anderson;;Yes;28;30.9;18.18;4;4.97;100;20;0;Q4;2023
+NWU4_Q3_2024.xlsx;Change Failure Rate;NWU4;Enterprise Services;Team Tau;Credit Scoring;Q3 2024;Jane Smith;;No;1;15.9;28.57;4;5.71;100;26;0;Q3;2024
+NWU1_Q1_2022.xlsx;Cycle Time for Changes;NWU1;Payments;Team Rho;Card Services;Q1 2022;David Miller;;No;6;9.6;35.48;11;0.22;100;36;100;Q1;2022
+NWU8_Q2_2022.xlsx;DevOps;NWU8;Security;Team Iota;Business Banking;Q2 2022;Lisa Thomas;;No;30;44.8;26.67;12;3.05;100;17;0;Q2;2022
+NWU2_Q3_2024.xlsx;Cycle Time for Changes;NWU2;Data & Analytics;Team Lambda;Fraud Detection;Q3 2024;Jane Smith;;Yes;12;11;13.64;3;1.27;0;96;100;Q3;2024
+NWU3_Q4_2024.xlsx;CICD Pipeline;NWU3;Enterprise Services;Team Pi;Business Banking;Q4 2024;Robert Johnson;;Yes;18;27.1;0;0;1.62;100;13;0;Q4;2024
+NWU2_Q1_2025.xlsx;Deployment Frequency;NWU2;Lending;Team Xi;Transaction Monitor;Q1 2025;Jane Smith;;No;2;5.2;6.82;3;6.46;100;35;0;Q1;2025
+NWU1_Q4_2022.xlsx;Deployment Frequency;NWU1;Core Banking;Team Iota;Card Services;Q4 2022;Richard Anderson;;Yes;19;14.9;20.59;7;5.61;100;85;100;Q4;2022
+NWU7_Q2_2024.xlsx;Cycle Time for Changes;NWU7;Infrastructure;Team Beta;Mortgage System;Q2 2024;Emily Davis;;Yes;27;5.3;0;0;6.68;0;38;0;Q2;2024
+NWU10_Q2_2023.xlsx;Mean Time to Repair;NWU10;Lending;Team Omicron;Account Management;Q2 2023;Michael Brown;;No;10;18.4;6.67;3;2.46;100;34;100;Q2;2023
+NWU8_Q3_2023.xlsx;Cycle Time for Changes;NWU8;Core Banking;Team Pi;Customer Onboarding;Q3 2023;Sarah Wilson;;Yes;23;35.8;0;0;4.54;100;40;100;Q3;2023
+NWU8_Q1_2025.xlsx;Cycle Time for Changes;NWU8;Core Banking;Team Beta;Payment Gateway;Q1 2025;Emily Davis;;No;8;34.2;28.57;2;1.12;100;90;0;Q1;2025
+NWU7_Q2_2025.xlsx;CICD Pipeline;NWU7;Lending;Team Delta;Wealth Management;Q2 2025;Jane Smith;;No;6;11.4;21.74;5;0.3;100;13;0;Q2;2025
+NWU5_Q1_2024.xlsx;DevOps;NWU5;Core Banking;Team Tau;Personal Finance Manager;Q1 2024;Jane Smith;;Yes;29;42.7;16.67;1;6.73;100;17;100;Q1;2024
+NWU1_Q2_2022.xlsx;DevOps;NWU1;Core Banking;Team Sigma;Customer Onboarding;Q2 2022;John Doe;;Yes;13;17;19.23;5;1.51;0;25;100;Q2;2022
+NWU2_Q2_2025.xlsx;Cycle Time for Changes;NWU2;Core Banking;Team Xi;Online Banking Portal;Q2 2025;David Miller;;No;5;5.4;16.67;1;6.74;0;92;100;Q2;2025
+NWU5_Q1_2025.xlsx;CICD Pipeline;NWU5;Infrastructure;Team Upsilon;Credit Scoring;Q1 2025;John Doe;;No;6;21.3;13.33;2;0.59;100;63;100;Q1;2025
+NWU9_Q4_2024.xlsx;Deployment Frequency;NWU9;Mobile;Team Xi;Fraud Detection;Q4 2024;Lisa Thomas;;No;6;34.9;40;6;6.04;100;17;100;Q4;2024
+NWU8_Q4_2025.xlsx;Mean Time to Repair;NWU8;Mobile;Team Nu;Personal Finance Manager;Q4 2025;Lisa Thomas;;No;6;6.2;12.12;4;0.16;100;79;100;Q4;2025
+NWU3_Q2_2025.xlsx;Test automation;NWU3;Infrastructure;Team Omicron;Account Management;Q2 2025;Michael Brown;;Yes;12;24.5;15.79;3;0.63;100;15;0;Q2;2025
+NWU7_Q1_2023.xlsx;DevOps;NWU7;Core Banking;Team Upsilon;API Gateway;Q1 2023;Emily Davis;;No;9;23;20;2;6.28;100;84;0;Q1;2023
+NWU9_Q4_2024.xlsx;Mean Time to Repair;NWU9;Payments;Team Nu;Credit Scoring;Q4 2024;Sarah Wilson;;Yes;23;10.5;18.18;2;5.29;100;44;0;Q4;2024
+NWU3_Q3_2024.xlsx;Test automation;NWU3;Digital Banking;Team Zeta;Online Banking Portal;Q3 2024;Robert Johnson;;No;14;32.1;14.29;1;0.14;100;55;0;Q3;2024
+NWU10_Q3_2022.xlsx;Mean Time to Repair;NWU10;Infrastructure;Team Lambda;Mobile Banking App;Q3 2022;Richard Anderson;;No;30;29.1;37.5;15;3.64;100;55;0;Q3;2022
+NWU6_Q2_2025.xlsx;CICD Pipeline;NWU6;Infrastructure;Team Omicron;Mortgage System;Q2 2025;Jane Smith;;No;11;1.3;25;7;3.11;100;37;0;Q2;2025
+NWU6_Q3_2025.xlsx;Change Failure Rate;NWU6;Customer Experience;Team Theta;ATM Services;Q3 2025;David Miller;;Yes;18;1.8;21.43;6;6.04;100;13;0;Q3;2025
+NWU4_Q2_2024.xlsx;Change Failure Rate;NWU4;Customer Experience;Team Iota;Investment Platform;Q2 2024;Jane Smith;;Yes;16;7.9;8;2;3.35;100;65;100;Q2;2024
+NWU9_Q2_2023.xlsx;DevOps;NWU9;Digital Banking;Team Rho;Identity Verification;Q2 2023;John Doe;;No;20;40.7;5.26;1;6.65;0;35;0;Q2;2023
+NWU5_Q2_2022.xlsx;Test automation;NWU5;Lending;Team Epsilon;Account Management;Q2 2022;Robert Johnson;;No;21;27.5;4.35;1;1.71;0;69;0;Q2;2022
+NWU1_Q1_2024.xlsx;Deployment Frequency;NWU1;Mobile;Team Kappa;Loan Processing System;Q1 2024;Emily Davis;;No;2;14.2;9.68;3;1.75;100;46;100;Q1;2024
+NWU3_Q2_2025.xlsx;DevOps;NWU3;Mobile;Team Upsilon;Credit Scoring;Q2 2025;Jennifer Taylor;;No;12;4.1;22.86;8;3.24;0;54;0;Q2;2025
+NWU5_Q2_2022.xlsx;Mean Time to Repair;NWU5;Infrastructure;Team Nu;Personal Finance Manager;Q2 2022;Jane Smith;;Yes;17;19.9;6.25;2;3.52;0;51;0;Q2;2022
+NWU10_Q2_2025.xlsx;CICD Pipeline;NWU10;Digital Banking;Team Beta;Payment Gateway;Q2 2025;Michael Brown;;Yes;27;32;3.7;1;0.89;0;38;0;Q2;2025
+NWU10_Q3_2022.xlsx;CICD Pipeline;NWU10;Data & Analytics;Team Gamma;Card Services;Q3 2022;Sarah Wilson;;No;18;27.9;31.25;5;1.61;0;81;0;Q3;2022
+NWU10_Q3_2024.xlsx;Deployment Frequency;NWU10;Payments;Team Gamma;Fraud Detection;Q3 2024;Lisa Thomas;;Yes;28;22.9;12.5;1;6.27;0;91;0;Q3;2024
+NWU1_Q2_2024.xlsx;DevOps;NWU1;Enterprise Services;Team Alpha;Identity Verification;Q2 2024;Richard Anderson;;Yes;18;38.9;32.35;11;2.13;0;49;0;Q2;2024
+NWU1_Q4_2025.xlsx;Mean Time to Repair;NWU1;Customer Experience;Team Delta;API Gateway;Q4 2025;Jane Smith;;No;15;1.1;11.11;2;1.34;100;74;0;Q4;2025
+NWU6_Q3_2022.xlsx;Cycle Time for Changes;NWU6;Mobile;Team Gamma;Online Banking Portal;Q3 2022;Richard Anderson;;Yes;24;38.4;0;0;2.65;100;99;100;Q3;2022
+NWU9_Q4_2025.xlsx;Change Failure Rate;NWU9;Security;Team Xi;Card Services;Q4 2025;Robert Johnson;;No;29;10.3;8.33;2;5.95;0;60;0;Q4;2025
+NWU7_Q4_2024.xlsx;Deployment Frequency;NWU7;Security;Team Iota;Credit Scoring;Q4 2024;David Miller;;No;4;27.6;32.61;15;4.94;0;79;100;Q4;2024
+NWU1_Q1_2025.xlsx;Cycle Time for Changes;NWU1;Infrastructure;Team Tau;Business Banking;Q1 2025;Robert Johnson;;Yes;19;3.3;16.67;1;4.59;0;60;0;Q1;2025
+NWU1_Q4_2025.xlsx;Cycle Time for Changes;NWU1;Digital Banking;Team Nu;Account Management;Q4 2025;Emily Davis;;Yes;6;16.9;8.33;1;4.12;0;69;0;Q4;2025
+NWU4_Q2_2023.xlsx;Change Failure Rate;NWU4;Payments;Team Tau;Investment Platform;Q2 2023;Michael Brown;;Yes;30;9.6;16.67;5;5.01;100;79;0;Q2;2023
+NWU2_Q1_2022.xlsx;CICD Pipeline;NWU2;Enterprise Services;Team Epsilon;Online Banking Portal;Q1 2022;John Doe;;Yes;25;11.5;34.78;16;6.81;100;84;0;Q1;2022
+NWU2_Q4_2022.xlsx;Cycle Time for Changes;NWU2;Payments;Team Gamma;Chatbot Assistant;Q4 2022;Lisa Thomas;;No;3;24.8;38.1;8;4.93;0;91;0;Q4;2022
+NWU5_Q1_2023.xlsx;Deployment Frequency;NWU5;Infrastructure;Team Beta;Payment Gateway;Q1 2023;Sarah Wilson;;No;30;39;12.77;6;4.92;0;14;0;Q1;2023
+NWU3_Q1_2022.xlsx;Test automation;NWU3;Security;Team Kappa;Wealth Management;Q1 2022;Lisa Thomas;;No;17;15.1;28.57;12;4.2;0;99;0;Q1;2022
+NWU10_Q4_2025.xlsx;CICD Pipeline;NWU10;Data & Analytics;Team Mu;Wealth Management;Q4 2025;Lisa Thomas;;No;4;9.3;17.95;7;4.32;0;82;0;Q4;2025
+NWU4_Q4_2023.xlsx;Mean Time to Repair;NWU4;Lending;Team Beta;Wealth Management;Q4 2023;Robert Johnson;;No;13;15.3;28.57;4;0.29;0;38;0;Q4;2023
+NWU6_Q1_2023.xlsx;Cycle Time for Changes;NWU6;Payments;Team Alpha;Customer Onboarding;Q1 2023;Sarah Wilson;;No;16;15.1;11.63;5;4.96;100;66;100;Q1;2023
+NWU10_Q4_2022.xlsx;DevOps;NWU10;Mobile;Team Sigma;Payment Gateway;Q4 2022;Richard Anderson;;No;25;19.3;3.85;1;1.69;100;51;0;Q4;2022
+NWU4_Q3_2022.xlsx;Cycle Time for Changes;NWU4;Security;Team Rho;Loan Processing System;Q3 2022;John Doe;;No;5;22.2;6.82;3;1.26;0;15;0;Q3;2022
+NWU8_Q1_2023.xlsx;Change Failure Rate;NWU8;Core Banking;Team Kappa;Credit Scoring;Q1 2023;David Miller;;Yes;24;6.3;18.75;6;2.39;100;22;100;Q1;2023
+NWU10_Q4_2025.xlsx;Deployment Frequency;NWU10;Digital Banking;Team Zeta;Wealth Management;Q4 2025;Sarah Wilson;;Yes;29;19.5;30.77;12;4.2;0;84;100;Q4;2025
+NWU4_Q3_2023.xlsx;CICD Pipeline;NWU4;Lending;Team Theta;Card Services;Q3 2023;Lisa Thomas;;Yes;12;30.9;10.42;5;0.66;0;64;0;Q3;2023
+NWU5_Q4_2023.xlsx;CICD Pipeline;NWU5;Core Banking;Team Omicron;Chatbot Assistant;Q4 2023;Michael Brown;;No;7;37.9;26.67;8;0.88;0;95;0;Q4;2023
+NWU7_Q4_2023.xlsx;Test automation;NWU7;Payments;Team Theta;API Gateway;Q4 2023;Sarah Wilson;;No;27;44;20;3;4;0;67;0;Q4;2023
+NWU9_Q2_2023.xlsx;Deployment Frequency;NWU9;Digital Banking;Team Kappa;API Gateway;Q2 2023;Michael Brown;;No;19;30.6;0;0;6.77;0;72;0;Q2;2023
+NWU4_Q2_2025.xlsx;Deployment Frequency;NWU4;Core Banking;Team Rho;Payment Gateway;Q2 2025;John Doe;;Yes;11;15.6;14.29;3;5.58;100;32;100;Q2;2025
+NWU4_Q2_2024.xlsx;Mean Time to Repair;NWU4;Lending;Team Iota;Chatbot Assistant;Q2 2024;Robert Johnson;;Yes;9;14.8;8.11;3;2.26;100;12;0;Q2;2024
+NWU7_Q4_2022.xlsx;Mean Time to Repair;NWU7;Enterprise Services;Team Xi;Payment Gateway;Q4 2022;Sarah Wilson;;No;5;28.8;6.38;3;5.49;100;61;100;Q4;2022
+NWU8_Q2_2025.xlsx;Test automation;NWU8;Customer Experience;Team Rho;Identity Verification;Q2 2025;Emily Davis;;Yes;25;26.8;11.76;2;0.68;0;42;0;Q2;2025
+NWU7_Q1_2023.xlsx;DevOps;NWU7;Mobile;Team Delta;Chatbot Assistant;Q1 2023;Michael Brown;;No;5;28.6;34.21;13;6.14;0;31;0;Q1;2023
+NWU7_Q1_2023.xlsx;Change Failure Rate;NWU7;Digital Banking;Team Rho;Credit Scoring;Q1 2023;Richard Anderson;;No;15;3.7;17.24;5;6.13;0;76;0;Q1;2023
+NWU4_Q4_2023.xlsx;DevOps;NWU4;Digital Banking;Team Alpha;Chatbot Assistant;Q4 2023;Jane Smith;;Yes;28;36;8.51;4;3.93;0;13;100;Q4;2023
+NWU3_Q1_2022.xlsx;DevOps;NWU3;Customer Experience;Team Zeta;Fraud Detection;Q1 2022;Emily Davis;;Yes;28;3.8;36.36;4;3.59;0;76;100;Q1;2022
+NWU9_Q4_2024.xlsx;Cycle Time for Changes;NWU9;Infrastructure;Team Upsilon;Regulatory Reporting;Q4 2024;Richard Anderson;;No;22;25.1;29.41;10;5.7;0;54;100;Q4;2024
+NWU8_Q1_2022.xlsx;CICD Pipeline;NWU8;Security;Team Zeta;API Gateway;Q1 2022;Michael Brown;;No;3;34.9;21.05;4;2.16;0;83;100;Q1;2022
+NWU1_Q1_2025.xlsx;Cycle Time for Changes;NWU1;Payments;Team Iota;Mobile Banking App;Q1 2025;Richard Anderson;;No;15;8.3;20.83;5;5.36;100;33;0;Q1;2025
+NWU5_Q3_2022.xlsx;Test automation;NWU5;Mobile;Team Beta;Card Services;Q3 2022;Emily Davis;;Yes;14;26.9;25;7;4.05;0;96;0;Q3;2022
+NWU5_Q3_2022.xlsx;Deployment Frequency;NWU5;Payments;Team Pi;ATM Services;Q3 2022;Jennifer Taylor;;No;9;28.3;3.57;1;0.58;100;42;0;Q3;2022
+NWU9_Q2_2023.xlsx;Test automation;NWU9;Infrastructure;Team Kappa;Customer Onboarding;Q2 2023;Emily Davis;;No;24;18.5;11.11;4;4.39;0;60;100;Q2;2023
+NWU2_Q2_2022.xlsx;Deployment Frequency;NWU2;Enterprise Services;Team Theta;ATM Services;Q2 2022;Michael Brown;;Yes;25;39.8;23.53;8;3.46;0;48;100;Q2;2022
+NWU1_Q2_2023.xlsx;DevOps;NWU1;Payments;Team Omicron;Mobile Banking App;Q2 2023;Jane Smith;;Yes;29;39.6;33.33;2;0.83;100;16;100;Q2;2023
+NWU7_Q4_2023.xlsx;CICD Pipeline;NWU7;Customer Experience;Team Tau;Credit Scoring;Q4 2023;Sarah Wilson;;No;25;27;5.26;1;4.44;0;49;0;Q4;2023
+NWU4_Q4_2025.xlsx;DevOps;NWU4;Mobile;Team Delta;Loan Processing System;Q4 2025;Robert Johnson;;No;21;32.3;11.11;3;0.92;100;10;100;Q4;2025
+NWU9_Q2_2025.xlsx;DevOps;NWU9;Enterprise Services;Team Epsilon;API Gateway;Q2 2025;Richard Anderson;;Yes;16;22.9;2.94;1;6.98;100;21;0;Q2;2025
+NWU10_Q4_2022.xlsx;Deployment Frequency;NWU10;Enterprise Services;Team Sigma;Credit Scoring;Q4 2022;Jane Smith;;Yes;26;34.8;21.43;3;3.6;100;99;100;Q4;2022
+NWU10_Q1_2022.xlsx;DevOps;NWU10;Customer Experience;Team Eta;Business Banking;Q1 2022;John Doe;;No;29;17.7;25;4;5.95;100;33;100;Q1;2022
+NWU4_Q1_2023.xlsx;DevOps;NWU4;Payments;Team Theta;Identity Verification;Q1 2023;Jane Smith;;No;27;30.2;17.65;6;2.83;0;72;100;Q1;2023
+NWU10_Q3_2024.xlsx;CICD Pipeline;NWU10;Digital Banking;Team Upsilon;Customer Onboarding;Q3 2024;Michael Brown;;No;12;41.1;27.27;6;5.01;100;60;0;Q3;2024
+NWU2_Q3_2022.xlsx;Cycle Time for Changes;NWU2;Payments;Team Upsilon;Customer Onboarding;Q3 2022;Jane Smith;;No;22;7.7;28.57;4;3.43;100;100;0;Q3;2022
+NWU6_Q4_2024.xlsx;Cycle Time for Changes;NWU6;Customer Experience;Team Rho;Business Banking;Q4 2024;John Doe;;No;26;43.1;14.29;1;4.54;0;53;100;Q4;2024
+NWU3_Q1_2025.xlsx;CICD Pipeline;NWU3;Enterprise Services;Team Theta;Investment Platform;Q1 2025;Jane Smith;;Yes;9;24.3;35.14;13;0.92;100;86;100;Q1;2025
+NWU1_Q2_2025.xlsx;Change Failure Rate;NWU1;Mobile;Team Sigma;Account Management;Q2 2025;David Miller;;No;28;2.4;20;4;3.75;0;63;0;Q2;2025
+NWU2_Q1_2023.xlsx;Change Failure Rate;NWU2;Infrastructure;Team Sigma;Customer Onboarding;Q1 2023;David Miller;;Yes;27;14.9;7.14;1;5.72;100;91;100;Q1;2023
+NWU5_Q2_2025.xlsx;Cycle Time for Changes;NWU5;Security;Team Iota;Mortgage System;Q2 2025;Emily Davis;;No;14;34.6;30.77;8;0.58;100;50;100;Q2;2025
+NWU5_Q3_2025.xlsx;Mean Time to Repair;NWU5;Security;Team Kappa;Mortgage System;Q3 2025;Robert Johnson;;No;26;33.5;10.87;5;1.59;100;70;0;Q3;2025
+NWU1_Q2_2025.xlsx;Cycle Time for Changes;NWU1;Security;Team Theta;API Gateway;Q2 2025;David Miller;;No;7;16.5;18.75;3;3.13;0;84;0;Q2;2025
+NWU10_Q2_2024.xlsx;Cycle Time for Changes;NWU10;Customer Experience;Team Beta;Regulatory Reporting;Q2 2024;Lisa Thomas;;Yes;23;24.9;6.52;3;6.96;0;29;0;Q2;2024
+NWU1_Q3_2025.xlsx;Cycle Time for Changes;NWU1;Payments;Team Nu;Personal Finance Manager;Q3 2025;Michael Brown;;Yes;19;38;31.25;5;5.79;100;15;100;Q3;2025
+NWU6_Q4_2025.xlsx;DevOps;NWU6;Core Banking;Team Kappa;ATM Services;Q4 2025;David Miller;;Yes;22;30;15.38;2;5.8;100;56;100;Q4;2025
+NWU10_Q1_2022.xlsx;Cycle Time for Changes;NWU10;Enterprise Services;Team Epsilon;Online Banking Portal;Q1 2022;Michael Brown;;Yes;7;44.6;34.48;10;2.52;100;79;0;Q1;2022
+NWU7_Q3_2023.xlsx;Deployment Frequency;NWU7;Payments;Team Iota;Investment Platform;Q3 2023;Lisa Thomas;;No;20;28.1;17.39;4;2.69;0;96;0;Q3;2023
+NWU2_Q1_2022.xlsx;Test automation;NWU2;Lending;Team Epsilon;Wealth Management;Q1 2022;Robert Johnson;;Yes;26;10.8;5.88;1;6.36;0;61;100;Q1;2022
+NWU7_Q2_2025.xlsx;Change Failure Rate;NWU7;Customer Experience;Team Gamma;Customer Onboarding;Q2 2025;Michael Brown;;Yes;22;10.9;22.22;6;4.56;0;17;100;Q2;2025
+NWU7_Q4_2022.xlsx;DevOps;NWU7;Data & Analytics;Team Upsilon;Personal Finance Manager;Q4 2022;Emily Davis;;No;12;35.8;4.44;2;1.18;100;83;0;Q4;2022
+NWU4_Q1_2025.xlsx;CICD Pipeline;NWU4;Payments;Team Alpha;Business Banking;Q1 2025;Michael Brown;;Yes;22;9.7;23.53;4;2.87;100;19;0;Q1;2025
+NWU4_Q1_2025.xlsx;Mean Time to Repair;NWU4;Core Banking;Team Nu;Transaction Monitor;Q1 2025;Richard Anderson;;Yes;3;12.5;15.38;6;4.45;100;18;0;Q1;2025
+NWU9_Q1_2022.xlsx;Test automation;NWU9;Lending;Team Delta;Mobile Banking App;Q1 2022;Lisa Thomas;;No;7;35.2;7.69;2;3.75;0;56;100;Q1;2022
+NWU2_Q4_2024.xlsx;Cycle Time for Changes;NWU2;Digital Banking;Team Pi;Regulatory Reporting;Q4 2024;Richard Anderson;;No;4;29.5;25;3;4.3;0;69;100;Q4;2024
+NWU7_Q3_2022.xlsx;DevOps;NWU7;Mobile;Team Beta;Investment Platform;Q3 2022;David Miller;;No;1;9.6;0;0;3.89;0;74;0;Q3;2022
+NWU9_Q1_2024.xlsx;Change Failure Rate;NWU9;Customer Experience;Team Sigma;Credit Scoring;Q1 2024;Jennifer Taylor;;Yes;17;3.6;10.87;5;0.39;0;31;100;Q1;2024
+NWU4_Q2_2024.xlsx;Cycle Time for Changes;NWU4;Customer Experience;Team Mu;Loan Processing System;Q2 2024;Jennifer Taylor;;No;2;15.5;2.44;1;0.74;0;34;100;Q2;2024
+NWU9_Q2_2025.xlsx;CICD Pipeline;NWU9;Data & Analytics;Team Theta;Regulatory Reporting;Q2 2025;David Miller;;Yes;29;37.5;36.84;14;6.96;0;65;0;Q2;2025
+NWU1_Q1_2025.xlsx;Test automation;NWU1;Customer Experience;Team Theta;Investment Platform;Q1 2025;John Doe;;Yes;17;1.4;13.33;4;5.39;0;80;100;Q1;2025
+NWU7_Q3_2022.xlsx;Mean Time to Repair;NWU7;Enterprise Services;Team Upsilon;Fraud Detection;Q3 2022;Robert Johnson;;Yes;29;12.2;6.98;3;0.67;0;14;0;Q3;2022
+NWU6_Q2_2022.xlsx;DevOps;NWU6;Enterprise Services;Team Eta;Business Banking;Q2 2022;Emily Davis;;Yes;24;41.1;25;3;3.17;0;24;100;Q2;2022
+NWU7_Q2_2024.xlsx;DevOps;NWU7;Mobile;Team Sigma;Online Banking Portal;Q2 2024;John Doe;;Yes;6;41.3;19.15;9;4.29;0;65;0;Q2;2024
+NWU5_Q2_2022.xlsx;Mean Time to Repair;NWU5;Security;Team Alpha;API Gateway;Q2 2022;John Doe;;No;21;40.5;9.52;2;5.86;100;59;100;Q2;2022
+NWU6_Q1_2023.xlsx;CICD Pipeline;NWU6;Customer Experience;Team Kappa;Chatbot Assistant;Q1 2023;Robert Johnson;;Yes;29;28.7;35.71;5;2.13;0;76;0;Q1;2023
+NWU3_Q2_2024.xlsx;Deployment Frequency;NWU3;Digital Banking;Team Theta;Investment Platform;Q2 2024;Jane Smith;;Yes;4;37.2;0;0;0.7;100;71;0;Q2;2024
+NWU2_Q4_2022.xlsx;Test automation;NWU2;Customer Experience;Team Gamma;Business Banking;Q4 2022;Jennifer Taylor;;No;17;34.8;13.33;6;0.38;100;99;100;Q4;2022
+NWU9_Q4_2024.xlsx;Change Failure Rate;NWU9;Payments;Team Epsilon;Card Services;Q4 2024;Emily Davis;;Yes;16;39.7;23.08;9;4.58;0;26;0;Q4;2024
+NWU2_Q3_2024.xlsx;Deployment Frequency;NWU2;Digital Banking;Team Iota;Transaction Monitor;Q3 2024;John Doe;;No;29;15.4;32.35;11;2.17;100;60;0;Q3;2024
+NWU4_Q2_2025.xlsx;Deployment Frequency;NWU4;Enterprise Services;Team Theta;ATM Services;Q2 2025;Robert Johnson;;No;21;27.6;19.57;9;4.04;100;84;0;Q2;2025
+NWU3_Q1_2022.xlsx;DevOps;NWU3;Customer Experience;Team Rho;Wealth Management;Q1 2022;Richard Anderson;;Yes;24;44.1;21.05;4;1.56;0;78;0;Q1;2022
+NWU3_Q2_2025.xlsx;Mean Time to Repair;NWU3;Core Banking;Team Delta;Fraud Detection;Q2 2025;Emily Davis;;Yes;9;28.6;13.04;6;5.49;0;44;100;Q2;2025
+NWU3_Q3_2022.xlsx;Mean Time to Repair;NWU3;Enterprise Services;Team Iota;API Gateway;Q3 2022;Emily Davis;;No;5;17.3;6.06;2;2.71;0;75;100;Q3;2022
+NWU2_Q4_2025.xlsx;Test automation;NWU2;Data & Analytics;Team Mu;Investment Platform;Q4 2025;John Doe;;Yes;29;25.5;14.29;7;6.51;0;57;100;Q4;2025
+NWU3_Q2_2023.xlsx;Test automation;NWU3;Customer Experience;Team Rho;Credit Scoring;Q2 2023;Michael Brown;;No;26;43.3;28.57;14;1.33;0;11;0;Q2;2023
+NWU1_Q2_2023.xlsx;DevOps;NWU1;Mobile;Team Delta;Payment Gateway;Q2 2023;John Doe;;Yes;28;8.9;9.3;4;1.2;100;87;100;Q2;2023
+NWU8_Q2_2023.xlsx;Test automation;NWU8;Enterprise Services;Team Beta;Personal Finance Manager;Q2 2023;Jennifer Taylor;;Yes;27;18.7;26.32;5;5.91;100;75;0;Q2;2023
+NWU8_Q4_2025.xlsx;Deployment Frequency;NWU8;Customer Experience;Team Alpha;Payment Gateway;Q4 2025;Jennifer Taylor;;No;18;19.9;22.22;8;0.25;100;66;0;Q4;2025
+NWU2_Q4_2022.xlsx;Mean Time to Repair;NWU2;Customer Experience;Team Mu;Credit Scoring;Q4 2022;Richard Anderson;;No;13;4.6;27.66;13;3.5;0;33;0;Q4;2022
+NWU9_Q2_2023.xlsx;DevOps;NWU9;Data & Analytics;Team Eta;Wealth Management;Q2 2023;Richard Anderson;;Yes;26;5.8;9.09;1;1.49;0;68;0;Q2;2023
+NWU6_Q1_2024.xlsx;Mean Time to Repair;NWU6;Digital Banking;Team Rho;Card Services;Q1 2024;Jane Smith;;Yes;21;3.9;33.33;2;5.82;0;99;100;Q1;2024
+NWU5_Q4_2023.xlsx;CICD Pipeline;NWU5;Mobile;Team Mu;Wealth Management;Q4 2023;Emily Davis;;No;18;30.4;14.29;2;5.72;100;66;0;Q4;2023
+NWU3_Q4_2025.xlsx;CICD Pipeline;NWU3;Core Banking;Team Zeta;Chatbot Assistant;Q4 2025;Richard Anderson;;Yes;7;43.4;4;1;2.68;100;73;0;Q4;2025
+NWU10_Q1_2023.xlsx;Deployment Frequency;NWU10;Payments;Team Beta;Personal Finance Manager;Q1 2023;Sarah Wilson;;No;23;41;0;0;4.29;100;18;0;Q1;2023
+NWU5_Q1_2025.xlsx;Change Failure Rate;NWU5;Enterprise Services;Team Nu;Identity Verification;Q1 2025;Sarah Wilson;;No;18;10.7;3.85;1;4.3;100;54;0;Q1;2025
+NWU9_Q4_2025.xlsx;Deployment Frequency;NWU9;Enterprise Services;Team Nu;Fraud Detection;Q4 2025;Sarah Wilson;;Yes;13;20.2;12.5;1;0.97;100;11;0;Q4;2025
+NWU5_Q2_2024.xlsx;Test automation;NWU5;Enterprise Services;Team Sigma;Chatbot Assistant;Q2 2024;Michael Brown;;Yes;13;7.5;15;6;4.34;0;35;100;Q2;2024
+NWU9_Q3_2022.xlsx;Test automation;NWU9;Data & Analytics;Team Upsilon;Payment Gateway;Q3 2022;Jennifer Taylor;;No;22;38.7;18.42;7;5.08;0;67;0;Q3;2022
+NWU1_Q1_2022.xlsx;Mean Time to Repair;NWU1;Data & Analytics;Team Mu;Fraud Detection;Q1 2022;Sarah Wilson;;Yes;15;18.3;7.69;1;4.57;100;64;0;Q1;2022
+NWU6_Q3_2023.xlsx;Mean Time to Repair;NWU6;Data & Analytics;Team Delta;Payment Gateway;Q3 2023;Jane Smith;;Yes;16;22.2;12.9;4;2.85;0;15;0;Q3;2023
+NWU6_Q1_2022.xlsx;CICD Pipeline;NWU6;Enterprise Services;Team Rho;Loan Processing System;Q1 2022;David Miller;;Yes;27;16.4;0;0;0.87;0;60;100;Q1;2022
+NWU5_Q4_2025.xlsx;Test automation;NWU5;Infrastructure;Team Tau;Online Banking Portal;Q4 2025;Sarah Wilson;;No;30;43.2;2.44;1;2.17;0;17;0;Q4;2025
+NWU10_Q2_2024.xlsx;Mean Time to Repair;NWU10;Mobile;Team Rho;Loan Processing System;Q2 2024;Sarah Wilson;;No;23;33.6;22.5;9;5.85;0;27;0;Q2;2024
+NWU10_Q3_2025.xlsx;CICD Pipeline;NWU10;Data & Analytics;Team Nu;API Gateway;Q3 2025;Richard Anderson;;No;9;9.3;29.41;5;1.61;0;46;0;Q3;2025
+NWU8_Q3_2023.xlsx;Deployment Frequency;NWU8;Data & Analytics;Team Mu;Mortgage System;Q3 2023;John Doe;;Yes;16;13.5;32.56;14;5.89;0;29;0;Q3;2023
+NWU1_Q3_2023.xlsx;Mean Time to Repair;NWU1;Core Banking;Team Beta;Regulatory Reporting;Q3 2023;Richard Anderson;;No;29;43.7;14.29;2;2.88;0;28;0;Q3;2023
+NWU1_Q2_2022.xlsx;Deployment Frequency;NWU1;Data & Analytics;Team Gamma;Credit Scoring;Q2 2022;Emily Davis;;Yes;2;27.3;18.75;6;1.1;100;12;0;Q2;2022
+NWU1_Q2_2023.xlsx;CICD Pipeline;NWU1;Infrastructure;Team Zeta;Account Management;Q2 2023;Emily Davis;;Yes;21;5.1;11.11;5;2.78;0;22;0;Q2;2023
+NWU2_Q1_2022.xlsx;Change Failure Rate;NWU2;Payments;Team Epsilon;Online Banking Portal;Q1 2022;Jane Smith;;No;26;25.8;31.82;7;6.95;100;72;0;Q1;2022
+NWU8_Q4_2024.xlsx;Deployment Frequency;NWU8;Enterprise Services;Team Alpha;Online Banking Portal;Q4 2024;David Miller;;No;14;42.5;6.25;1;2.48;0;81;0;Q4;2024
+NWU2_Q3_2023.xlsx;Mean Time to Repair;NWU2;Mobile;Team Nu;Chatbot Assistant;Q3 2023;Robert Johnson;;Yes;1;8.9;36.36;4;3.74;0;16;100;Q3;2023
+NWU1_Q3_2024.xlsx;Mean Time to Repair;NWU1;Infrastructure;Team Omicron;Mobile Banking App;Q3 2024;Jane Smith;;No;24;27.8;0;0;4.7;0;15;0;Q3;2024
+NWU5_Q4_2023.xlsx;CICD Pipeline;NWU5;Lending;Team Rho;Online Banking Portal;Q4 2023;Richard Anderson;;Yes;9;40.5;0;0;4.41;0;30;0;Q4;2023
+NWU1_Q4_2022.xlsx;CICD Pipeline;NWU1;Lending;Team Iota;Identity Verification;Q4 2022;John Doe;;No;7;26.7;16.67;5;1.68;0;58;100;Q4;2022
+NWU5_Q4_2025.xlsx;CICD Pipeline;NWU5;Core Banking;Team Tau;Customer Onboarding;Q4 2025;Jane Smith;;No;12;2.3;11.76;2;2.22;0;60;100;Q4;2025
+NWU4_Q3_2025.xlsx;Cycle Time for Changes;NWU4;Security;Team Omicron;Fraud Detection;Q3 2025;Michael Brown;;No;11;26.3;23.08;6;1.28;0;98;0;Q3;2025
+NWU8_Q1_2024.xlsx;Test automation;NWU8;Infrastructure;Team Xi;Mortgage System;Q1 2024;Emily Davis;;No;14;1.3;23.68;9;5.84;100;56;0;Q1;2024
+NWU7_Q4_2025.xlsx;Cycle Time for Changes;NWU7;Core Banking;Team Alpha;Account Management;Q4 2025;Michael Brown;;Yes;9;32.2;28.57;4;2.77;0;87;0;Q4;2025
+NWU6_Q1_2023.xlsx;Test automation;NWU6;Enterprise Services;Team Upsilon;API Gateway;Q1 2023;Jane Smith;;Yes;7;6;26.09;12;1.07;100;93;0;Q1;2023
+NWU4_Q2_2025.xlsx;Deployment Frequency;NWU4;Infrastructure;Team Alpha;Account Management;Q2 2025;Sarah Wilson;;Yes;21;8.5;10.42;5;1.25;100;93;0;Q2;2025
+NWU5_Q3_2025.xlsx;Test automation;NWU5;Mobile;Team Upsilon;Identity Verification;Q3 2025;Lisa Thomas;;Yes;18;34.2;30.77;12;6.49;100;61;100;Q3;2025
+NWU10_Q1_2024.xlsx;Test automation;NWU10;Customer Experience;Team Mu;Wealth Management;Q1 2024;David Miller;;No;13;30.6;14.29;1;4.7;0;25;0;Q1;2024
+NWU2_Q3_2025.xlsx;Cycle Time for Changes;NWU2;Lending;Team Pi;Business Banking;Q3 2025;John Doe;;No;29;42.4;35.71;5;6.57;0;72;0;Q3;2025
+NWU1_Q4_2024.xlsx;Deployment Frequency;NWU1;Data & Analytics;Team Iota;Transaction Monitor;Q4 2024;Emily Davis;;Yes;26;17;15.56;7;4.44;100;99;0;Q4;2024
+NWU1_Q4_2024.xlsx;CICD Pipeline;NWU1;Core Banking;Team Kappa;Loan Processing System;Q4 2024;David Miller;;Yes;5;8.2;21.43;3;2.73;0;47;0;Q4;2024
+NWU5_Q2_2024.xlsx;Deployment Frequency;NWU5;Security;Team Omicron;Regulatory Reporting;Q2 2024;Robert Johnson;;Yes;27;11.2;33.33;9;3.72;100;21;0;Q2;2024
+NWU8_Q3_2022.xlsx;CICD Pipeline;NWU8;Mobile;Team Rho;Chatbot Assistant;Q3 2022;John Doe;;Yes;22;23.5;25;3;3.77;0;26;100;Q3;2022
+NWU9_Q1_2024.xlsx;DevOps;NWU9;Core Banking;Team Sigma;Identity Verification;Q1 2024;John Doe;;Yes;9;21.9;39.29;11;2.06;0;51;100;Q1;2024
+NWU6_Q2_2024.xlsx;Deployment Frequency;NWU6;Core Banking;Team Kappa;Wealth Management;Q2 2024;Jane Smith;;Yes;9;43.7;6.25;1;1.47;100;51;100;Q2;2024
+NWU1_Q4_2022.xlsx;CICD Pipeline;NWU1;Lending;Team Gamma;API Gateway;Q4 2022;Jane Smith;;Yes;25;42.7;7.14;1;3.97;0;61;0;Q4;2022
+NWU4_Q4_2023.xlsx;Mean Time to Repair;NWU4;Customer Experience;Team Sigma;Wealth Management;Q4 2023;Jane Smith;;Yes;18;16.7;25;2;4.45;0;47;100;Q4;2023
+NWU8_Q3_2023.xlsx;DevOps;NWU8;Infrastructure;Team Rho;Investment Platform;Q3 2023;Emily Davis;;Yes;12;22.5;26.92;7;4.17;100;78;0;Q3;2023
+NWU4_Q3_2022.xlsx;Change Failure Rate;NWU4;Security;Team Nu;Chatbot Assistant;Q3 2022;Jennifer Taylor;;Yes;23;18.2;28.57;2;0.85;0;27;100;Q3;2022
+NWU3_Q3_2024.xlsx;Deployment Frequency;NWU3;Digital Banking;Team Gamma;Investment Platform;Q3 2024;Emily Davis;;No;30;39.8;27.27;3;3.25;0;78;0;Q3;2024
+NWU10_Q1_2022.xlsx;Test automation;NWU10;Lending;Team Nu;Customer Onboarding;Q1 2022;Sarah Wilson;;Yes;16;21.6;0;0;1.45;0;22;0;Q1;2022
+NWU1_Q4_2025.xlsx;Test automation;NWU1;Enterprise Services;Team Nu;Personal Finance Manager;Q4 2025;Jane Smith;;Yes;23;17;2.33;1;1.19;0;37;100;Q4;2025
+NWU10_Q2_2025.xlsx;DevOps;NWU10;Infrastructure;Team Sigma;Chatbot Assistant;Q2 2025;Jennifer Taylor;;Yes;24;19.7;11.9;5;3.24;100;45;0;Q2;2025
+NWU1_Q2_2023.xlsx;Cycle Time for Changes;NWU1;Enterprise Services;Team Sigma;Business Banking;Q2 2023;Robert Johnson;;Yes;5;22.5;27.78;10;3.93;0;39;100;Q2;2023
+NWU4_Q2_2023.xlsx;Deployment Frequency;NWU4;Payments;Team Iota;Chatbot Assistant;Q2 2023;Sarah Wilson;;No;16;2.6;36.36;16;1.29;100;17;100;Q2;2023
+NWU3_Q1_2025.xlsx;Deployment Frequency;NWU3;Digital Banking;Team Tau;Mobile Banking App;Q1 2025;Michael Brown;;Yes;19;34.4;2.78;1;6.2;0;56;0;Q1;2025
+NWU7_Q3_2022.xlsx;Test automation;NWU7;Security;Team Kappa;Wealth Management;Q3 2022;Emily Davis;;Yes;5;29.3;18.18;2;0.27;100;74;0;Q3;2022
+NWU9_Q1_2023.xlsx;CICD Pipeline;NWU9;Mobile;Team Sigma;Fraud Detection;Q1 2023;Sarah Wilson;;No;5;43.7;16;4;6.39;0;18;0;Q1;2023
+NWU2_Q3_2022.xlsx;Test automation;NWU2;Infrastructure;Team Rho;Personal Finance Manager;Q3 2022;Jane Smith;;Yes;5;43;12.5;1;6.53;0;59;0;Q3;2022
+NWU1_Q3_2024.xlsx;DevOps;NWU1;Security;Team Iota;Fraud Detection;Q3 2024;John Doe;;No;20;30.1;20;2;0.5;0;31;0;Q3;2024
+NWU8_Q2_2024.xlsx;DevOps;NWU8;Security;Team Rho;Online Banking Portal;Q2 2024;Emily Davis;;No;21;14;16.22;6;3.4;0;29;0;Q2;2024
+NWU9_Q1_2025.xlsx;Test automation;NWU9;Core Banking;Team Xi;Account Management;Q1 2025;John Doe;;No;16;19.4;33.33;2;3.97;0;24;0;Q1;2025
+NWU3_Q4_2025.xlsx;CICD Pipeline;NWU3;Customer Experience;Team Epsilon;Wealth Management;Q4 2025;Sarah Wilson;;Yes;26;24.8;34.78;16;2.17;0;19;100;Q4;2025
+NWU4_Q3_2025.xlsx;Deployment Frequency;NWU4;Lending;Team Upsilon;Online Banking Portal;Q3 2025;Emily Davis;;Yes;2;13.7;6.9;2;0.75;100;88;0;Q3;2025
+NWU6_Q1_2025.xlsx;Mean Time to Repair;NWU6;Enterprise Services;Team Theta;Investment Platform;Q1 2025;Sarah Wilson;;Yes;20;10.1;10.42;5;5.04;0;25;0;Q1;2025
+NWU1_Q4_2025.xlsx;Mean Time to Repair;NWU1;Data & Analytics;Team Xi;Account Management;Q4 2025;Emily Davis;;No;10;39.4;35.71;10;2.91;0;19;0;Q4;2025
+NWU1_Q4_2023.xlsx;Deployment Frequency;NWU1;Enterprise Services;Team Iota;Card Services;Q4 2023;Jane Smith;;No;14;8.9;12.5;3;6.9;0;48;100;Q4;2023
+NWU8_Q3_2025.xlsx;Mean Time to Repair;NWU8;Lending;Team Zeta;Transaction Monitor;Q3 2025;Richard Anderson;;No;5;22.7;11.11;3;6.44;0;22;100;Q3;2025
+NWU2_Q3_2023.xlsx;Mean Time to Repair;NWU2;Core Banking;Team Theta;Business Banking;Q3 2023;Richard Anderson;;Yes;8;2.1;6.25;2;2.85;0;16;100;Q3;2023
+NWU2_Q3_2023.xlsx;DevOps;NWU2;Customer Experience;Team Epsilon;Fraud Detection;Q3 2023;John Doe;;Yes;12;8.8;27.27;6;6.91;0;23;0;Q3;2023
+NWU5_Q4_2022.xlsx;Mean Time to Repair;NWU5;Data & Analytics;Team Kappa;Customer Onboarding;Q4 2022;Emily Davis;;No;7;25.9;0;0;0.22;100;55;0;Q4;2022
+NWU6_Q2_2023.xlsx;Change Failure Rate;NWU6;Lending;Team Xi;Personal Finance Manager;Q2 2023;Jane Smith;;No;20;34.2;11.11;3;4.71;0;79;100;Q2;2023
+NWU9_Q1_2025.xlsx;DevOps;NWU9;Customer Experience;Team Rho;Transaction Monitor;Q1 2025;Michael Brown;;No;22;11.2;28.57;2;2.64;100;56;100;Q1;2025
+NWU8_Q4_2022.xlsx;Mean Time to Repair;NWU8;Infrastructure;Team Beta;Online Banking Portal;Q4 2022;Emily Davis;;Yes;7;37.3;16.67;8;4.37;0;91;0;Q4;2022
+NWU7_Q3_2023.xlsx;Test automation;NWU7;Data & Analytics;Team Nu;Payment Gateway;Q3 2023;Jennifer Taylor;;No;2;12.9;32.61;15;3.84;0;81;100;Q3;2023
+NWU2_Q3_2022.xlsx;Cycle Time for Changes;NWU2;Enterprise Services;Team Nu;Investment Platform;Q3 2022;John Doe;;Yes;27;22;12;3;3.11;0;84;100;Q3;2022
+NWU7_Q4_2024.xlsx;DevOps;NWU7;Payments;Team Omicron;Mobile Banking App;Q4 2024;Emily Davis;;Yes;11;39.6;17.39;4;4.53;0;72;0;Q4;2024
+NWU2_Q4_2023.xlsx;CICD Pipeline;NWU2;Infrastructure;Team Gamma;Business Banking;Q4 2023;Jennifer Taylor;;No;24;7.6;0;0;1.9;0;74;0;Q4;2023
+NWU3_Q4_2023.xlsx;Change Failure Rate;NWU3;Mobile;Team Theta;Account Management;Q4 2023;Emily Davis;;Yes;9;42;27.27;3;4.21;0;89;100;Q4;2023
+NWU10_Q2_2024.xlsx;DevOps;NWU10;Lending;Team Mu;Investment Platform;Q2 2024;Richard Anderson;;Yes;2;15.8;28;7;1.1;100;69;0;Q2;2024
+NWU5_Q1_2025.xlsx;Change Failure Rate;NWU5;Digital Banking;Team Delta;Business Banking;Q1 2025;Robert Johnson;;No;4;18.9;28.13;9;5.18;100;44;0;Q1;2025
+NWU10_Q4_2025.xlsx;Cycle Time for Changes;NWU10;Core Banking;Team Gamma;Mobile Banking App;Q4 2025;Sarah Wilson;;Yes;24;34.5;38.1;8;2.7;0;50;0;Q4;2025
+NWU7_Q3_2023.xlsx;Mean Time to Repair;NWU7;Customer Experience;Team Alpha;Investment Platform;Q3 2023;Lisa Thomas;;No;2;13;0;0;6.65;100;39;100;Q3;2023
+NWU8_Q1_2023.xlsx;Deployment Frequency;NWU8;Payments;Team Xi;Mobile Banking App;Q1 2023;David Miller;;Yes;22;17.7;8.7;2;1.25;100;36;100;Q1;2023
+NWU8_Q4_2022.xlsx;Change Failure Rate;NWU8;Customer Experience;Team Zeta;Chatbot Assistant;Q4 2022;Robert Johnson;;No;20;26.9;15.38;4;2.37;0;63;0;Q4;2022
+NWU4_Q4_2025.xlsx;Deployment Frequency;NWU4;Infrastructure;Team Theta;Mobile Banking App;Q4 2025;John Doe;;Yes;25;10.8;12.5;6;4.63;0;29;0;Q4;2025
+NWU3_Q3_2025.xlsx;Change Failure Rate;NWU3;Infrastructure;Team Epsilon;Payment Gateway;Q3 2025;Michael Brown;;No;11;22.6;28.57;6;1.59;100;72;100;Q3;2025
+NWU2_Q2_2022.xlsx;Deployment Frequency;NWU2;Infrastructure;Team Rho;Identity Verification;Q2 2022;Sarah Wilson;;No;6;39;18.92;7;5.94;0;14;100;Q2;2022
+NWU6_Q1_2025.xlsx;Test automation;NWU6;Digital Banking;Team Epsilon;Business Banking;Q1 2025;Richard Anderson;;No;13;18.7;32.35;11;3.25;100;39;100;Q1;2025
+NWU8_Q1_2023.xlsx;Change Failure Rate;NWU8;Payments;Team Xi;Account Management;Q1 2023;Sarah Wilson;;Yes;17;15.3;12.5;1;0.57;0;66;0;Q1;2023
+NWU6_Q4_2023.xlsx;CICD Pipeline;NWU6;Security;Team Pi;Investment Platform;Q4 2023;Jennifer Taylor;;Yes;25;44.4;25;3;2.3;0;12;100;Q4;2023
+NWU7_Q1_2023.xlsx;Test automation;NWU7;Lending;Team Epsilon;Investment Platform;Q1 2023;Richard Anderson;;No;4;33.8;27.03;10;6.61;100;47;100;Q1;2023
+NWU4_Q2_2022.xlsx;CICD Pipeline;NWU4;Security;Team Nu;Identity Verification;Q2 2022;Emily Davis;;Yes;8;15.5;28.57;4;4.32;0;17;100;Q2;2022
+NWU9_Q2_2022.xlsx;CICD Pipeline;NWU9;Payments;Team Omicron;Account Management;Q2 2022;John Doe;;No;24;41.2;0;0;5.94;100;46;0;Q2;2022
+NWU6_Q1_2023.xlsx;Mean Time to Repair;NWU6;Data & Analytics;Team Rho;API Gateway;Q1 2023;Sarah Wilson;;Yes;21;43.1;16.67;1;4.52;0;74;100;Q1;2023
+NWU2_Q1_2025.xlsx;Test automation;NWU2;Mobile;Team Kappa;Mortgage System;Q1 2025;Robert Johnson;;Yes;1;17.9;0;0;0.5;100;73;0;Q1;2025
+NWU1_Q4_2024.xlsx;Test automation;NWU1;Lending;Team Theta;Business Banking;Q4 2024;David Miller;;No;7;7.4;23.68;9;5.08;100;96;100;Q4;2024
+NWU6_Q4_2025.xlsx;Mean Time to Repair;NWU6;Customer Experience;Team Delta;Chatbot Assistant;Q4 2025;Sarah Wilson;;No;21;21.3;16.67;2;5.78;0;56;100;Q4;2025
+NWU3_Q1_2024.xlsx;Test automation;NWU3;Core Banking;Team Nu;Online Banking Portal;Q1 2024;Jane Smith;;No;5;39.5;21.43;9;5.9;0;58;100;Q1;2024
+NWU8_Q3_2025.xlsx;DevOps;NWU8;Data & Analytics;Team Mu;API Gateway;Q3 2025;John Doe;;Yes;27;19.8;13.04;3;0.86;0;71;100;Q3;2025
+NWU6_Q2_2025.xlsx;Deployment Frequency;NWU6;Infrastructure;Team Gamma;Fraud Detection;Q2 2025;Jennifer Taylor;;No;27;44.9;21.43;3;3.2;100;36;100;Q2;2025
+NWU1_Q4_2024.xlsx;CICD Pipeline;NWU1;Customer Experience;Team Sigma;Card Services;Q4 2024;Robert Johnson;;Yes;20;42.7;30.95;13;6.63;0;92;100;Q4;2024
+NWU8_Q4_2022.xlsx;DevOps;NWU8;Infrastructure;Team Pi;API Gateway;Q4 2022;Jennifer Taylor;;Yes;23;40.8;23.4;11;4.48;100;89;100;Q4;2022
+NWU6_Q4_2022.xlsx;Cycle Time for Changes;NWU6;Lending;Team Tau;Business Banking;Q4 2022;Jane Smith;;Yes;22;44.7;20;5;3.33;100;96;100;Q4;2022

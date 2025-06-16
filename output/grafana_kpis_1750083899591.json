@@ -1,0 +1,239 @@
+[
+  {
+    "target": "NWU1 - Deployment Frequency",
+    "datapoints": [
+      [
+        1,
+        1711922400000
+      ]
+    ],
+    "tags": {
+      "nwb": "NWU1",
+      "team": "Lending PI stream",
+      "tribe": "Tribe1",
+      "kpi": "Deployment Frequency",
+      "product": "Automatic Payment"
+    }
+  },
+  {
+    "target": "NWU1 - Cycle Time for Changes",
+    "datapoints": [
+      [
+        22,
+        1711922400000
+      ]
+    ],
+    "tags": {
+      "nwb": "NWU1",
+      "team": "Lending PI stream",
+      "tribe": "Tribe1",
+      "kpi": "Cycle Time for Changes",
+      "product": "Automatic Payment"
+    }
+  },
+  {
+    "target": "NWU1 - Change Failure Rate",
+    "datapoints": [
+      [
+        4.55,
+        1711922400000
+      ]
+    ],
+    "tags": {
+      "nwb": "NWU1",
+      "team": "Lending PI stream",
+      "tribe": "Tribe1",
+      "kpi": "Change Failure Rate",
+      "product": "Automatic Payment"
+    }
+  },
+  {
+    "target": "NWU1 - Mean Time to Repair",
+    "datapoints": [
+      [
+        96,
+        1711922400000
+      ]
+    ],
+    "tags": {
+      "nwb": "NWU1",
+      "team": "Lending PI stream",
+      "tribe": "Tribe1",
+      "kpi": "Mean Time to Repair",
+      "product": "Automatic Payment"
+    }
+  },
+  {
+    "target": "NWU1 - CICD Pipeline",
+    "datapoints": [
+      [
+        100,
+        1711922400000
+      ]
+    ],
+    "tags": {
+      "nwb": "NWU1",
+      "team": "Lending PI stream",
+      "tribe": "Tribe1",
+      "kpi": "CICD Pipeline",
+      "product": "Automatic Payment"
+    }
+  },
+  {
+    "target": "NWU1 - Test automation",
+    "datapoints": [
+      [
+        70,
+        1711922400000
+      ]
+    ],
+    "tags": {
+      "nwb": "NWU1",
+      "team": "Lending PI stream",
+      "tribe": "Tribe1",
+      "kpi": "Test automation",
+      "product": "Automatic Payment"
+    }
+  },
+  {
+    "target": "NWU1 - DevOps",
+    "datapoints": [
+      [
+        100,
+        1711922400000
+      ]
+    ],
+    "tags": {
+      "nwb": "NWU1",
+      "team": "Lending PI stream",
+      "tribe": "Tribe1",
+      "kpi": "DevOps",
+      "product": "Automatic Payment"
+    }
+  },
+  {
+    "target": "NWU1 - Deployment Frequency",
+    "datapoints": [
+      [
+        2,
+        1711922400000
+      ]
+    ],
+    "tags": {
+      "nwb": "NWU1",
+      "team": "Core",
+      "tribe": "Tribe2",
+      "kpi": "Deployment Frequency",
+      "product": "Core"
+    }
+  },
+  {
+    "target": "NWU1 - Cycle Time for Changes",
+    "datapoints": [
+      [
+        11,
+        1711922400000
+      ]
+    ],
+    "tags": {
+      "nwb": "NWU1",
+      "team": "Core",
+      "tribe": "Tribe2",
+      "kpi": "Cycle Time for Changes",
+      "product": "Core"
+    }
+  },
+  {
+    "target": "NWU1 - Change Failure Rate",
+    "datapoints": [
+      [
+        27.27,
+        1711922400000
+      ]
+    ],
+    "tags": {
+      "nwb": "NWU1",
+      "team": "Core",
+      "tribe": "Tribe2",
+      "kpi": "Change Failure Rate",
+      "product": "Core"
+    }
+  },
+  {
+    "target": "NWU1 - Mean Time to Repair",
+    "datapoints": [
+      [
+        24,
+        1711922400000
+      ]
+    ],
+    "tags": {
+      "nwb": "NWU1",
+      "team": "Core",
+      "tribe": "Tribe2",
+      "kpi": "Mean Time to Repair",
+      "product": "Core"
+    }
+  },
+  {
+    "target": "NWU1 - CICD Pipeline",
+    "datapoints": [
+      [
+        0,
+        1711922400000
+      ]
+    ],
+    "tags": {
+      "nwb": "NWU1",
+      "team": "Core",
+      "tribe": "Tribe2",
+      "kpi": "CICD Pipeline",
+      "product": "Core"
+    }
+  },
+  {
+    "target": "NWU1 - Test automation",
+    "datapoints": [
+      [
+        100,
+        1711922400000
+      ]
+    ],
+    "tags": {
+      "nwb": "NWU1",
+      "team": "Core",
+      "tribe": "Tribe2",
+      "kpi": "Test automation",
+      "product": "Core"
+    }
+  },
+  {
+    "target": "NWU1 - DevOps",
+    "datapoints": [
+      [
+        100,
+        1711922400000
+      ]
+    ],
+    "tags": {
+      "nwb": "NWU1",
+      "team": "Core",
+      "tribe": "Tribe2",
+      "kpi": "DevOps",
+      "product": "Core"
+    }
+  },
+  {
+    "target": "NWU1 - Team Count",
+    "datapoints": [
+      [
+        2,
+        1750083899591
+      ]
+    ],
+    "tags": {
+      "nwb": "NWU1",
+      "metric": "team_count"
+    }
+  }
+]

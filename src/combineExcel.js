@@ -21,7 +21,8 @@ const KPI_COLUMNS = {
     'Deployment Frequency': 'Deployment Frequency [# per quarter]',
     'Cycle Time for Changes': 'Cycle Time [days]',
     'Change Failure Rate': 'Change Failure Rate [%]',
-    'Mean Time to Repair': 'MTTR [hours]',
+    'Failed Deployments': 'Failed Deployments [#]',
+    'Mean Time to Repair': 'MTTR [days]',
     'CICD Pipeline': 'CICD Pipeline [%]',
     'Test automation': 'Test Automation [%]',
     'DevOps': 'DevOps Score'
@@ -90,8 +91,13 @@ const KPI_METADATA = {
         description: 'Percentage of deployments causing failures in production',
         higherIsBetter: false
     },
+    'Failed Deployments': {
+        unit: 'count',
+        description: 'Number of deployments that required remedy in the reported quarter',
+        higherIsBetter: false
+    },
     'Mean Time to Repair': {
-        unit: 'hours',
+        unit: 'days',
         description: 'Average time to restore service after a failure',
         higherIsBetter: false
     },
@@ -323,14 +329,22 @@ function readExcelFiles(directoryPath) {
                             const totalDeployments = Number(row['Total Number of deplyoments in reported quarter \r\n[# of deployments]']) || 0;
                             const failedDeployments = Number(row['# of deployments that require remedy in reported quarter\r\n[# of deployments]']) || 0;
                             value = totalDeployments > 0 ? (failedDeployments / totalDeployments) * 100 : 0;
+                            
+                            // Also store the failed deployments count for the new column
+                            kpiData[KPI_COLUMNS['Failed Deployments']] = failedDeployments;
+                            break;
+                        case 'Failed Deployments':
+                            // This case won't be directly called since we're setting this value in the Change Failure Rate case
+                            // But we include it for completeness
+                            value = Number(row['# of deployments that require remedy in reported quarter\r\n[# of deployments]']) || 0;
                             break;
                         case 'Mean Time to Repair':
                             value = row['Mean Time to Repair (time in days, that is needed to bring service back to full operation)'];
-                            // Convert days to hours
+                            // Keep in days, no conversion needed
                             if (value !== null && value !== undefined && value !== 'no deployment failures last Q') {
-                                value = Number(value) * 24; // Convert days to hours
+                                value = Number(value); // Keep as days
                             } else {
-                                value = 0; // No failures means 0 hours to repair
+                                value = 0; // No failures means 0 days to repair
                             }
                             break;
                         case 'CICD Pipeline':
@@ -373,6 +387,8 @@ function readExcelFiles(directoryPath) {
                 value = value.replace(/\r\n/g, ' ').trim();
                 if (value.toLowerCase() === 'yes') value = 'Yes';
                 if (value.toLowerCase() === 'no') value = 'No';
+            } else if (value === null || value === undefined) {
+                value = '';
             }
             // Convert KPI values to numbers with 2 decimal places
             if (Object.values(KPI_COLUMNS).includes(key)) {
